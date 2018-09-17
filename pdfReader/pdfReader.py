@@ -31,7 +31,12 @@ def readPath(path):
                 dirList.append(f)
         if(os.path.isfile(f_full)):
             # 添加文件
-            fileList.append(f)
+            portion = os.path.splitext(f)
+            if portion[1] == '.pdf':
+                fileList.append(f)
+            else:
+                print('The file \"' + f + '\" is not a pdf document')
+                
     return fileList, dirList
 
 
