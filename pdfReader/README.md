@@ -3,7 +3,7 @@
 How to use
 ==========
 
-1. Put pdf documents in `./pdf/`
+1. Create a folder named `pdf` in `pdfReader/` and put pdf documents in `./pdf/`
 2. Run `Python pdfReader.py`
 3. pdf documents will be converted into txt files in `./txt/`
 

@@ -115,4 +115,3 @@ if __name__ == '__main__':
     fileInPath, dirInPath = readPath('./pdf')
     for filePath in fileInPath:
         pdfToTxt(filePath, pdfPath, txtPath)
-    
