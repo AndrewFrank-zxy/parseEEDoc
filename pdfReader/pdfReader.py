@@ -8,7 +8,7 @@ from pdfminer.pdfinterp import PDFPageInterpreter
 from pdfminer.pdfdevice import PDFDevice
 from pdfminer.layout import *
 from pdfminer.converter import PDFPageAggregator
-import os
+import os, re
 
 def readPath(path):
     '''
@@ -85,7 +85,7 @@ def pdfToTxt(filename, inputPath, outputPath):
     if not document.is_extractable:
         raise PDFTextExtractionNotAllowed
     else:
-        # 创建一个PDF资源管理器对象来存储共赏资源
+        # 创建一个PDF资源管理器对象来存储共享资源
         # PDFResourceManager用于存储共享资源，如字体或图像。
         rsrcmgr=PDFResourceManager()
 
@@ -103,15 +103,22 @@ def pdfToTxt(filename, inputPath, outputPath):
         # PDFPageInterpreter处理页面内容
         interpreter=PDFPageInterpreter(rsrcmgr,device)
 
+        replace=re.compile(r'\n+')
+
         # 处理每一页
         for page in PDFPage.create_pages(document):
             interpreter.process_page(page)
-            # 接受该页面的LTPage对象
+            # 接受该页面的LTPage对象 里面存放着 这个page解析出的各种对象
+            # 一般包括LTTextBox, LTFigure, LTImage, LTTextBoxHorizontal 等等
             layout=device.get_result()
             for x in layout:
-                if(isinstance(x,LTTextBoxHorizontal)):
-                    with open(outputPath + '/' + o_f, 'a') as f:
-                        f.write(x.get_text().encode('utf-8')+'\n')
+                #如果x是水平文本对象的话
+                if isinstance(x,LTTextBoxHorizontal) and hasattr(x, "get_text"):
+                    text=re.sub(replace,' ',x.get_text().encode('utf-8'))
+                    if len(text)!=0:
+                        with open(outputPath + '/' + o_f, 'a') as f:
+                            # f.write(x.get_text().encode('utf-8')+'\n')
+                            f.write(text+'\n')
     return True
 
 if __name__ == '__main__':
