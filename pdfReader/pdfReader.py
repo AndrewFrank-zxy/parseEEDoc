@@ -103,7 +103,9 @@ def pdfToTxt(filename, inputPath, outputPath):
         # PDFPageInterpreter处理页面内容
         interpreter=PDFPageInterpreter(rsrcmgr,device)
 
-        replace=re.compile(r'\n+')
+        replace_n = re.compile(r'\n+')
+        replace_c = re.compile(r'- +')
+        begin = False
 
         # 处理每一页
         for page in PDFPage.create_pages(document):
@@ -114,12 +116,47 @@ def pdfToTxt(filename, inputPath, outputPath):
             for x in layout:
                 #如果x是水平文本对象的话
                 if isinstance(x,LTTextBoxHorizontal) and hasattr(x, "get_text"):
-                    text=re.sub(replace,' ',x.get_text().encode('utf-8'))
-                    if len(text)!=0:
+                    text = re.sub(replace_n, ' ', x.get_text().encode('utf-8'))
+                    text = re.sub(replace_c, '', text)
+
+                    # 如果没有检查到文章起点就反复检查
+                    if not begin:
+                        begin = check_begin(text)
+                    # begin = True
+                    # 如果检查到起点且检查本段文字满足输出条件
+                    if begin and check_body(text):
                         with open(outputPath + '/' + o_f, 'a') as f:
                             # f.write(x.get_text().encode('utf-8')+'\n')
                             f.write(text+'\n')
     return True
+
+
+def check_begin(text):
+    '''检查文章是否正式开始
+    '''
+    result = re.search(r'abstract', text, re.IGNORECASE)
+
+    return bool(result)
+
+
+def check_body(text):
+    '''检查文章是否正式开始
+    '''
+    if text[-1] == ' ':
+        text = text[0:-2]
+
+    result = True
+
+    if len(text) == 0:
+        result = False
+
+    elif text.isdigit():
+        result = False
+
+    elif not re.search(r'\w', text):
+        result = False
+
+    return result
 
 if __name__ == '__main__':
     pdfPath = './pdf'

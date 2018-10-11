@@ -1,6 +1,8 @@
 ABSTRACT 
 Debtholders’ demand has been widely discussed as a key determinant of conservatism but clear causal evidence is not yet established. Using a natural experiment setting, wherein a Delaware court ruled that the ﬁduciary duties of directors in near insolvent Delaware companies extend to creditors, we predict and ﬁnd that ﬁrms subject to the ruling signiﬁcantly increased their accounting conservatism. In addition, our results suggest that the increase in conservatism is more pronounced in near insolvent Delaware ﬁrms with stronger boards, conﬁrming that the court ruling takes effect through the channel of the board of directors. Our results are robust to using alternative 
+∗ 
 School of Business, George Mason University 
+† 
 Merrick School of Business, University of 
 Baltimore. 
 Accepted by Christian Leuz. We appreciate helpful comments from an anonymous referee, Ron Allen, Bill Baber, Augustine Duru, Keith Jones, Gopal Krishnan, Tao Ma, Xiumin Martin, Sarah Nutter, Sugata Roychowdhury, Partha Sengupta, Phil Shane, Min Shen, Anup Srivastava, Gnanakumar Visvanathan, Regina Wittenberg-Moerman, Fei Xie, and workshop participants at American University, George Mason University, University of Illinois at Chicago, Suffolk University, and 2012 Virginia Accounting Research Conference. Long Chen acknowledges the summer research grants from George Mason University’s Provost Ofﬁce and School of Business. Mikhail Pevzner acknowledges the assistance of Ernst and Young Chair in Accounting at the University of Baltimore. We thank Larry Friedman and Hui Zhang for their insights on corporate law. An online appendix to this paper can be downloaded at http://research.chicagobooth.edu/arc/journal-of-accounting-research/online-supplements. 
@@ -182,6 +184,7 @@ We also estimate model (1) using dimensional conservatism ranks (i.e., negative 
 J. K. AIER, L. CHEN, AND M. PEVZNER 
 Effect of the 1991 Delaware Court Ruling on Conservatism Rank 
 T A B L E 4 
+∗∗∗ 
 (i) 
 (ii) 
 HEDF93 = 1 Coef. 5.295 −0.368 
@@ -197,27 +200,38 @@ Coef. ∗∗∗ 4.637 ∗∗∗ −4.33 −0.021 0.207 −0.320 ∗∗∗ −2.8
 9,543 15.4% 
 3.29 2.42 
 4.26 
+∗∗∗ 
 Included Included 
 3,506 12.1% 
 Included Included 18,827 17.2% 
 (iii) 
 Full sample 
+∗∗∗ 
 t-stat 42.25 −0.58 ∗∗∗ 3.05 ∗∗∗ −3.53 −0.84 0.54 −0.89 ∗∗∗ 3.82 ∗∗∗ −3.21 1.37 ∗∗∗ −3.17 ∗∗∗ −5.78 ∗∗∗ 11.64 ∗∗∗ 9.77 
 Panel B: Court ruling and dimensional conservatism rank 
 (i) 
 (ii) 
 (iii) 
 Independent Var. Intercept DEL HEDF93 DEL×HEDF93 POST POST×DEL POST×HEDF93 POST×DEL×HEDF93 LNMVE LEV BTM GROWTH LITIG INSTOWN Industries dummies Year dummies No. observations Adj. R2 
+∗∗∗ 
+∗∗∗ 
+∗∗∗ 
+∗∗∗ 
 Dep. Var. 
 Dep. Var. 
 Dep. Var. = CRANK SKEW = CRANK PZ = CRANK ACCR t-stat t-stat t-stat Coef. Coef. Coef. ß0 4.764 25.89 3.596 19.56 32.00 5.551 −0.068 −1.07 −0.046 −0.70 ß1 0.051 0.96 ß2 1.13 3.12 0.364 1.32 0.153 0.105 −6.10 −0.36 −0.777 −0.77 −0.057 −0.125 ß3 −0.38 −0.070 −0.31 −0.037 −0.029 −0.92 ß4 2.33 −0.094 −1.04 −0.027 −0.37 ∗∗ ß5 0.204 −0.260 −1.56 −0.145 −0.91 ß6 1.18 0.155 ∗∗ ∗∗ ∗ ß7 2.50 1.91 0.424 2.54 0.587 0.456 ∗∗∗ −15.71 6.76 −0.208 ∗∗∗ ß8 0.28 0.005 0.113 −6.81 4.99 −0.709 ∗∗∗ ∗∗∗ ∗∗∗ ß9 3.29 0.590 0.404 6.98 −0.515 ∗∗∗ −12.74 ß10 −0.093 −1.85 ∗∗∗ ∗ 0.334 ∗∗∗ −4.71 −0.340 −6.04 ß11 −0.055 −0.99 −0.213 ∗∗∗ ∗∗∗ ß12 8.35 0.681 0.153 12.16 1.224 ∗∗∗ ∗∗∗ ß13 0.553 3.94 0.888 0.990 8.38 
 1.58 6.12 
+∗∗∗ ∗∗∗ 
+∗∗∗ 
 Included Included 18,827 5.4% 
 Included Included 18,827 2.6% 
 Included Included 18,827 37.7% 
 Panel A (panel B) presents regression estimates to test the effect of the 1991 Delaware court ruling on the composite (dimensional) conservatism ranks as in model 1. The sample includes 18,827 observations for 2,705 ﬁrms spanning calendar years 1988-1991 and 1993-1996. All variables are calculated as deﬁned in appendix A. All continuous variables are winsorized at the 1st and 99th percentiles. Reported t-statistics are adjusted for clustering by both ﬁrm and year. 
 , and 
 indicate signiﬁcance at the 0.01, 0.05, and 0.10 levels, respectively for a two-tailed test. 
+∗∗∗ 
+∗∗ 
+∗ 
 DEBTHOLDERS’ DEMAND FOR CONSERVATISM 
 In additional analyses presented in online appendix table A6, we examine whether our main ﬁnding in column (iii) of table 4, panel A is robust to alternative deﬁnitions of near insolvency. This test is important because it is possible that, since the EDF measure we employ to identify near insolvent ﬁrms is based on accounting and stock performance, it could already capture effects of conservatism, potentially biasing our results. To corroborate our ﬁndings, we construct three alternative measures of near insolvency: (i) HMLEV93, an indicator variable equal to 1 if the ﬁrm is in the top quartile of 1993 market leverage distribution and 0 otherwise, where market leverage is measured as the ratio of shortand long-term debt to shortand long-term debt plus market value of equity; (ii) HBLEV93, an indicator variable equal to 1 if the ﬁrm is in the top quartile of 1993 book leverage distribution and 0 otherwise, where book leverage is measured as the ratio of shortand long-term debt to total assets; and (iii) LALT93, an indicator variable that equals 1 if the ﬁrm falls in the bottom quartile of distribution of Altman’s Z-score in 1993 and 0 otherwise. Results using alternative near insolvency measures remain generally consistent with those reported in table 4 except the one using LALT93, which is signiﬁcant at a one-tailed test (β7 = 0.153, t-stat = 1.44). 5.2 RESULTS ON THE ROLE OF BOARD CHARACTERISTICS 
 We use a single board governance measure BSCORE, which combines four dimensional board characteristics to explore the effect of board characteristics on conservatism in the post-ruling period because biographical information on directors is available to us only for years 1993–1996 (results reported in table 5). We start our analysis in this subsample with the baseline regression without board measures, and the result in column (i) suggests that, in the post-ruling period, the difference in conservatism between near insolvent and not near insolvent ﬁrms is larger for ﬁrms incorporated in Delaware than those incorporated elsewhere. Column (ii) in table 5 presents the main result of model (2), and column (iii) further includes the interaction terms of ﬁrm characteristics with the ruling-related variables, i.e., DEL, HEDF93, and DEL×HEDF93. The positive and signiﬁcant coefﬁcient on BSCORE×DEL×HEDF93 in column (iii) (β7 = 0.397, t-stat = 2.39) combined with the insigniﬁcant coefﬁcient on DEL×HEDF93 indicates that the higher post-ruling conservatism level in near insolvent Delaware ﬁrms is driven by ﬁrms with stronger boards. In a supplemental analysis tabulated in online appendix table A7, we provide evidence on dimensional measures of board strength and ﬁnd that β7 is similarly positive and signiﬁcant at conventional levels for all board measures except industry expertise, the result of which is marginally signiﬁcant in a one-tailed 
@@ -247,6 +261,9 @@ Included Included Included Included Included
 This table presents regression estimates to test the combined effect of board characteristics on conservatism rank post the 1991 Delaware court ruling (model 2). The sample in this test includes 6,584 observations for 1,968 ﬁrms spanning calendar years 1993–1996 with available data on the board of directors from Compact Disclosure. All variables are deﬁned in the appendix. All continuous variables are winsorized at the 1st and 99th percentiles. Reported t-statistics are adjusted for clustering by both ﬁrm and year. 
 , and 
 indicate signiﬁcance at the 0.01, 0.05, and 0.10 levels, respectively, for a two-tailed test. 
+∗∗∗ 
+∗∗ 
+∗ 
 test (β7 = 0.407, t-stat = 1.41). Taken together, the evidence on the effect of court ruling on ﬁrms with stronger boards provides further support to the main hypothesis that near insolvent Delaware ﬁrms increase their conservatism in the post-ruling period, and the effect of the court ruling is achieved through the board of directors’ channel. 
 5.3 RESULTS USING ASYMMETRIC TIMELINESS MODELS OF CONSERVATISM 
 5.3.1. Asymmetric Timeliness of Earnings. Results of model (3) are shown in table 6. In column (i), we ﬁrst constrain our sample to Delaware ﬁrms and vary their near insolvency status. Consistent with prior literature, β3, the coefﬁcient on timeliness of bad news recognition (D×RET) is positive and signiﬁcant (0.223, t-stat = 3.59). Moreover, consistent with our hypothesis, the post-ruling increase in asymmetric timeliness of earnings for near insolvent Delaware ﬁrms is signiﬁcantly larger than that of non-near insolvent Delaware ﬁrms (coefﬁcient on HEDF93×POST×D×RET = 0.143, t-stat = 2.49). In column (ii), we constrain our sample to near insolvent ﬁrms only and allow Delaware incorporation status to vary. We ﬁnd that the post-ruling increase in conservatism is signiﬁcantly larger for near insolvent 
@@ -266,6 +283,9 @@ Included Included Included Included Included Included
 This table presents regression estimates to test the effect of the 1991 Delaware court ruling on conditional conservatism as measured by asymmetric timeliness of earnings per Basu [1997] as in model 3. The sample includes 17,533 observations for 2,460 ﬁrms spanning calendar years 1988–1991 and 1993–1996. X/P is earnings per share scaled by year beginning price. RET is buy-and-hold stock returns for the year. D is a dichotomous variable equal to 1 if RET < 0 and 0 otherwise. Controls include LNMVE, LEV, BTM, GROWTH, LITIG, INSTOWN, STDRET (which is the daily stock return volatility during the prior year) and LNPRC (which is log of year-beginning stock price). All other variables are calculated as deﬁned in the appendix. All continuous variables are winsorized at the 1st and 99th percentiles. Reported t-statistics are adjusted for clustering by both ﬁrm and year. 
 , and 
 indicate signiﬁcance at the 0.01, 0.05, and 0.10 levels, respectively for a two-tailed test. 
+∗∗∗ 
+∗∗ 
+∗ 
 J. K. AIER, L. CHEN, AND M. PEVZNER 
 Delaware ﬁrms than for near insolvent non-Delaware ﬁrms (coefﬁcient on DEL×POST×D×RET = 0.214, t-stat = 2.92). Finally, we allow both Delaware incorporation and near insolvency status of a ﬁrm to vary in the full sample and present a complete version of model (3) in column (iii). β31, the coefﬁcient on our main variable of interest (HEDF93×DEL×POST×D×RET), is positive and signiﬁcant (0.172, t-stat = 2.22), suggesting that the post-ruling increase in asymmetric timeliness of earnings is stronger for near insolvent Delaware ﬁrms. Our results similarly hold when we omit control variables and their interaction terms from model (3). These results are shown in online appendix table A8. 
 5.3.2. Asymmetric Timeliness of Accruals. We present results of model (4) in table 7. In column (i), we ﬁrst constrain our sample to Delaware ﬁrms and vary their near insolvency status. Consistent with our expectation, near insolvent Delaware ﬁrms exhibit a higher increase in asymmetric timeliness of accruals after the ruling than non-near insolvent Delaware ﬁrms (coefﬁcient on HEDF93×POST×DCF×CF = 0.448, t-stat = 3.47). Similarly, in column (ii), near insolvent Delaware ﬁrms increase asymmetric timeliness of accruals signiﬁcantly more than near insolvent non-Delaware ﬁrms (coefﬁcient on DEL×POST×DCF×CF = 0.343, t-stat = 2.17). Finally, when allowing both Delaware incorporation and near insolvency status to vary (see column (iii)), we ﬁnd that near insolvent Delaware ﬁrms exhibit signiﬁcantly more asymmetric timeliness of accruals (coefﬁcient on HEDF93×DEL×POST×DCF×CF = 0.444, t-stat = 2.31). Our results continue to hold when we omit control variables and their interaction terms from model (4) (see online appendix table A9). 
@@ -291,6 +311,9 @@ Included Included Included Included Included Included
 This table presents regression estimates to test the effect of the 1991 Delaware court ruling on conditional conservatism as measured by asymmetric timeliness of accruals per Ball and Shivakumar [2006] as in model 4. The sample includes 18,261 observations for 2,460 ﬁrms spanning calendar years 1988–1991 and 1993–1996. ACCR is accruals (IBC-OANCF) scaled by year-beginning total assets (AT). CF is cash ﬂow from operations in a year (OANCF) scaled by year-beginning total assets (AT). DCF is a dichotomous variable equal to 1 if CF<0 and 0 otherwise. Controls include LNMVE, LEV, BTM, GROWTH, LITIG, and INSTOWN. All other variables are calculated as deﬁned in the appendix. All continuous variables are winsorized at the 1st and 99th percentiles. Reported t-statistics are adjusted for clustering by both ﬁrm and year. 
 , and 
 indicate signiﬁcance at the 0.01, 0.05, and 0.10 levels, respectively for a two-tailed test. 
+∗∗∗ 
+∗∗ 
+∗ 
 J. K. AIER, L. CHEN, AND M. PEVZNER 
 near insolvent ﬁrm approaches default and, in particular, if debt covenants are violated,28 such one-time actions could disproportionally affect near insolvent Delaware ﬁrms in the post-ruling period. We therefore identify a number of control variables for operating and real changes to isolate the effect of the court ruling on conservatism. 
 6.1.1. Real Actions. Asquith, Gertner, and Scharfstein [1994] show that, as ﬁrms approach distress, they engage in asset sales, or improve their operating efﬁciency through optimizing the inventory and discretionary expenditure policies. The authors also suggest that better performing distressed ﬁrms are more likely to avoid insolvency. To mitigate the concern that our observed change in conservatism could be driven by real actions taken by ﬁrms, we augment our model (1) with additional controls for the following real actions: (i) DEC CAPEX, a dichotomous variable equal to one if a ﬁrm’s capital expenditure decreases when compared to the prior year and zero otherwise; (ii) INC SPPE, a dichotomous variable equal to one if a ﬁrm’s sale of PP&E increases from the prior year and zero otherwise; (iii) DEC NSEG, a dichotomous variable equal its business or geographic segments during the year and zero otherwise; (iv) NABN DISEXP, (−1) × abnormal discretionary expenses (Roychowdhury [2006]), and (v) NABN PROD, (−1) × abnormal production costs (Roychowdhury [2006]). As reported in table 8, we continue to ﬁnd the coefﬁcient on POST×DEL×HEDF93 to be positive and signiﬁcant when either controlling for the ﬁve real actions variables themselves (column (i): β7 = 0.472, t-stat = 3.67), or controlling for both these variables and their interactions with all the seven ruling-related variables (column (ii): β7 = 0.326, t-stat = 1.70). In sum, the robust results after controlling for real actions corroborate the main ﬁndings in table 4 and lend stronger support to our hypothesis. 
@@ -316,6 +339,9 @@ Independent Var. Intercept DEL HEDF93 DEL×HEDF93 POST POST×DEL POST×HEDF93 PO
 This table presents regression estimates to test the effect of the 1991 Delaware court ruling on conservatism rank after controlling for effects of real actions. The sample includes 18,402 observations for 2,676 ﬁrms spanning calendar years 1988–1991 and 1993–1996. DEC CAPEX is a dichotomous variable equal to 1 if the capital expenditure (CAPX) decreases from the prior year and 0 otherwise. INC SPPE is a dichotomous variable equal to 1 if the sale of PPE (SPEE) increases from the prior year and 0 otherwise. DEC NSEG is a dichotomous variable equal to 1 if either the number of business segments or number of geographic segments decreases from prior year and 0 otherwise. NABN DISEXP is (−1) × abnormal discretionary expenditures (the sum of XRD, XAD, XSGA) per Roychowdhury [2006]. NABN PROD is (−1) × abnormal production costs (COGS + change in INVT) per Roychowdhury [2006]. All other variables are deﬁned in the the appendix. All continuous variables are winsorized at the 1st and 99th percentiles. Reported tstatistics are adjusted for clustering by both ﬁrm and year. 
 , and 
 indicate signiﬁcance at the 0.01, 0.05, and 0.10 levels, respectively for a two-tailed test. 
+∗∗∗ 
+∗∗ 
+∗ 
 the court ruling does not change the tenor of our main inferences (coefﬁcient on POST×DEL×HEDF93 = 0.447, t-stat = 3.26). 6.2 DEMAND FOR CONSERVATISM 
 Alternatively, our ﬁndings could be driven by the demand for conservatism from stakeholders other than creditors, who may also inﬂuence the 
 J. K. AIER, L. CHEN, AND M. PEVZNER 
@@ -365,6 +391,8 @@ A dichotomous variable equal to 1 if the calendar year is in the post-ruling per
 J. K. AIER, L. CHEN, AND M. PEVZNER 
 HEDF93 
 A dichotomous variable equal to 1 if EDF93, that is, the EDF score in the year 1993 when the case ruling became effective, is ranked in the top quartile of its distribution and 0 otherwise, where EDF score is Estimated Default Frequency for a ﬁrm to measure the bankruptcy probability in a year implied in the stock price and based on the Merton model. Control variables for ﬁrm characteristics LNMVE 
+= = = 
+= = 
 LEV 
 BTM 
 GROWTH 
