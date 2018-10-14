@@ -103,8 +103,8 @@ venv.bak/
 # mypy
 .mypy_cache/
 
-# pdf
-*.pdf
+# # pdf
+# *.pdf
 
 # .vscode
 .vscode
