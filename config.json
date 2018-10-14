@@ -1,0 +1,6 @@
+{
+    "pdf_articles_path": "./articles-pdf",
+    "txt_articles_path": "./articles-txt",
+    "txt_article_keywords_path": "./keywords-txt",
+    "txt_article_summary_path": "./summaries-txt"
+}

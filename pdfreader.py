@@ -1,73 +1,48 @@
 # -*- coding: utf-8 -*-
+from config import path_config
+import util
+
 from pdfminer.pdfparser import PDFParser
 from pdfminer.pdfdocument import PDFDocument
-from pdfminer.pdfpage import PDFPage
-from pdfminer.pdfpage import PDFTextExtractionNotAllowed
-from pdfminer.pdfinterp import PDFResourceManager
-from pdfminer.pdfinterp import PDFPageInterpreter
+from pdfminer.pdfpage import PDFPage, PDFTextExtractionNotAllowed
+from pdfminer.pdfinterp import PDFResourceManager, PDFPageInterpreter
 from pdfminer.pdfdevice import PDFDevice
-from pdfminer.layout import *
+from pdfminer.layout import LAParams, LTTextBox, LTTextBoxHorizontal# , LTTextLine, LTFigure, LTImage, LTChar
 from pdfminer.converter import PDFPageAggregator
-import os, re
 
-def readPath(path):
-    '''
-    获取一个目录下的所有文件夹和文件
-    '''
-    # 所有文件夹，第一个字段是次目录的级别
-    dirList = []
-    # 所有文件
-    fileList = []
-    # 返回一个列表，其中包含在目录条目的名称(google翻译)
-    files = os.listdir(path)
-    for f in files:
-        f_full = path + '/' + f
-        if(os.path.isdir(f_full)):
-            # 排除隐藏文件夹。因为隐藏文件夹过多
-            if(f[0] == '.'):
-                pass
-            else:
-                # 添加非隐藏文件夹
-                dirList.append(f)
-        if(os.path.isfile(f_full)):
-            # 添加文件
-            portion = os.path.splitext(f)
-            if portion[1] == '.pdf':
-                fileList.append(f)
-            else:
-                print('The file \"' + f + '\" is not a pdf document')
-                
-    return fileList, dirList
+import re
 
 
-def pathReady(filename, inputPath, outputPath):
+def check_begin(text):
+    '''检查文章是否正式开始
     '''
-    监测输出文件夹是否准备妥当
-    '''
-    portion = os.path.splitext(filename)
-    outputFile = portion[0] + '.txt'
+    result = re.search(r'abstract', text, re.IGNORECASE)
 
-    if not os.path.exists(outputPath):
-        os.mkdir(outputPath)
-        return outputFile
-    
-    if(os.path.exists(outputPath + '/' + outputFile)):
-        while True:
-            toGo = raw_input(
-                'The file \"' + outputFile + '\" already exists. Continue conversion will overwrite the original file. Continue?[Y/N]')
-            if (toGo.lower() == 'y'):
-                os.remove(outputPath + '/' + outputFile)
-                return outputFile
-            elif (toGo.lower() == 'n'):
-                return False
-            else:
-                print('[InputError: Invalid input, try Y or N]')
-    else:
-        return outputFile
+    return bool(result)
+
+
+def check_body(text):
+    '''检查文章是否正式开始
+    '''
+    if text[-1] == ' ':
+        text = text[0:-2]
+
+    result = True
+
+    if len(text) == 0:
+        result = False
+
+    elif text.isdigit():
+        result = False
+
+    elif not re.search(r'\w', text):
+        result = False
+
+    return result
 
 def pdfToTxt(filename, inputPath, outputPath):  
     # 检查输出路径是否合适  
-    o_f = pathReady(filename, inputPath, outputPath)
+    o_f = util.retrieve_output_path(filename, outputPath)
     if not o_f:
         print('Conversion cancelled')
         return False
@@ -131,36 +106,12 @@ def pdfToTxt(filename, inputPath, outputPath):
     return True
 
 
-def check_begin(text):
-    '''检查文章是否正式开始
-    '''
-    result = re.search(r'abstract', text, re.IGNORECASE)
 
-    return bool(result)
-
-
-def check_body(text):
-    '''检查文章是否正式开始
-    '''
-    if text[-1] == ' ':
-        text = text[0:-2]
-
-    result = True
-
-    if len(text) == 0:
-        result = False
-
-    elif text.isdigit():
-        result = False
-
-    elif not re.search(r'\w', text):
-        result = False
-
-    return result
 
 if __name__ == '__main__':
-    pdfPath = './pdf'
-    txtPath = './txt'
-    fileInPath, dirInPath = readPath('./pdf')
-    for filePath in fileInPath:
-        pdfToTxt(filePath, pdfPath, txtPath)
+    pc = path_config()
+    pap = pc.get_pap()
+    tap = pc.get_tap()
+    fp, dp = util.retrieve_input_path(pap)
+    for file_path in fp:
+        pdfToTxt(file_path, pap, tap)

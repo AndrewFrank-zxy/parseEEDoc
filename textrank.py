@@ -75,6 +75,13 @@ def build_graph(nodes):
     return gr
 
 
+def draw_graph(graph):
+    layout = nx.spring_layout(graph)
+    plt.figure(1)
+    nx.draw(graph, pos=layout, node_color='y')
+    plt.show()
+
+
 def extract_key_phrases(text):
     """Return a set of key phrases.
 
@@ -140,12 +147,7 @@ def extract_key_phrases(text):
         i = i + 1
         j = j + 1
 
-    layout = nx.spring_layout(graph)
-    plt.figure(1)
-    nx.draw(graph, pos=layout, node_color='y')
-    plt.show()
-
-    return modified_key_phrases
+    return modified_key_phrases, graph
 
 
 def extract_sentences(text, summary_length=100, clean_sentences=False, language='english'):
@@ -167,7 +169,8 @@ def extract_sentences(text, summary_length=100, clean_sentences=False, language=
     summary = ' '.join(sentences)
     summary_words = summary.split()
     summary_words = summary_words[0:summary_length]
-    dot_indices = [idx for idx, word in enumerate(summary_words) if word.find('.') != -1]
+    dot_indices = [idx for idx, word in enumerate(
+        summary_words) if word.find('.') != -1]
     if clean_sentences and dot_indices:
         last_dot = max(dot_indices) + 1
         summary = ' '.join(summary_words[0:last_dot])
@@ -180,7 +183,8 @@ def extract_sentences(text, summary_length=100, clean_sentences=False, language=
 def write_files(summary, key_phrases, filename):
     """Write key phrases and summaries to a file."""
     print("Generating output to " + 'keywords-txt/' + filename)
-    key_phrase_file = io.open('keywords-txt/' + filename, 'w', encoding='UTF-8')
+    key_phrase_file = io.open(
+        'keywords-txt/' + filename, 'w', encoding='UTF-8')
     for key_phrase in key_phrases:
         key_phrase_file.write(key_phrase + '\n')
     key_phrase_file.close()
@@ -198,8 +202,10 @@ def summarize_all():
     articles = os.listdir("articles-txt")
     for article in articles:
         print('Reading articles-txt/' + article)
-        article_file = io.open('articles-txt/' + article, 'r', encoding='UTF-8')
+        article_file = io.open('articles-txt/' + article,
+                               'r', encoding='UTF-8')
         text = article_file.read()
-        keyphrases = extract_key_phrases(text)
+        keyphrases, graph = extract_key_phrases(text)
         summary = extract_sentences(text)
         write_files(summary, keyphrases, article)
+        draw_graph(graph)
