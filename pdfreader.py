@@ -22,7 +22,7 @@ def check_begin(text):
 
 
 def check_body(text):
-    '''检查文章是否正式开始
+    '''检查段落是否为无意义段落
     '''
     if text[-1] == ' ':
         text = text[0:-2]

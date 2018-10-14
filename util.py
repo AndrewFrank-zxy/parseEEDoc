@@ -2,7 +2,7 @@
 import os
 
 
-def retrieve_input_path(path):
+def retrieve_input_path(path, file_type = 'pdf'):
     '''
     获取一个目录下的所有文件夹和文件
     '''
@@ -11,7 +11,6 @@ def retrieve_input_path(path):
     # 所有文件
     fl = []
     # 返回一个列表，其中包含在目录条目的名称(google翻译)
-    print(path)
     files = os.listdir(path)
     for f in files:
         f_full = path + '/' + f
@@ -25,10 +24,10 @@ def retrieve_input_path(path):
         if(os.path.isfile(f_full)):
             # 添加文件
             portion = os.path.splitext(f)
-            if portion[1] == '.pdf':
+            if portion[1] == '.' + file_type:
                 fl.append(f)
             else:
-                print('The file \"' + f + '\" is not a pdf document')
+                print('The file \"' + f + '\" is not a '+ file_type + ' document')
 
     return fl, dl
 

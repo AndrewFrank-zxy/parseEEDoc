@@ -9,13 +9,19 @@ Based on:
     https://gist.github.com/voidfiles/1646117
     https://github.com/davidadamojr/TextRank
 """
-import editdistance
-import io
-import itertools
-import networkx as nx
-import nltk
-import os
+from config import path_config
+import util
+
 import matplotlib.pyplot as plt
+import networkx as nx
+import editdistance
+import itertools
+import nltk
+
+import io
+import os
+
+
 
 
 def setup_environment():
@@ -182,15 +188,19 @@ def extract_sentences(text, summary_length=100, clean_sentences=False, language=
 
 def write_files(summary, key_phrases, filename):
     """Write key phrases and summaries to a file."""
-    print("Generating output to " + 'keywords-txt/' + filename)
+    pc = path_config()
+    tasp = pc.get_tasp()
+    takp = pc.get_takp()
+
+    print("Generating output to " + takp + '/' + filename)
     key_phrase_file = io.open(
-        'keywords-txt/' + filename, 'w', encoding='UTF-8')
+        takp + '/' + filename, 'w', encoding='UTF-8')
     for key_phrase in key_phrases:
         key_phrase_file.write(key_phrase + '\n')
     key_phrase_file.close()
 
-    print("Generating output to " + 'summaries-txt/' + filename)
-    summary_file = io.open('summaries-txt/' + filename, 'w', encoding='UTF-8')
+    print("Generating output to " + tasp + '/' + filename)
+    summary_file = io.open(tasp + '/' + filename, 'w', encoding='UTF-8')
     summary_file.write(summary)
     summary_file.close()
 
@@ -199,10 +209,13 @@ def write_files(summary, key_phrases, filename):
 
 def summarize_all():
     # retrieve each of the articles
-    articles = os.listdir("articles-txt")
+    pc = path_config()
+    tap = pc.get_tap()
+    articles, dp = util.retrieve_input_path(tap, 'txt')
+
     for article in articles:
-        print('Reading articles-txt/' + article)
-        article_file = io.open('articles-txt/' + article,
+        print('Reading \"' + tap + '/' + article + '\"')
+        article_file = io.open(tap + '/' + article,
                                'r', encoding='UTF-8')
         text = article_file.read()
         keyphrases, graph = extract_key_phrases(text)
