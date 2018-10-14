@@ -41,7 +41,7 @@ def readPath(path):
 
 
 def pathReady(filename, inputPath, outputPath):
-    ''''
+    '''
     监测输出文件夹是否准备妥当
     '''
     portion = os.path.splitext(filename)
