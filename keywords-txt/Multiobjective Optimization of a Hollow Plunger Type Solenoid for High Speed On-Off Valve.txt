@@ -1,0 +1,1380 @@
+Closing time
+limited
+possible reason
+iteration μn+1
+parallel mechanisms
+HSVs
+current probe
+circuit analysis
+Problem Description
+3-D FEM
+3-D FEA
+@
+segmented rotor
+solenoid Fm
+“ Nonlinear
+opening process
+Gu
+convenience
+vector
+multi-objective evolutionary
+reaction optimization
+τeon =
+speed open
+consistent
+high magnetic
+second segment
+servo system
+selected
+pulse width
+Tapia
+predeﬁned
+Huang
+thermodynamic model
+new
+Ks =
+R =
+maximum displacement
+array limited
+mechanical design
+obtained
+ﬁeld calculation
+control performance
+Zi
+study
+Slootweg
+loop
+MMF source
+ﬁrst segment
+total
+high-speed pulsed
++ π
+radial-ﬂux
+Mechanical Engineering
+Jung
+modulation control
+servo valve
+type high
+angle servo
+mH
+Toﬀ versus
+hole
+Schematic diagram
+parameter optimization
+mm
+work
+electrical network
+radial quarter
+HE conventional
+dc ∈
+Lim
+Tampere
+Liu
+“ Rotor-shape
+valve due
+end
+closing position
+III
+OF EACH
+process principle
+L2 +
+design doesn
+Beiyou University
+pressure tank
+parallel
+L2 =
+last level
+Mirsalim
+equivalent magnetic
+decreasing
+hydraulic ﬁeld
+order
+∈ Rn
+FEA model
+conventional solid
+law matrix
+built model
+clude
+combination
+permeability versus
+Control
+Cases Objectives
+magnetostrictive material
+l
+AHP overall
+speed actuator
+ANALYTICAL MODELING
+FOR HSV
+Electromagnetic
+Beihang University
+main innovation
+conservative assumption
+total reluctance
+Lm Ts
+servo motor
+ton toﬀ
+Baoding
+B −
+Optimization Parameters
+uniformly acceleration
+decision making
+voltage source
+Bi =
+foundation
+OF PROPOSED
+Ton versus
+main magnetic
+magnetic ﬂux
+r1
+r2
+inexpensive
+Chan
+selected leader
+Re =
+R2,2 −Rc3
+Chau
+PM machine
+temperature Ts
+single global
+researcher
+ﬁniteelement analysis
+Usually
+= I2R20/
+Bn /
+Proctor
+versus Lm
+constant τeon
+typical conventional
+ton
+accuracy EMC
+Automation School
+Hierarchy Process
+Adis =
+design parameter
+available online
+compressor
+F5×1 =
+“ Modeling
+spring force
+φi magnetic
+Lughofer
+third level
+reluctance Ri
+IEEE Trans
+Magnetic force
+− L3
+same time
+other hand
+Albert
+time ton
+effectiveness
+high speed
+= sg
+seal ball
+coil
+approved solution
+high-speed onoff
+PLUNGER TYPE
+Wang
+x =
+calculated
+m
+magnetic loop
+MATRIX OF
+= Tenv
+National Key
+“ Analysis
+length index
+ment
+working temperature
+Nonlinear magnetic
+R5×5 =
+Grant TC150B5C0-29-04
+dc
+FEM simulation
+high-speed on-off
+input current
+OF RELUCTANCE
+Conventional HSV
+simpliﬁcation
+IEEE permission
+2-D FEM
+leakage [
+Lc =
+Lc +
+great progress
+ts =
+calculation convenience
+digital hydraulic
+contamination
+modeling
+Cupertino
+several voltage
+MOO
+ferromagnetic material
+MOD
+time requirement
+Nonlinear Material
+C =
+process indicate
+Geometry diagram
+small hysteresis
+inner diameter
+Robotics Institute
+Φ1
+Φ2
+Φ5
+Lechuga
+ton1
+Yang
+aoﬀ =
+Le /Re
+giant magnetostrictive
+electro-hydraulic servo
+−Rc1 R5,5
+optimization algorithms
+input voltage
+magnetic retentivity
+Electric Power
+Yamazaki
+analytical approach
+“ Optimization
+High speed
+× ﬂoor
+complex
+Boldea
+several
+calculation process
+VI
+hierarchy contain
+symbol ∗
+China Electric
+” IEEE/ASME
+global searching
++ πCd
+typical design
+same marker
+n =
+other solution
+pressure transducer
+pulse frequency
+Scand
+n +
+Ts =
+on/off valve
+hotspot hydraulic
+ease
+Gan
+insensitive
+D
+n t
+width modulation
+= ln
+toﬀ2 =
+advanced
+Art
+simpliﬁed method
+L3 Rp
+multiobjective chemical
+ts ∈
+i ss
+hollow plunger
+Lc ∈
+mc lca
+Lee
+R1,1 =
+magnetostrictive actuator
+regard saturation
+MPa
+PROPOSED SOLENOID
+Kangwu
+manufacturing
+verse displacement
+OF A
+cid:3
+cid:2
+R2,2 =
+EMC Model
+low efﬁciency
+Fi =
+multi-objective optimization
+−Rc4 R2,2
+Objectives Case
+Coello
+Magnetic circuit
+Feng Wang
+time durability
+population SPOP
+opening position
+aon =
+− xi
+January
+heat
+high saturation
+ﬂoor Li
+Z
+KVL method
+i sp
+Color
+electrical engineering
+MEC model
+“ Multi-objective
+loop i
+linear proportion
+reliability due
+MULTIOBJECTIVES OPTIMIZATION
+tip structure
+search space
++ δg
+force performance
+Obj3 ]
+multiobjective particle
+Basic Research
++ δ2
+Ni =
+E
+ms opening
+effective section
+RΦ =
+update
+dissipation
+Science Foundation
+ss =
+magnetostrictive valve
+daily
+Rg R
+magneto-motive force
+accurate model
+− R2
+Linjama
+permanent magnet
+length L2
+synchronous reluctance
+−Rc1 −Rc1
+radargraph
+computational efﬁciency
+long time
+” Chin
+environment
+S such
+Puranen
+brushless permanent
+Zhu
+initial position
+advantage
+Φ =
+current decrease
+t +
+opening time
+gap ﬂux
+unwanted air
+Cd ×
+HSV CALCULATION
+DIFFERENT COMPARISONS
+trend
+School
+Maximum force-to-current
+magnetic reluctance
+permeability μ
+= F5×1
+density distribution
+hydraulic ﬂow
+limited-angle torque-motor
+Postdoctoral Fellow
+leakage ﬂux
+Static force
+Project Grant
+= wvi
+Distribution
+global minimum
+Dean
+xs =
+ΔT =
+force versus
+V step
+Technology
+ﬂow rate
+t2 =
+time ton1
+mechatronic
+– [
+circuit model
+On/Off valve
+August
+reasonable value
+conductor
+acceptable
+Pellegrino
+validity
+M ’
+incre Fig
+= Ks
+j =
+variable hydraulic
+speed solenoid
+low reliability
+stiffness Ks
+radial-ﬂux halbach
+ﬁnal objective
+following
+MMF
+S ∈
+magnetic equivalent
+dynamic performance
+EMC model
+FEA approach
+conventional structure
+Klement
+designer
+maximum ﬂux
+advanced electrical-hydraulic
+speed on-off
+magnetic circuit
+δ0 =
+date
+such
+Le1 =
+Lc /Cd
+OBJECTIVES OF
+new position
+sp
+solenoid Lm
+wide design
+typical
+soft iron
+Rp
+detailed design
+servo control
+Objs =
+Rc
+Zongxiao Jiao
+Ro
+Rh
+mc =
+MMFs
+Lecturer
+magnetic ﬁeld
+kinetic dynamic
+Multi-objective optimal
+main
+coil mc
+Power University
+element analysis
+pressure converter
+Shi
+|Bn −
+Section A
+Section B
+force-to-current ratio
+sp =
+Analytic Hierarchy
+axisymmetric 2-D
+square
+Luz
+multipolar disk-solenoid
+APRIL
+Digital Object
+combined radial-axial
+] =
+Optimal design
+control component
+high-speed solenoid
+PROTOTYPE AND
+precompression xs0
+] –
+order system
+theory
+MOO problem
+Kirchhoff voltage
+complicated
+top level
+] A
+Apr
+] J
+driving HSV
+structure solenoid
+xn
+Yan
+impossible
+open
+size
+valve control
+Table I
+[ Obj1
+Date
+function deﬁned
+ﬂux φi
+R equivalent
+Li Cd
+accuracy simulation
+x1
+“ High
+A design
+Ts ton
+magnetic material
+ﬂow chart
+type DT4
+voltage law
+ETA5301A
+plunger type
+sustain load
+COMPARISONS MATRIX
+correction
+t1 =
+winding
+method indicate
+OF AHP
+acceleration process
+Hefei University
+Hall
+unwanted peripheral
+weight percent
+τeoﬀ =
+dynamic equilibrium
+low dead
+high voltage
+]
++ L3
+Polinder
+rate high-speed
+drive
+Zavoianu
+previous step
+republication/redistribution
+Chen
+k1ek2 B
+− C
+Development Program
+− H
+Wei
+WU
+πL1
+force verse
+slow
+− e
+good global
+HSV
+Rp R2,2
+initial state
+limited angle
+Young Scholar
+radial-axial magnetic
+Similar
+present study
+error 
+tc =
+Kong
+EMC method
+EMC
+Grant
+angle torque
+Appl
+ﬁrst loop
+Hebei
+[ ton
+pressure curve
+R2 IV
+HSV Fig
+Nyman
+δg Rg
+Pyrhonen
+ﬁgure
+δg Rs
+time constant
+s
+CALCULATION OF
+Improved piezoelectric
+high cost
+expensive [
+t1 Cd
+much impact
+= Ihold
+Terms—Equivalent magnetic
+new kind
+accurate permeability
+MODELING BY
+] mm
+reluctance matrix
+μs i
+third-order system
+case
+” Adv
+Radar graphic
+DC motor
+II Cases
+OF EMC
+TYPE SOLENOID
+Lc /sc
+middle
+IEEE
+ﬁrst order
+particle swarm
+different
+author
+positive relationship
+I [
+TABLE I
+angle motor
+< 
+oil
+= Us
+I
+II
+Master ’
+Handling multiple
+simulation result
+ﬁrst stage
+thermal performance
+heat generation
+Different priority
+optimization process
+“ Slotless
+solenoid optimization
+optimization method
+electromagnetic actuator
+current version
+Design ﬂowchart
+relative permeability
+tc ∈
+TABLE II
+experimental study
+torque motor
+well-distributed
+EACH OBJECTIVES
+Rp μp
+” IEEE
+Symbol p
+Laamanen
+step input
+conservative
+maximum iteration
+High saturation
+Artif
+gap Rg
+versus displacement
+Lm Weight
+A hydraulic
+Optimization Objectives
+−Rc2 R4,4
+same point
+static force
+comparison
+ﬁnal optimized
+quarter cylinder
+Ni
+/Cd ]
+Experimental setup
+Jun
+hierarchical framework
+NO
+NY
+Us Re
+solenoid valve
+Wu Shuai
+J
+Zhejiang University
+sg B2
+pseudo code
++ xc0
+plunger begin
+calculated ﬂux
+versus Toﬀ
+Slotless brushless
+Yamasawa
+National Natural
++ Cd
+matrix R
+ρc Lc
+USA
+al
+mover
+= icl
+valid
+normalized value
+Bachelor ’
+inertia coefﬁcient
+dead zone
+symbol
+Personal use
+time further
+important
+hydraulic pressure
+random design
+second level
+coil type
+obtained pareto
+small ﬁnal
+mass
+ON INDUSTRIAL
+− Bn−1|
+Fig
+doesn ’
+“ Small
+kΩ
+ts
+tm
+air gap
+interior permanent
+hydraulic pressure-boost
+tc
+internal cooling
+deﬁned capacity
+fan
+Validation
+Silber
+IEEE TRANSACTIONS
+deﬁned range
+pole tip
+improved magnetic
+AHP
++ ΔT
+HSV connecting
+= F1
+AHP method
+three-level hierarchy
+past
+diameter Rp
+MOO design
+wound brushless
+Fi MMF
+thickness
+dynamic response
+magnetic resistance
+Jiang
+Finland
+control hydraulic
+diameter R4
+Small size
+quick response
+= δg
+Conf
+social
+electromagnetic force
+speed On/Off
+FEA Method
+saturation magnetic
+[ f1
+o n
+“ Improved
+R4,4 −Rc1
+critical value
+dynamic model
+So
+same solution
+magnet synchronous
+Jiao
+Int
+theoretical model
+aΔT
+preliminary design
+Ind
+A current
+toﬀ1
+effective area
+Natural Science
+L1 ∈
+experimental characterization
+information
+Pompermaier
+Digital hydraulic
++ Lc
+Key Basic
+EMC MODEL
+simplicity
+fi
+− Ksxc0
+short
+e τ
+winding current
++ L2
+MOO process
+North China
+Vilenius
+inﬂuence
+overall goal
+Material Consideration
+τ e
+ﬁeld intensity
+high pressure
+“ Hybridization
+hydraulic system
+e o
+required current
+position on/off
+quicker response
+type plunger
+repository SREP
+new solenoid
+iterative method
+Sung
+weight
+energy
+hard
+constant temperature
+nonlinear material
+design space
+coil axial
+new surrogate-assisted
+short stroke
+Evaluate
+Inﬂuence
+FEA method
+dissipation coefﬁcient
+ﬁnal error
+beginning
+high precision
+force curve
+∈ [
+A/mm2
+w
+section area
+b −
+number
+magnetic permeability
+design optimization
+“ Multiobjective
+iron material
+relationship
+part
+publication September
+b
+R1 =
+R1 +
+Rotor-shape optimization
+contrary
+Abstract—This paper
+harmonic iron
+Xu
+Bn−1| <
+accurate equivalent
+searching history
+B
+design process
+outer diameter
+L1 =
+Rp =
+k2
+k1
+optimum solution
+synchronous motor
+Kim
+Rp +
+Amrhein
+electric
+A HOLLOW
+k gj
+Xue
+Zhao
+T HE
+overall weight
+Shuai Wu
+Tenv +
+Industrial Foundation
+Scholar Professor
+velocity
+Rp i
+material IEEE
+= FR−1
+Xie
+Han
+nc −
+relation
+novel stator
+2-D scatter
+piezoelectric
+[ Lc
+hydraulic propeller
+INDUSTRIAL ELECTRONICS
+shorter mover
+non dominant
++δ0 Rg
+common
+x
+Magnetic ﬂux
+magnetic saturation
+priority vector
+set
+Evol
+μp i
+various
+MOO method
+pairwise
+advanced way
+coil Rg
+aircraft
+Bg
+ﬂux density
+c
+improved
+pressure-boost system
+sensitive
+opening displacement
+R1,1 −Rc4
+speciﬁcation
+experimental
+OPTIMIZATION OF
+decision WU
+surrogate-assisted multi-objective
+pp
+Maximum optimization
+dc =
+HSV failure
+Mach
+xc0 =
+Bramerdorfer
+Cavagnino
+ShanXi
+Ding
+reliable
+optimization
+time domain
+= icp
+vol
+spring preload
+test rig
+minimum current
+positive correlation
+valve operation
+new structure
+purpose
+Zeng
+= l/μs
+y
+Basic expression
+cuboid
+Linyi
+μ =
+particle count
+BY EMC
+novel giant
+m inequality
+closing time
+cut
++ Rs
++ Rp
+nc =
+Small linear
+L1 +
++ Rg
++ Rc
+electrical-hydraulic servo
+MOD method
+source F
+little inﬂuence
+δg =
+computer calculation
+Saturation temperature
+aerospace
+low pressure
+Rs i
++ R2
+Enhancement Project
+simulation method
+same color
+spring
+prototyping
+− πd2
++ vi
+= φi/Si
+i =
+πd2 calculation
+T =
+Wiley
+analytic hierarchy
+k objective
+artiﬁcial neural
+sg =
+matrix format
+“ Preliminary
+hierarchy framework
+Davis
+optimized design
+low voltage
+TRANSACTIONS ON
+simulation
+vector function
+onoff digital
+Pulido
+“ Fundamental
+Kirchhoffs voltage
+Rs μs4ss
+proportional
+circuit modeling
+versus ﬂux
+high-speed on/off
+Yuan
+searching capability
+equivalent circuit
+Kalluf
+Howe
+Beijing
+brushless DC
+entire process
+A typical
+output force
+similar
+hierarchy process
+NiI n
+Orthogonal multiobjective
+Lindh
+engineering
+University Beijing
+Chunfang Li
+Mar
+May
+cid:12
+cid:11
+cid:10
+application
+dissipation area
+s degree
+magnet array
+Object Identiﬁer
+design phase
+Fm =
+speed on/off
+required
+multiobjective optimization
+small size
+hysteresis loss
+model calculation
+R20
+Rg reluctance
+Jiu
+Department
+gj
+main circuit
+Noh
+Ishigami
+conventional solenoid
+Step
+second phase
+Pareto front
+account
+spool
+= NiI
+μn+1 =
+update speed
+Yufeng Qu
+R3 +
+Rp R5,5
+transmission
+following equation
+MULTIOBJECTIVE OPTIMIZATION
+R3 =
+hydraulic valve
+pressure source
+optimization iteration
+= C
+= N
+knee point
+= T
+cooling condition
++ c2r2
+= [
+MOO Problem
+Rs Rs
+experiment
+on-off valve
+versus Ton
+decision objective
+degree
+Professor
+Multiobjective optimization
+N/mm
+desired
+R2 −
+average length
+time toﬀ
+RELUCTANCE OF
+low cost
+Energy
+actuator driving
+Automation Science
+motor geometry
+R2 part
+version January
+− δg
+peripheral air
+T μp
+T μs
+minimum force
+μs4ss i
+common way
+Fi
+= Bn
+H curve
+geometry diagram
+STRUCTURE OF
+Guo
+conventional HSV
+F2
+F5
+Validate EMC
+= B/
+= Leoff/Reoff
+ideal value
++ c1r1
+Yi
+MODEL TABLE
++ k3
+Yu
+μ
+optimal design
+ﬂuid power
+rotor pole
+xc0
+s opinion
+digital valve
+Dynamic performance
+ﬂux saturation
+schematic diagram
+“ Optimal
+pBEST +
+Foundation Enhancement
+new design
+derivative
+matrix method
+ln R
+material characteristic
+hollow design
+circular air
+R3 −
+multiobjective decision-making
+MOO algorithm
+= ρc
+same important
+priority control
+magnitude
+step voltage
+A prototype
+“ Dynamic
+Generally
+artiﬁcial intelligence
+conventional electro-hydraulic
+Cheng
+magnetic bearing
+Φ
+air-gap
+Zambonetti
+DC limited-angle
+China
+response time
+mechatronic engineering
+analytical model
+ndimensional search
+Curve
+Hangzhou
+wound limited
+ﬁnite element
+method [
+g
+R2 +
+feasible
+length
+R2 =
+Rp R4,4
+= π
+Proc
+ﬂux path
+Yuanjie
+coil motor
+magnetic force
+priority
+shell
+range setting
+Index Terms—Equivalent
+New York
+type solenoid
+KVL matrix
+solid plunger
+EMC Modeling
+“ Design
+Fluid Power
+Mech
+“ Orthogonal
+oscillatory motor
+driving on/off
+πCd mc
++ t1
+Nasiri-Zarandi
+nonlinear magnetic
+A small
+clearance δ0
+optimization [
+Pareto optimal
+MOPSO
+segment
+pareto front
+conﬂict
+optimization approach
+current density
+fact
+R4,4 =
+selection
+iteration cycle
+hydraulic servo
+perfor
+high accuracy
+’ s
+’ t
+local
+outer surface
+high control
+familiar
+HSV [
+density distribute
+R5,5 =
+” Rev
+relative verbal
+j
+peripheral clearance
+design method
+halbach permanent
+range [
+Electr
+Mutai
+Table II
+large permanent
+Gerada
+solenoid driving
+July
+opening
+ﬁrst step
+voice coil
+“ Handling
+Let f
+low magnetic
+current i
+Experiment result
+control system
+coil Rt
+respect
+Solenoid
+“ A
+SOLENOID FOR
+©
+generalized magnetic
+Jul
+REFERENCES [
+other region
+calculation method
+Comparison
+matrix form
+Rt =
+toﬀ Lm
+chemical reaction
+inductance
+further conﬁrmation
+c2
+c1
+electro-hydraulic system
+selected IEEE
+ﬂux pattern
+verbal appreciation
+HOLLOW PLUNGER
+hydraulic pulse
+L3 −
+simpliﬁed geometry
+vi
+tm ∈
+ﬁnal optimization
+cooling structure
+ton2
+Hoeijmakers
+/m
+Rc i
+= R2
+= Le
+ball
+http
+ﬂux φ
+IEEE/ASME Trans
+effect
+automation
+Preliminary design
+Geometry Deﬁnitions
+small stroke
+= L3
+= L1
+seal oriﬁce
+saturation temperature
+= Rp
+= Rs
+/4
+CONCLUSION
+salient machine
+detail
+− t1
+Obj3
+Obj2
+A three-level
+Bi
+other
+Magn
+= speed
+smart
+“ Research
+motor design
+London Chapman
+Manuscript
+KVL
+electrical aircraft
+Electrical Engineering
+research hotspot
+Changjiang Scholar
+gap δg
+simple structure
+lca =
+e-mail
+advanced electrical
+Opening time
+linear PM
+ton2 =
+solution x
+evolutionary algorithms
+Sci
+VOL
+Optimization Results
+Ts versus
+closing process
+stator
+low working
+Roters
+accurate simulation
+Zhang
+interiorpermanent-magnet
+decision maker
+INTRODUCTION T
+L3 +
+Compter
+equation [
+FEA
+swarm optimization
+Rtot1
+Brauer
+HSV Equation
+numerical judgment
+AND EXPERIMENTS
+deﬁnite point
+voltage Us
+Lm =
+R4 =
+A driver
+tm =
+Luk
+Distinguished Young
+deﬁned
+PM oscillatory
+Process diagram
+= ﬂoor
+” Eng
+April
+AHP TABLE
+low hysteresis
+adjusting pulse
+Lm ]
+initial air
+Duan
+wound radial-ﬂux
+validation

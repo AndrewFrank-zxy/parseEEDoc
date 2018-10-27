@@ -1,35 +1,2142 @@
-ﬁnancial reporting
-excessive
-post-ruling
-Delaware
-Shivakumar
-evidence
-contracting
-inefﬁcient
-investment
-conservative accounting
-transfer
-decision
-debtholder
-question
-vicinity
-instance
-discretion
-ambiguity
-various
+Conservative accounting
+SPPE DEC
+four-year
+measure board
+DEFOND
+DCF×CF
+Sarah Nutter
+operating cash
+violated,28 such
+Descriptive
+same set
+model following
+sum-of-the-year ’
+D×RET
+hereafter “
 conjecture
-Introduction Research
-presumption
-possible
-Communications
-important
-Lyonnais
-excessive conservatism
-documented
-judgment
-insolvent Delaware
-natural
-hereafter
+Identifying Conditional
+Committee Industry
+market leverage
+Northwestern University
+combined effect
+large increase
+Spearman correlation
++ β8−13Control
+Sample selection
+insolvent ”
+consistent
+Corporate Debt
+Var
+likely
+measure equal
+sales-deﬂated negative
+shareholder friendly
+estimated
+Available
+Firm Value
+ﬁrm age
+consequent
+Merton [
+s operating
+net
+CONSERVATISM Conservative
+R E
+BTM GROWTH
+double difference-in-differences
+similar evidence
+residual
+DEL ß16
+Private Firms
+Industry Expertise
+Sample Description
+“ Accounting
+STROMBERG
+sample ﬁrm-year
+Motivation
+ß7
+study
+KOTHARI
+Mills [
+“ Indemniﬁcation
+β26 HEDF93
+B L
+state antitakeover
+present regression
+Disclosure data
+total
+“ Firms
+ﬁnancial statement
+demand conservatism
+Conclusion A
+SAS program
+University ’
+post-ruling change
+liability insurance
+Variables +
+prior research
+’ demand
+Std
+Status Constant
+“ Corporate
+Action Controls×HEDF93
+good faith
+interaction
+ß7 =
+hold
+supplemental
+EDF
+Antitakeover
+exogenous change
+Measures CRANK
+Conservatism Measures
+PZ CRANK
+Large-Sample Evidence
+Fiduciary Duties
+example
+Min Shen
+How Does
+period following
+Accounting Research
+marginal tax
+E T
+bank entry
+Prior research
+HANN
+end
+control variable
+HEDF93 Industries
+LT
+re Enron
+abnormal discretionary
+CF ]
+A
+COGS +
+institutional ownership
+Variables ×
+CF +
+loyalty
+Delaware versus
+Brookings Institution
+Ingersoll Publications
+CF <
+Varallo
+CFO
+s investment
+effective
+β9 HEDF93
+logit regression
+Efﬁcient System
+order
+interpretation
+FIRM PERFORMANCE
+top quartile
+SELECTION BIASES
+” Jour
+Compustat
+BSCORE× HEDF93
+ﬁrms near
+OF DIRECTORS
+DLTT +
+MGM ’
+increased conservatism
+possible confounding
+POST×DCF×CF
+hidden
+ON ACCOUNTING
+table A18
+litigious
+Reporting Become
+table A13
+table A12
+table A11
+table A10
+table A17
+DCF +
+table A15
+table A14
+nonDelaware ﬁrms
+direct response
+ß12
+Equity-Debtholder
+matched sample
+mean
++ e
+available governance
+“ Identifying
+main result
+SHUMWAY
+EDF measure
+Derivative
+C SKEW
+primary channel
++ β26
+HEDF93×RET ß9
+new economy
+contradicting view
+DCF ×
+solvent corporation
++ [
+sample t-stat
+random subsample
+standard
+net income
+MANSI
+estimate
+hand
+β19 DEL
+DEC CAPEX
+relative skewness
+∗∗ ∗∗∗
+Skinner [
+BTM
+predicted propensity
+value equity
+above median
+Unconditional Conservatism
+JAYARAMAN
+dimensional conservatism
++ β28HEDF93
+transfer wealth
+variable measurement
+inefﬁcient
+one-tailed test
+“ near
+/P =
+post–court-ruling
+Financing Impact
+Capitalization
+ﬁnancial reporting
+indeterminate
++ β25HEDF93
+” Working
+insolvency indicator
+ACCR +
+important legal
++ β18DEL
+see panel
+post-ruling increase
+PEVZNER conservatism
+Ahmed
+” European
+“ Asymmetric
+GOODMAN
+Edge
+DEL× HEDF93
+Chancery
+Lower Quartile
+REFERENCES AHMED
+increased ﬁrm
+Auditor Reporting
+POST POST×DEL
+Controls×DEL×HEDF93 Real
+ß10 ß11
+large negative
 accounting conservatism
-ﬁduciary
+interest DEL×HEDF93
+much conservatism
+Sec
+approach distress
+principal/chief accounting
+willingness
+Chicago
+supply additional
+insolvency ”
+SLOAN
+potential negative
+other hand
+Full sample
+× D
+regulatory change
+] asymmetric
+× R
+auditor
+Loss Recog
+× skewness
+Asymmetrically Timely
+signiﬁcant impact
+Mean
+Wang
+Lewis
+two-year event
+PRCC F
+Corporate Governance
+POST DEL
+American Catholic
+sum
+ruling ”
+D ACCEXP
+inventory accounting
+jurisdiction
+Director Characteris
+RESULTS USING
+Yu [
+board accounting
+CHEN
+table A16
+Nature Veriﬁcation
+Defond
+Big
+Nature log
+ﬁnancial ﬁrms
+FRANCIS
+typical corporate
+BSCORE×DEL BSCORE×
+Nevertheless
+three-dimensional conservatism
+M41
+insolvency status
+Court ruling
+reversal
+Business Lawyer
+β27 HEDF93
+FOR FIRM
+post-ruling conservatism
+Armstrong
+negative non-operating
+Washington
+Gnanakumar Visvanathan
++ DP
+nonrandomness
+Delaware-incorporated ﬁrms
+∗∗∗ ß8
+∗∗∗ ß9
+additional information
+respond
+regime change
+fair
+“ distance-to-default
+sensitivity
+collection effort
+observed
+Anderson
+result
+WESTBROOK
+anonymous referee
+RAMALINGEGOWDA
+= CRANK
+bankruptcy status
++ β12HEDF93
+violation occurrence
+Chava
+ﬂow volatility
+Research Center
+T +
+empirical model
+status constant
+XRD
+Tax Return
+extent
+BANK NEDERLAND
+Barchris Constr
+Delaware incorporation
+HOITASH
+β7 =
+prior experience
+Total DEL
+XSGA
+hand-collected subsample
+positive association
+code
+Coef
+Martin [
+CONSERVATISM control
+legal exposure
+[ β8HEDF93
+corporate governance
+Delaware near
 detrimental
+interest
+timely disclosure
+Value Financial
+“ Abolition
+possible measurement
+A recent
+OF COURT
+INC SPPE
+Ch
+Near Insolvency
+Larry Friedman
+Action Controls×POST×DEL
+” Review
+shortand long-term
+Case ruling-related
+elaborate
+Managerial Ownership
+ﬁrst post-transition
+iv
+ii
+HEDF93×D×RET
+conservatism due
+Sunder [
+Conservative Accounting
+cross-sectional variation
+β8HEDF93 +
+severity
+VAN LOBEN
+cumulative
+Managerial Overconﬁdence
+Corporate Duty
+European Accounting
+Corporate Marginal
+“ Board
+Balakrishnan
+Research Design
+independent
+β5BSCORE ×
+AIER
+Audit Committees
+Controls×D Controls×D×RET
+opportunity
+GROWTH
+EDF score
+Table
+further ﬁnd
+Matching methodology
+principal/chief ﬁnancial
+” George
+selection procedure
+CONTROLLING FOR
+RECCH +
+explanatory
+APALCH +
+Deciles rank
+insolvent DEBTHOLDERS
+sample correspond
+board
+Debt
+non-losses subsample
+D
+disagreement
+possible
++ MIB
+LITIG
+legal deﬁnition
+CEO/CFOs ’
+All other
+Does Financing
+β1RET +
+workshop
+Return Data
+’ Decisions
+PZ score
+IN THE
+www
+right
+executive committee
+HU
+case ruling
+accounting ﬁnancial
+CONFOUNDING EVENTS
+INVT
+Hu
+Lev
+s Delaware
+Nikolaev [
+bold
+CRANK PZ
+differential change
+conventional
+performance and/or
+Propensity Score
+First
+KRISHNAN
+governance agreement
+H1
+Evidence
+SPARKS
+β24HEDF93 ×
+hand-collected data
+following sensitivity
+R2 Included
+CRANK ACCR
+control ﬁrms
+board size
+POST +
+ﬁrm-level
+presence
+ON THE
+proﬁtability and/or
+POST =
+stockholder
+ß15 ß16
+ownership data
+following regression
+Keith Jones
+Hann
+such one-time
+support
+increase liquidity
+BHOJRAJ
+stock price
+way
+year t
+× DCF
+Column
+January
+DEL×DCF ß18
+increased accounting
+Sample distribution
+absent
+Financially Trou
+β22DEL ×
+β8−13Control Variables
+Quarterly Journal
+Clemson University
+THE EFFECT
+β17 DEL
+A ﬁrm
+DEL×D×RET
+Report Integrity
+observed post-ruling
+coefﬁcient
+CREDIT LYONNAIS
+β6BSCORE ×
+curious
+positive effect
+following hypothesis
+BSCORE×DEL× HEDF93
+β23DEL ×
+debtholder
+role
+test
+Expert Matter
+Roberts [
+unfavorable economic
+ﬁrm performance
+Jayaraman
+concurrent
+non-Delaware ﬁrms
+Tax Costs
+variable
+difference-in-differences test
+marginal signiﬁcance
+Post-Sarbanes-Oxley
+New Castle
+Second
+indicate signiﬁcance
+time
+main hypothesis
+POST ×
+concept
+Tse
+focus
+Van Gorkom
+supplement
+WANG
+zone
+passage
+Correlation Matrix
+HEDF93×DEL×POST×RET ß29
+TO FIDUCIARY
+full model
+’ inﬂuence
+unconditional conservatism
+Controls×DEL Controls×HEDF93
+Civ
+t +
+t –
+level
+β31HEDF93 ×
+t ’
+Contracting
+NI +
+β10HEDF93 ×
+accumulation
+Reliance Capital
+sign
+board independence
+possible contradicting
+certiﬁed public
+governance measure
+CAPX
+single measure
+Fei Xie
+Leuz [
+representative
+assistance
+pronounced change
+× CSHO
+whole sample
+β14HEDF93 ×
+Francis
+DUTIES OF
+’ DEMAND
+Part I
+ß6 ß7
+Supp
+v
+Medlin
+β7 POST
+understanding
+DEL×POST×DCF×CF =
+Changes
+see Geyer
+common law
+documented positive
+ﬁrst estimate
+shift
+increased litigation
+CONSERVATISM RICHARDSON
+pre– post
+ß17 ß18
+] further
+HEDF93 LNMVE
+difference-in-differences approach
+Accounting Performance
+Marginal Tax
+Research Conference
+Financial Economics
+MGM Corporation
+Accounting Horizons
+− DVPA
+Therefore
+Expensive Uncertainty
+Action Controls
+” Stanford
+following Jones
+SRIVASTAVA
+wealth
+“ Large-Sample
+’ s
+A dichotomous
+Roychowdhury [
+conservative ﬁnancial
+https
+scope
+DEL×CF ß17
++ β5BSCORE
+likely beneﬁt
+Summary
+business process
+efﬁcient contracting
+variable equal
+behalf
+’ Near
+] document
+increased ﬁduciary
+LEV BTM
+same year
+’ litigation
+versus cash
+×RET +
+early abandonment
+Control Variables
+agent
+identiﬁed
+Forbes
+BEAVER
+imperfect due
+GRAHAM
+risk-taking
+WEBER
+Default Frequency
+β2D +
+discussion
+’ growth
+ALL =
+legal community
+AND ACCOUNTING
+average BRDSIZE
+UK Private
+exogenous shock
+good news
+data become
+ALL C
+several robustness
+Xiumin Martin
+A Journal
+such
+Near Insolvent
+STDRET
+board industry
+se
+ruling out
+popular state
+gross negligence
++ CRANK
+sample ﬁrms
+course
+director ﬁduciary
+Cross-Sectional Evidence
+HEDF93×DEL×DCF ß26
+party legal
+ß1 ß2
+composite score
+mainstream press
+annual stock
+Accounting Part
+BASU
+β29 HEDF93
+debt covenant
+Information Role
+signiﬁcant
+half
+ALL Independent
+market value
+Earnings Management
+“ Fiduciary
+Law Improve
+BIGN×POST×DEL×HEDF93
+GERTNER
+Measurement
+increase asymmetric
+ß8 ß9
+β21DEL ×
+− IVAO
+] +
+Legal
+Mikhail Pevzner
+ß18 Included
+Financial Reporting
+HEDF93×POST×CF
+interest expense
+Controls×POST×HEDF93 Real
+Asquith
+Mason University
+β3
+BUSHMAN
+SOLIMAN
+increase
+DEL×POST×CF
+negative correlation
+CONSERVATISM other
+CONSERVATISM Panel
+A Delaware
+Mergent/Moody ’
+DP –
+possibility
+FIDUCIARY DUTIES
+average PCT
+ß16 ß17
+PEVZNER T
+DUELLMAN
+ZHANG
+Variable CRANK
+turn
+prior literature
+insolvent ﬁrms
+Mansi
+investment allocation
+LNMVE LEV
+% Panel
+advertising reserve
+healthy ﬁrms
+TUNA
+BALAKRISHNAN
++ β31HEDF93
+Basu [
+R2 ß0
+Faleye
+biographical information
+indicate
+Such
+Response
+beneﬁts
+Stanford Journal
+continuous
+risk industry
+11 Ahmed
+Credit Lyonnais
+George Mason
+available data
+noisy due
+EFFECT OF
+Hoitash
+β3D ×
+future
+t-stat Independent
+foreign bank
+Litigation
+Accounting Expert
+CONSERVATISM T
+positive net
+appendix table
+EVENTS Last
+argument
+Regulation
+large number
+three-year window
+Outside Directors
+] study
+Execucomp data
+insolvent ﬁrm
+two-tailed test
+Controls×HEDF93 Real
+opportunistic behavior
+Early Termination
+ﬁrst year
+major creditor
+further examine
++ Year
+Audit Committee
+high-litigation
+BECKER
+channel
+multiple
+× DEL
+opposite
+Xin [
+Sparks [
+Action Controls×POST×DEL×HEDF93
+” Columbia
+]
+× POST
+liquidation basis
+× DEl
+describes construction
+ownership INSTOWN
+insolvency zone
+Givoly
+Herring
++ β1DEL
+WL
+Political
+BSCORE BSCORE×DEL
+Role
+ß4 ß5
+DEBTHOLDERS ’
+ratio
++ β3DCF
+state
+insolvency measure
+near governance
+ﬁve
+dispute
+accrual-based conditional
+s state
+XIE
+expectation
+XIN
+underlying principle
++ β15HEDF93
+BILLINGS
+accounting ”
+Similar
++ β30HEDF93
+ß22
+value expropriation
+right skewed
+summary
+ﬁnancial ofﬁcer
+new ﬁduciary
+predicted
+liable
+s capital
+SPEE
+C-score
+same two-digit
+ﬁxed near
+general consistent
+incremental beneﬁt
+natural setting
+calendar
+HEDF93 HEDF93×RET
+concern
+voluntary
+calendar year
+precise legal
+immediate period
+“ Earnings
+appendix A15
+POST×DCF
+β4BSCORE +
+reading
+conservatism measurement
+Vantageport Venture
+Conservatism rank
+β7 BSCORE
+general choice
+fair amount
+see Revlon
+Signiﬁcant
+out ﬁnancial
+HEDF93 BSCORE×DEL×
+beginning price
+s balance
+Bank Nederland
+duty
+] start
+APPENDIX Deﬁnitions
+Controls×D×RET Industries
+Examina tion
+“ Agency-Based
+ACCR C
+OF BOARD
+two-year
+∗∗∗
+“ Do
+Sample Matched
+INVCH +
+Visvanathan [
+t-stat =
+certain debt
+new “
+HEDF93 DEL×
+combined
+two-dimensional conservatism
+DEL EDF93
+unrecorded
+β2HEDF93 +
+capital expenditure
+Action Controls×POST×HEDF93
+× RET
+Distressed
+MARTIN
+yearspeciﬁc conservatism
+× abnormal
+external
+ﬁrms increased
+Compact Disclosure
+DEL×POST×DCF ß22
+Selection Bias
+ACCR =
+ACCOUNTING CONSERVATISM
+subsample
+ß7 ß8
+asymmetric timeliness
+natural event
+Additional
+book value
+” Journal
+Delaware Court
+causal link
+] model
+different
+A composite
+Ofﬁcers ’
+accounting principle
+same
+DIONNE
+Final sample
+high litigation
+document
+POSSIBLE SELECTION
+Near insolvent
+β28HEDF93 ×
+NSEG NABN
+bad news
+ﬁrst stage
++ β23DEL
+Action Controls×POST
+Decisions Where
+× HEDF93
+United
+main variable
+insolvent versus
+many subsequent
+β5POST ×
+Sougiannis [
+propensity score
+Industry Dummies
+rank post
+presumption
+business judgment
+non-near insolvent
+Impact Investment
+HEDF93 HEDF93×CF
+two-digit SIC
+treatment
+LITIG INSTOWN
+Change
+Catholic Educational
++ β3D
+temporary large
+× CF
+Score Matching
+HEDF93×POST×D×RET =
+alternative form
+preference
+DCF DCF×CF
+misleading information
+Delaware non-near
+LITWAK
+Bondholder-Shareholder Conﬂicts
+EXOGENOUS SHOCK
+post-ruling period
+conditional
+Control Rights
+year-beginning total
+SPI <
+β3DCF ×
+PEVZNER
+All board
+American University
+” Auditing
+right-hand side
+Time-Series Properties
+Controls×DEL Real
+“ How
+business
+equivalent
+HEDF93×DEL×CF ß25
+Merrick School
+Dimensional
+ß23 HEDF93×DEL
+Gopal Krishnan
+Stromberg [
+AT
+other control
+managerial ownership
+No
+SMITH
++ β26HEDF93
+pre–post difference
+conservatism model
+Barondes [
+Adj
+baseline regression
+s sale
+Christian Leuz
+OF CONSERVATISM
+Ron Allen
+Pathe Communications
+start
+natural log
+HEDF93×DEL×RET ß25
+HEDF93×DCF×CF
+Reporting Con
+PEVZNER FALEYE
+QIANG
+J
+Merton model
+prior year
+s Q
+shareholder–debtholder
+Reeb [
+“ Acquisition
+robustness
++ DLTT
+LEV
+PENMAN
+Special
+post-ruling sample
+HEDF93×DEL×POST×D
+conservatism attributable
+single board
+al
+general
+Accounting Review
+behest
+ß16 DEL×CF
+HEDF93×DEL×D ß26
+Real
+third party
+CHE −
+INSTOWN Controls×DEL
+avoid insolvency
+simple average
+preand post-rule
+β6POST ×
+COURT RULING
+1993-1996
+main model
+HEDF93×DEL×POST ß28
+ﬁnancial distress
+β1DEL +
+Variables Conservatism
+main test
++ β2D
++ β2DCF
+VISVANATHAN
+Real Action
+lack
+Supreme Court
+indemniﬁcation
+Provost Ofﬁce
+settlement
+HEDF93×POST×D ß14
+reasoning
+DEL×HEDF93 POST
+How Much
+Duellman [
+asset growth
+“ Anatomy
+∗∗∗ ß12
+∗∗∗ ß13
+ﬁrms respond
+TAN
+presentation
+case
+Description Panel
+Contemporary Accounting
+inﬂuence ﬁnancial
+Incorporation Law
+HEDF93×POST×DCF HEDF93×POST×DCF×CF
+LALT93
+insolvent Delaware
+Dickey
++ INVCH
++ DLC
+Gormley
++ β2HEDF93
++ β27
+Suﬁ [
+small
++ β29
+ﬂow interest
+Tobin ’
+insolvency ﬁrms
+TSE
+PCT INDDIR
+law review
+debt–equity ratio
+rate
+Interest
+full year
+Association Between
+PZ =
+Board governance
+ﬁrst examine
+PEVZNER Delaware
+section
+event increased
+RET <
+Unproﬁtable
+economy indicator
+alternative School
+NABN DISEXP
+RET +
+method
+RET ]
+PIOTROSKI
+operating
+Simulate Corporate
+Real Activities
+ROLE OF
+Ak Industries
+recent study
+’ supply
+experience
+prior
+corporate ﬁnancial
+advertising
+regression model
+Crutcher LLP
+ﬁve real
+ß0 ß1
+s decision
+Information Environment
+select
+alternative near
+shareholders
+extant empirical
+Augustine Duru
+Overall
+Beatty
+Independent Var
+s Provost
+timely recognition
+POST×HEDF93 POST×DEL×HEDF93
+Ofﬁcial Committee
+accounting expertise
+K20 Keywords
+Shivakumar [
+Mason Law
+overall demand
+Amortization
+negative association
+Phil Shane
+X/P
+X /P
+ﬁrms ’
++ Industry
+SI
+caveat
+sample data
+estimate cross-sectional
+group assignment
+“ Does
+present value
+share
+ﬁrm-year speciﬁc
+minimum
+] state
+Hope [
+IBQ
+ﬁrm value
+CHARACTERISTICS IN
+example see
+average percentage
+ß14 ß15
+FINKELSTEIN
+ROYCHOWDHURY
+THE COURT
+model speciﬁcation
++ β5POST
+see column
+MAIN RESULTS
+Comparative Loss
+cid:3
+TIMELINESS MODELS
+response
+become distressed
+IVAO +
+causal evidence
+EDF93 HEDF93
+geographic
+Westbrook [
+and/or ﬁnancial
+SEGAL
+Illinois
+sample Panel
+REEB
+paper
+avoid generalizability
+simulated corporate
+AND I
+veriﬁability requirement
+General Incorporation
+Intercept DEL
+late
+income aggregation
+THE ROLE
+Controls Controls×CF
+HEDF93×DEL×POST×DCF×CF =
+pronounced increase
+Law Review
+dichotomous variable
+ß3 ß4
+Fargo Bank
+public accountant
+inelastic
+s ﬁnancial
+PEVZNER near
+Conservatism Rank
+Controls×POST Real
+Panel A
+CONSERVATISM AJINKYA
+Panel B
+Sugata Roychowdhury
+several conservatism
+Value Relevance
+sample Coef
+Zone
+personal liability
+idea
+R2 Dep
+’ channel
+F ×
+estimate two-dimensional
+Practice
+Inﬂuence
+performance-matched sample
++ β17
+Has Financial
++ β19
+issue
+single group
+company ’
+interest coverage
+Educational Programming
+Litan
+Ajinkya
+Nini
+appropriate lead-lag
+beginning
++ β6BSCORE
+Bebchuk
+Controls×DCF Controls×DCF×CF
++ β20DEL
+event window
+incorporation choice
+DICKEY
+increase accounting
+CRANK ALL
+number
+Earnings
+β31
+Empirical Results
+judgment
+BSCORE ×
+“ Accrual
+STANFORD-HARRIS
+Agency-Based Demand
+Boards
+FONTENOT
+D MAJIND
+part
+primary reason
+Upper Quartile
+HEDF93×POST×RET
+β13HEDF93 ×
+ﬁrst drop
+POST×D×RET
+RYAN
+measurement window
+court ruling
+efﬁcient investment
+Dummies +
+judge further
+risky
+Watts [
+−1
+footnote
+“ Comment
+negative operating
+’ Accounting
+causal relation
+null
+primary test
+β2DCF +
+ALL Deciles
+HEDF93×DEL×POST×CF ß29
+Hu [
+procedure All
+Kim
+CALLEN
+dependent variable
+judgment rule
+CONSERVATISM USING
+FOR POSSIBLE
+M
+response advertising
+Callen
+distressed ﬁrms
+RULING AND
+John Graham
+POST×D
+Institutional
+s near
+Consistent
+Bushman
+other corporate
+Cost
+SUNDER
+Earnings Persistence
+Dividends
+daily stock
+Virginia Accounting
+prevent value
+HEDF93 ×
+Scharfstein [
+’ new
+abstract=2117104
+ERISA
+MORTON
+Dunn
+Year Dummies
+Kothari
+twodigit SIC
+equity
+debtand liquidation-ﬁnanced
+columns
+online appendix
+ownership percentage
+rest
+’ status
+Firm-Year
+POST×DEL =
+NIKOLAEV
+Firms ’
+Between Outside
+approach insolvency
+main reason
+unconditional accounting
+speciﬁc composite
+plausible
+individual
+Delaware ﬁrms
+Economically Efﬁcient
+Firms
+Possible Selection
+HEDF93 A
+majority independent
+conservative accounting
+DEL×D ß18
+Financial Distress
+Corporate Characteristics
+re WorldCom
+various
+supplemental analysis
+Asymmetric Timeliness
+treatment/control group
+business press
+tax-related
+transition year
+estimate model
+MCPHEE
+POST×RET
+year total
+premise
+Mixed Logit
+HBLEV93
+C PZ
+AND
+HEDF93 =
+[ t
+” Contemporary
+Unsecured Creditors
+“ Financial
+HEDF93 +
+little incremental
++Control Variables
+Graham
+’ near
+research design
+hand collection
+20-quarter window
+loan
+empirical design
+cross-sectional
+Capital Group
+“ Conservatism
+Early recognition
+reduction
+DEL×POST×D×RET =
+excessive conservatism
+Properties
+Tan [
+BALL
+Jour nal
+Spearman
+High growth
+see McDermott
+post-ruling analysis
+year-beginning stock
+default risk
+sample median
+A fundamental
+uncertain
+] ﬁnd
+judicial
+SIC industry
+CHAVA
+extensive attention
+summer research
+level conservatism
+real
+Khan
+Negative special
+inﬂuence management
+additional analysis
+Accounting Report
+Tao Ma
+unique ﬁrms
+Stock
+POST×DEL POST×HEDF93
+Suffolk University
+LNMVE
+ﬁrms experience
+Maydew
+such selection
+negative market
+composite conservatism
+literature
+G34
+conservatism score
++ RECCH
+ﬁrm-level violation
+Acquisition Proﬁtability
+robust
+statement informativeness
+BSCORE A
+Detailed
+A B
+persuasive
+All Compustat
+analysis
+% Dep
+ß15
+ß13
+ß2 ß3
+ß11
+ß10
+ruling period
+additional dimension
+Segal
+BOARD CHARACTERISTICS
+DEC NSEG
+“ Institutional
+OTHER CONFOUNDING
+D ×
+Brookings-Wharton Papers
+LOBEN SELS
+POST ß4
+PEVZNER Effect
+Theory
+CEQ −
+term “
+Dividend Policy
+β3DEL ×
+extended period
+Lyonnais case
+ruling inﬂuence
+covenant violation
+difference-in-differences research
+Ramalingagowda
+ﬁduciary
+Last
+DVPA −
+Controls×HEDF93 Controls×DEL×
+DIRECTORS Delaware
+POST×DEL×HEDF93 LNMVE
+EDF distribution
+entire sample
+debt contracting
+key determinant
+Cohen
+s board
+consensus
++ PSTK
+SKINNER
+1988-1991
+see online
+D expenditure
+β6 POST
+= ACCR
+pronounced
+scale
+decision
+PZ POST
+All continuous
++ change
+DEL HEDF93
+CAPEX INC
+HEDF93×DEL
+independent director
+Economics
+O
+increase conservatism
+T A
++ β1CF
+Pathe ’
+primary SIC
+β11HEDF93 ×
+signiﬁcant coefﬁcient
+anything
+FOR CONSERVATISM
+D +
+dimensional board
+Gertner
+corporate marginal
+probability transformation
+β30HEDF93 ×
+HOPE
+Infrastructure Requirements
+confounding factor
+[ β16
+Accounting Accruals
+return volatility
+DCF +Control
+ß12 ß13
+Venture Partners
+Post-Ruling Periods
+clustering
+A Mixed
+year price
+Ryan [
+question
+ASQUITH
+loss recognition
+Section
+Insolvent Firms
+Tax-Related
+Board Characteristics
++ β11HEDF93
+line
+additional protection
+β26HEDF93 ×
+fundamental assumption
+RET ß1
+GORMLEY
+experiment setting
+ACCR t-stat
+DEL×POST ß20
+Action Controls×DEL
+∗∗
+net interest
+Ac counting
+Firm Financial
+%
+Hayn [
+short period
+SENGUPTA
+∗∗ ∗∗
+WRIGHT
+skewness measure
+” Accounting
+LEUZ
+” status
+Debt Covenants
+Enron
+] show
+β1CF +
+ﬁrm status
+Median
+INSTOWN BSCORE
+validity
+priori reason
+Accrual Reliability
++ β14HEDF93
+bankruptcy probability
+Spectrum
+notion
++ β6POST
+Court Ruling
+∗∗∗ ∗∗∗
+BARONDES
+accounting quality
+DEL×HEDF93
+Ramalingegowda
+and/or increase
+CPA
+DEMAND FOR
+DEL×RET ß17
+’ leverage
+Business Judgment
+Business
+DEL×DCF×CF
+BSCORE
+“ vicinity
+Kellogg
+β25HEDF93 ×
+stable
+PROD Real
+breach
+OF THE
+University Merrick
+cross-sectional conditional
+conservatism rank
+implausible
+β0 +
+MEASURING ACCOUNTING
+Conservatism Principle
+Committee Directors
+Do Firms
+Mitigating Bondholder-Shareholder
+annual EDF
+HEDF93 DEL×HEDF93
+ﬁrms exhibit
+conditional conservatism
+Directors ’
+total count
+Does Delaware
+β15HEDF93 ×
+ﬁrm size
+State
+“ Managerial
+Dionne [
+unavailable
+Litwak [
+OANCFY
+s buy-and-hold
+LaFond
+landmark case
+governance insolvency
+’ ﬁnancial
+degree
+timely loss
+CORPORATE DECISIONS
+year beginning
+Prior
+BEATTY
+mid-2006
+precise deﬁnition
+Risk Structure
+PSTK +
+particular measure
+Loss Recognition
+Controls×POST×DEL Real
+causal nature
+observed change
+alternative explanation
+Shumway [
+possible selection
+Weber
+growth ﬁrms
+out alternative
+main ﬁnding
+LIFR
++ β22DEL
+Junk-Bond
+Accounting Expertise
+Recent research
+Credible Reporting
+Insolvency Status
+appendix A
+∗∗∗ ∗
+iii
+“ Debt
+JEL
+account
+phrase “
+following equation
+Krishnan [
+subsequent court
+ß13 ß14
+balance sheet
+Between Audit
+HEDF93×POST×DCF×CF =
+accounting ofﬁcer
+’ ﬁduciary
+control
+Controls×RET Controls×D
+market-to-book
+tax
+technological feasibility
+DLC +
+YU
+multicollinearity
+stock performance
+table A9
+table A8
+table A7
+table A6
+table A5
+table A4
+table A3
+table A2
+table A1
+measurement error
+Columbia Law
+Other signiﬁcant
+DEL×POST×D×RET
+SUFI
+complete version
+ﬁrm ’
+ﬁve-year window
+Conservatism
+Hence
+—see panel
+focal ﬁrm
+six-year
+β18DEL ×
+Controls×POST×DEL×HEDF93 Industries
+INSTOWN Nature
++ β7
+DEL +
+ß28 HEDF93×DEL×POST×RET
+INSTOWN Industries
+Smith
++ β9
+DEL =
+Hoitash [
+Daines [
+Lyonnais Bank
+increased ﬁnancial
+Debtholders ’
+mean D
+preand post-ruling
+additional conservatism
+primary focus
+GROWTH LITIG
+WATTS
+descriptive
+LNPRC
+ROBERTS
+Included Included
+Partha Sengupta
+USING ASYMMETRIC
+documented
+DEl ×
+Katz
+rank Dep
+DEL A
+Delaware court
+ﬁrm-year level
+DEL×POST×D
+conservatism
+Cash Flows
+COMMUNICATIONS CORPORATION
+upward
+long-term debt
+Zhang [
+board strength
+SHOCK TO
+Institutional Ownership
+CEO
++ DVPA
+IBC-OANCF
+differential post-ruling
+Firm-Year Measure
+shortened event
+stock return
+BIASES A
+current period
+D INDEXP
+Judicial
+indicator HEDF93
+available hand-collected
+LAFOND
+PEVZNER extent
+likelihood
+shortened sample
+MacAndrews
+Bankruptcies
+∗ ß7
+effort reasonable
+conservatism level
+Indian banking
+measure BSCORE
+DVPA +
+hence
+DEL ×
+lead-lag model
+Changing Time-Series
+DAINES
+Working paper
+coverage ratio
+quality
+14 Speciﬁcally
+Altman ’
+occurrence rate
+clear causal
+news early
+increased demand
+reputational
+ß9 ß10
+Financial Expertise
+HEDF93×DCF
+conservatism measure
+R
+transitory component
++ β21DEL
++ β4POST
+Institution Press
+incorporation data
+Accounting Conservatism
+Big-N
+abnormal production
+Controls Controls×RET
+’ propensity
+exhibit
+Estimating Conditional
+Timely Loss
+variable BIGN
+DISEXP NABN
+Other
+OANCF
+unlikely
+NABN PROD
+main sample
+POST×HEDF93 =
+Sample Selection
+Recog nition
+∗∗ ß5
+negative special
+versus Delaware
+agency
+able
+mechanism
+instance
+exogenous variation
+average decile
+ﬁnd robust
+corporate law
+post difference
+Anup Srivastava
+Castle County
+Ernst
+Becker
+“ Industry
+t-stat Coef
+reporting conservatism
+HEDF93×DEL×POST×D×RET
+composite measure
+further support
+Tyler Shumway
+annual distribution
+cash ﬂow
+fact
+ß27 HEDF93×DEL×POST
++ APALCH
+EXC
++ β6
+primary dependent
+ﬁrm-year–speciﬁc conservatism
+Hui Zhang
+casual link
+separate annotation
+pre-ruling period
+Public
+net operating
+Long Chen
+Wells Fargo
+β4POST +
+operational
+empirical evidence
+Delaware ﬁrm
+ambiguity
+Accruals Dep
+RESULTS ON
+MODELS OF
+Mod
+O insurance
+Management Earnings
+CEO/CFO ownership
+see Escott
+negative nonoperating
+AND O
+SOUGIANNIS
+additional support
+s business
+” Gibson
+out-of-state incorporation
+p <
+KIM
+INSTOWN Real
+’ overall
+Contracting Beneﬁts
+SCHARFSTEIN
+following real
+Debt Covenant
+news recognition
+% Included
+Cohen [
+book leverage
+estimated effect
+PP
+litigation risk
+indicator variable
+Delaware Supreme
+NINI
+Examen
+non-Delaware ﬁrm
+POST×DEL×HEDF93 =
+ß23
+ﬁnd
+attention
+ability
+“ Creditor
+∗∗ ∗
+Speciﬁcally
+distribution
+D ×RET
+β16 DEL
+incorporation status
+ß0 Intercept
+near insolvent
+POST×CF
+Insurance
+buy-and-hold annual
+CRANK SKEW
+Beaver
+estimation
+otherwise
+BSCORE×DEL×HEDF93
+Finkelstein [
+performing distressed
+Empirical Properties
+MAYDEW
+BEBCHUK
+Finally
+loss making
+LYONNAIS BANK
+bottom quartile
+addition
+COHEN
++ TXACH
+LIFO reserve
+ß29 HEDF93×DEL×POST×DCF
+Introduction Research
+Big-N auditor
+“ Where
+HAYN
+KRISHNAMOORTHY
+Hensher [
+panel A
++ β13HEDF93
+panel B
+controller
+proﬁcient
+Richardson
+GIVOLY
+Consequently
+sample analysis
+KHAN
+measure near
+t-stat t-stat
+Number
+HEDF93×DEL×D×RET ß27
+State Anti-Takeover
+Pricing
+ﬁrms increase
+natural experiment
+DEL×POST×RET
+Regina Wittenberg-Moerman
+ß3 =
+further doubt
+MERTON
+distance-to-default ”
+DICHEV
+tenor
+Worldcom
+event setting
+× SPI/SALES
+PPE
+Programming Foundation
+full speciﬁcation
+’ increased
+abstract=2038363
+covenant
+Banking Industry
+http
+ﬁrms subject
+effect
+Included t-stat
+Controls×DCF×CF Industries
+ﬁnal sample
+“ Timely
+endogeneity
+Governance Dep
+i
+Accrual Accounting
+CRSP
+Copyright C
+Dichev
+/3
+ﬁrms approach
+excessive
++ Control
+Market-to-Book
+HEDF93 MVE
+L E
+main measure
+= β0
+signiﬁcant sign
+HENSHER
+such ﬁrms
+banking industry
+Roychowhury [
+tax rate
+Piotroski [
+HEDF93 BSCORE
+State Adoption
+PEVZNER HEDF93
+perceived lack
+adoption
+Lenders
+sample period
+increased
+s non-operating
+HMLEV93
+Young Chair
+Bill Baber
+efﬁcient
+Sengupta [
+XAD
+operating efﬁciency
+Earnings Quality
+helpful
+near insolvency
+two-digit primary
+al [
+HEDF93×DEL×DCF×CF ß27
+OANCF +
+tax status
+rule out
+Lyonnais court
++ β3DEL
+insigniﬁcant coefﬁcient
+Action Controls×DEL×HEDF93
+ROA
+Controls×CF Controls×DCF
+potential confounding
+discretion
+SKEW C
+leverage distribution
+noise
+SKEW =
+Rank T
+post-period
+HEDF93×POST
+insolvent non-Delaware
+SKEW +
+industry expertise
+legal event
+column
+December
+ﬁnding
+operating cycle
+Delaware Law
+Preand Post-Ruling
+measure C
+Creditor Control
+score similar
+software
+SOX Deﬁnition
+post-transition full
+ABSTRACT Debtholders
+Earnings Dep
+Penman
+CONSERVATISM CRANK
+full set
+Covenant
+Ball
+Finance
+EXEOWN
+transfer
+SHIVAKUMAR
+Bhojraj
+OTHER CORPORATE
+ANDERSON
+Controlling
+discretionary expenditure
+Timely Gain
+November
+Delaware General
+board governance
+ß5 ß6
+Sarbanes-Oxley Act
+“ Conditional
+Losses
+MILLS
+Dev
+construction
+Del
+VARALLO
+[ β24HEDF93
+exogenous regulatory
++ β10HEDF93
+Tex
+ruling
+buy-and-hold stock
+– OANCF
+mean value
+A15 indicate
+conservatism following
+Controls×DEL× HEDF93
+primary variable
+primary yearspeciﬁc
+β20DEL ×
+D reserve
+D SMBRD
+“ Estimation
+Market Value
+North DEBTHOLDERS
+ARMSTRONG
+corporation
+RULING ON
+observation year
+HEDF93×D
+other
++ β1RET
+JONES
+Qiang [
+full sample
+− CHE
+Gheewalla
+Accruals
+test robustness
+Public Financial
+β12HEDF93 ×
+Northeastern University
+C ACCR
+book-to-market ratio
+Weaver
+due care
+Baltimore
+Improve Firm
+one-tailed operating
+sample matched
+prevalent
+governance data
+Delisting Bias
++ β4BSCORE
+accounting method
+ß11 ß12
+ruling-related
+ASYMMETRIC TIMELINESS
+PATHE COMMUNICATIONS
+= X/P
+Prior literature
