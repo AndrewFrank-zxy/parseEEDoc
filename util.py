@@ -1,6 +1,12 @@
 # -*- coding: utf-8 -*-
 import os
 
+def local_path():
+    return os.getcwd()
+
+def full_path_dot(path):
+    return local_path() + path[1:]
+
 
 def retrieve_input_path(path, file_type = 'pdf'):
     '''
@@ -32,12 +38,12 @@ def retrieve_input_path(path, file_type = 'pdf'):
     return fl, dl
 
 
-def retrieve_output_path(filename, Path):
+def retrieve_output_path(filename, Path, doc_type='txt'):
     '''
     监测输出文件夹是否准备妥当
     '''
     portion = os.path.splitext(filename)
-    output_file = portion[0] + '.txt'
+    output_file = portion[0] + '.' + doc_type
 
     if not os.path.exists(Path):
         os.mkdir(Path)
@@ -46,7 +52,7 @@ def retrieve_output_path(filename, Path):
     if(os.path.exists(Path + '/' + output_file)):
         while True:
             print('The file \"' + output_file + '\" in path \"' + Path + '\" already exists.')
-            toGo = raw_input(
+            toGo = input(
                 'Continue conversion/parsing will overwrite the original file. Continue?[Y/N]')
             if (toGo.lower() == 'y'):
                 os.remove(Path + '/' + output_file)
@@ -57,3 +63,6 @@ def retrieve_output_path(filename, Path):
                 print('[InputError: Invalid input, try Y or N]')
     else:
         return output_file
+
+if __name__ == '__main__':
+    print(full_path_dot('.\\asdf'))

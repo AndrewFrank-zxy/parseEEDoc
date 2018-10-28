@@ -1,23 +1,19 @@
 # -*- coding: utf-8 -*-
 from config import path_config
 import util
-
-from pdfminer.pdfparser import PDFParser
-from pdfminer.pdfdocument import PDFDocument
-from pdfminer.pdfpage import PDFPage, PDFTextExtractionNotAllowed
-from pdfminer.pdfinterp import PDFResourceManager, PDFPageInterpreter
-from pdfminer.pdfdevice import PDFDevice
-from pdfminer.layout import LAParams, LTTextBox, LTTextBoxHorizontal# , LTTextLine, LTFigure, LTImage, LTChar
-from pdfminer.converter import PDFPageAggregator
-
 import re
+
+from pdfminer.layout import LAParams, LTTextBox, LTTextBoxHorizontal# , LTTextLine, LTFigure, LTImage, LTChar
+from pdfminer.pdfinterp import PDFResourceManager, PDFPageInterpreter, PDFTextExtractionNotAllowed
+from pdfminer.pdfparser import PDFParser, PDFDocument
+from pdfminer.converter import PDFPageAggregator
+from pdfminer.pdfdevice import PDFDevice
 
 
 def check_begin(text):
     '''检查文章是否正式开始
     '''
     result = re.search(r'abstract', text, re.IGNORECASE)
-
     return bool(result)
 
 
@@ -40,6 +36,7 @@ def check_body(text):
 
     return result
 
+
 def pdfToTxt(filename, inputPath, outputPath):  
     # 检查输出路径是否合适  
     o_f = util.retrieve_output_path(filename, outputPath)
@@ -54,10 +51,18 @@ def pdfToTxt(filename, inputPath, outputPath):
 
     #创建一个PDF文档对象存储文档结构
     # PDFDocument：保存获取的数据，和PDFParser是相互关联的
-    document = PDFDocument(parser)
+    doc = PDFDocument(parser)
+
+    # 连接分析器 与文档对象
+    parser.set_document(doc)
+    doc.set_parser(parser)
+
+    # 提供初始化密码
+    # 如果没有密码 就创建一个空的字符串
+    doc.initialize()
 
     # 检查文件是否允许文本提取
-    if not document.is_extractable:
+    if not doc.is_extractable:
         raise PDFTextExtractionNotAllowed
     else:
         # 创建一个PDF资源管理器对象来存储共享资源
@@ -83,7 +88,7 @@ def pdfToTxt(filename, inputPath, outputPath):
         begin = False
 
         # 处理每一页
-        for page in PDFPage.create_pages(document):
+        for page in doc.get_pages():
             interpreter.process_page(page)
             # 接受该页面的LTPage对象 里面存放着 这个page解析出的各种对象
             # 一般包括LTTextBox, LTFigure, LTImage, LTTextBoxHorizontal 等等
@@ -104,8 +109,6 @@ def pdfToTxt(filename, inputPath, outputPath):
                             # f.write(x.get_text().encode('utf-8')+'\n')
                             f.write(text+'\n')
     return True
-
-
 
 
 if __name__ == '__main__':

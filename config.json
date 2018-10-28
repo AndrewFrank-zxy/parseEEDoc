@@ -1,6 +1,35 @@
 {
     "pdf_articles_path": "./articles-pdf",
     "txt_articles_path": "./articles-txt",
+    "word_articles_path": "./articles-word",
     "txt_article_keywords_path": "./keywords-txt",
-    "txt_article_summary_path": "./summaries-txt"
+    "txt_article_summary_path": "./summaries-txt",
+    "format" : {
+        "wdFormatDocument" : 0,
+        "wdFormatDocument97" : 0,
+        "wdFormatDocumentDefault" : 16,
+        "wdFormatDOSText" : 4,
+        "wdFormatDOSTextLineBreaks" : 5,
+        "wdFormatEncodedText" : 7,
+        "wdFormatFilteredHTML" : 10,
+        "wdFormatFlatXML" : 19,
+        "wdFormatFlatXMLMacroEnabled" : 20,
+        "wdFormatFlatXMLTemplate" : 21,
+        "wdFormatFlatXMLTemplateMacroEnabled" : 22,
+        "wdFormatHTML" : 8,
+        "wdFormatRTF" : 6,
+        "wdFormatTemplate" : 1,
+        "wdFormatTemplate97" : 1,
+        "wdFormatText" : 2,
+        "wdFormatTextLineBreaks" : 3,
+        "wdFormatUnicodeText" : 7,
+        "wdFormatWebArchive" : 9,
+        "wdFormatXML" : 11,
+        "wdFormatXMLDocument" : 12,
+        "wdFormatXMLDocumentMacroEnabled" : 13,
+        "wdFormatXMLTemplate" : 14,
+        "wdFormatXMLTemplateMacroEnabled" : 15,
+        "wdFormatXPS" : 18,
+        "wdFormatPDF" : 17
+    }
 }
