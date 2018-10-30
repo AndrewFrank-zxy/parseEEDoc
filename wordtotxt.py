@@ -30,8 +30,7 @@ def get_text(paragraphs):
                     to_write = to_write + par_str + '\n'
     return to_write
 
-
-if __name__ == "__main__":
+def word_to_txt():
     pc = path_config()
     wap = pc.get_wap()
     tap = pc.get_tap()
@@ -43,5 +42,6 @@ if __name__ == "__main__":
             continue
         doc = Document(util.full_path(wap, file_name))
         util.save_txt(util.full_path(tap, o_f), get_text(doc.paragraphs))
-    
-    # util.save_txt("F:\\PerStudy\\Desktop\\ParticipleDocs\\parseEEDoc\\articles-txt\\Debtholders' Demand for Conservatism Evidence from Changes in Directors' Fiduciary Duties.txt", get_text(doc.paragraphs))
+
+if __name__ == "__main__":
+    word_to_txt()
