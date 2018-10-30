@@ -1,5 +1,7 @@
 from docx import Document
+from config import path_config
 import content
+import util
 import re
 
 
@@ -21,7 +23,6 @@ def get_text(paragraphs):
         par_runs = paragraph.runs
         if len(par_runs):
             if len(par_str) and check_font_size(par_runs[0]) == 'None':
-                # print("=====================================")
                 par_str = content.tidy_para_text(par_str)
                 if par_str[0].islower():
                     to_write = to_write[:-1] + ' ' + par_str + '\n'
@@ -30,15 +31,17 @@ def get_text(paragraphs):
     return to_write
 
 
-def save_txt(filename, all_txt):
-    '''保存正文内容到文件
-    '''
-    with open(filename, 'a') as f:
-        f.write(all_txt)
-
-
 if __name__ == "__main__":
-    doc = Document(
-        "F:\\PerStudy\\Desktop\\ParticipleDocs\\parseEEDoc\\articles-word\\Debtholders' Demand for Conservatism Evidence from Changes in Directors' Fiduciary Duties01.docx")
+    pc = path_config()
+    wap = pc.get_wap()
+    tap = pc.get_tap()
+    fp, dp = util.retrieve_input_path(wap, 'docx')
+    for file_name in fp:
+        o_f = util.retrieve_output_path(tap, file_name)
+        if not o_f:
+            print('Conversion cancelled')
+            continue
+        doc = Document(util.full_path(wap, file_name))
+        util.save_txt(util.full_path(tap, o_f), get_text(doc.paragraphs))
     
-    save_txt("F:\\PerStudy\\Desktop\\ParticipleDocs\\parseEEDoc\\articles-txt\\Debtholders' Demand for Conservatism Evidence from Changes in Directors' Fiduciary Duties.txt", get_text(doc.paragraphs))
+    # util.save_txt("F:\\PerStudy\\Desktop\\ParticipleDocs\\parseEEDoc\\articles-txt\\Debtholders' Demand for Conservatism Evidence from Changes in Directors' Fiduciary Duties.txt", get_text(doc.paragraphs))

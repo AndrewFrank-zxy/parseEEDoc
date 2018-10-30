@@ -8,11 +8,13 @@ def initialize():
     """Download required nltk libraries."""
     textrank.setup_environment()
 
+
 def extract_summary(filename):
     """Print summary text to stdout."""
     with open(filename) as f:
         summary = textrank.extract_sentences(f.read())
         print(summary)
+
 
 def extract_phrases(filename):
     """Print key-phrases to stdout."""

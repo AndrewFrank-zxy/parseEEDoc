@@ -8,6 +8,7 @@ from win32com.client.dynamic import Dispatch, ERRORS_BAD_CONTEXT
 
 
 ERRORS_BAD_CONTEXT.append(winerror.E_NOTIMPL)
+
 local_dir = util.local_path()
 new_local_dir = local_dir
 wf = word_format()
@@ -46,6 +47,17 @@ def get_doc(input_file, output):
 #         except _ctypes.COMError:
 #             return origin_pdf
 
+def pdf_to_word():
+    pc = path_config()
+    pap = pc.get_pap()
+    wap = pc.get_wap()
+    fp, dp = util.retrieve_input_path(pap)
+    for file_name in fp:
+        o_f = util.retrieve_output_path(wap, file_name, 'docx')
+        if not o_f:
+            print('Conversion cancelled')
+            continue
+        get_doc(util.full_path(pap, file_name), util.full_path(wap, o_f))
 
 if __name__ == '__main__':
-    get_doc("F:\\PerStudy\\Desktop\\ParticipleDocs\\parseEEDoc\\articles-pdf\\Debtholders' Demand for Conservatism Evidence from Changes in Directors' Fiduciary Duties.pdf", "F:\\PerStudy\\Desktop\\ParticipleDocs\\parseEEDoc\\articles-word\\Debtholders' Demand for Conservatism Evidence from Changes in Directors' Fiduciary Duties.docx")
+    pdf_to_word()
