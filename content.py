@@ -13,6 +13,9 @@ def tidy_para_text(paragraph):
     '''
     replace_n = re.compile(r'\n+')
     replace_c = re.compile(r'- +')
+    replace_d = re.compile(r'.*\w\.[0-9]$')
+    if re.match(replace_d, paragraph):
+        paragraph = paragraph[:-1]
     text = re.sub(replace_n, ' ', paragraph)
     return re.sub(replace_c, '', text)
 

@@ -1,15 +1,320 @@
 Key phrases in paragraph1:
-Research on accounting conservatism posits that demand from lenders is the main reason why firms adopt conservative accounting policies (Watts [2003]). Supporting evidence for this conjecture is primarily based on documented associations between conservatism and various characteristics of debt contracting (e.g., Ahmed et al. [2002], Ball and Shivakumar [2005], Beatty, Weber,  and Yu  [2008], Zhang [2008]), but most of them are not  of a causal nature, raising the question of whether conservatism is indeed demanded by debtholders. Moreover, conservatism could also be excessive and thus inefficient for firms and even detrimental to debtholders, which appears to conflict with the presumption that debtholders would always demand conservatism. For instance, too much conservatism may result in tighter debt covenants leading to premature transfer of decision rights to debtholders, which might unduly constrain a firm’s investment and financing policies (Leuz [2001]). Also, excessive conservatism may allow managers to create hidden reserves, which may be reversed in the future at the discretion of shareholders (Leuz [1998]). To help resolve this ambiguity on debtholder preferences, we exploit an important legal event to identify a causal link between debtholders’ demand and accounting conservatism.
+DOI: 10.1111/1475-679X.12062	
 
-characteristics shareholders conservatism associations presumption 
+DOI 
 ===========
 Key phrases in paragraph2:
-A 1991 Delaware court in the ruling of Credit Lyonnais Bank v. Pathe Communications (hereafter “the court ruling”) expanded the scope of directors’ fiduciary duties to include creditors when a Delaware incorporated firm is in the “vicinity of insolvency.” The fact that the court ruling had no judgment on financial reporting per se, combined with the natural event setting, which helps mitigate the issue of confounding factors, makes it possible to attribute any post-ruling change in conservatism by near insolvent Delaware companies to debtholders’ demand for conservatism.1
+ABSTRACT
 
-conservatism Communications debtholders 
+
 ===========
 Key phrases in paragraph3:
-We use a difference-in-differences research design to capture the differential post-ruling changes in financial reporting conservatism between firms near insolvency and away from insolvency and between firms incorporated in and outside the State of Delaware. We employ a firm-year specific composite score as our main measure of conservatism and supplement it with the asymmetric timeliness models of Basu [1997] and Ball and Shivakumar [2006]. Overall, we find that, in the immediate period following the court ruling in 1991, financial reporting conservatism significantly increased for near insolvent Delaware firms. The results indicate that, in response to their increased fiduciary obligations to creditors, directors of firms subject to the court ruling influence managers to adopt more conservative financial reporting.
+∗School of Business, George  Mason University † Merrick  School of Business, University of
 
-obligations Shivakumar conservatism post-ruling difference-in-differences 
+∗School George Mason Mason University Merrick School Business 
+===========
+Key phrases in paragraph4:
+1 The idea is that the court  ruling  provides an exogenous change  in fiduciary duties, which in turn should affect firms’ supply of conservative accounting. This exogenous variation allows us to identify debtholders’ demand for conservatism. If the shift in supply leads to no change in conservatism,  this suggests that the demand for conservatism is either fully inelastic (which is implausible) or absent,  which is the null for our tests.
+
+absent change variation demand supply accounting conservatism shift firms debtholders 
+===========
+Key phrases in paragraph5:
+2 Gormley, Kim, and Martin  [2012] exploit  an exogenous regulatory change  in the Indian banking industry. They document that  foreign  bank entry is associated  with more  timely loss recognition, and  this change appears to be  driven  by a shift in firms’ incentives  to supply additional information to lenders.
+
+incentives change lenders loss recognition information Gormley shift banking industry 
+===========
+Key phrases in paragraph6:
+3 For example, see McDermott, Inc. v. Lewis, 531 A.2d 206, 215–17, Del. 1987 and reaffirmed again in Examen, Inc. v. Vantageport Venture Partners, 873 A.2d 318, 320, Del. Ch. 2005.
+
+Examen Vantageport Venture Venture Partners Ch example McDermott Lewis 
+===========
+Key phrases in paragraph7:
+American Catholic Educational Programming Foundation, Inc. v. Gheewalla, 930 A.2d 92, 99 (Del. zone  of insolvency. Throughout this paper, we use the  term  “near  insolvent”  or “near  insolvency” to capture the underlying principle in the Credit Lyonnais court  ruling.
+
+Lyonnais Gheewalla principle Programming Foundation Catholic Educational Educational Programming American Catholic insolvency 
+===========
+Key phrases in paragraph8:
+10 Judicial courts have held directors personally liable for providing misleading information and  gross negligence (e.g.,  see Escott v. Barchris Constr. Corp. 283 F. Supp.  643, S.D.N.Y. 1968 and  Smith v. Van Gorkom 488 A.2d 858, 3 EXC 112, Del. 1985).  More  recently,  directors of Enron and Worldcom  paid out of their pockets as part of the settlement (see In re Enron Corp., Sec., Derivative & ERISA Litig., 391 F. Supp.  2d 541, S.D. Tex. 2005 and  In re WorldCom,  Inc. Sec. Litig., 388 F. Supp. 2d 319, S.D. N.Y. 2005).
+
+settlement information directors Barchris Constr Worldcom Derivative pockets negligence WorldCom 
+===========
+Key phrases in paragraph9:
+11 Ahmed  and  Duellman [2007]  state that  “Because stronger boards  are likely to be more proficient at efficient  contracting and understand the benefits  of conservatism  they are likely to demand more  conservative accounting” (p. 415).
+
+Duellman state benefits boards accounting conservatism Ahmed 
+===========
+Key phrases in paragraph10:
+CRANK ALL = β0 + β1 DEL + β2 HEDF93 + β3 DEL × HEDF93 where CRANK ALL is a composite conservatism  measure equal to the average decile  ranks  of three  conservatism  proxies  identified in prior  studies:
+
+CRANK ALL ranks DEL conservatism measure β0 conservatism proxies studies HEDF93 
+===========
+Key phrases in paragraph11:
+(i)  C ACCR, that  is, negative  non-operating accruals,  calculated as (−1) × window (with a minimum of two years) centered in the observation year t, (ii) C SKEW, which is relative skewness of earnings versus cash flows, calcu- servation year t, 12 , 13 and (iii) C PZ for the unrecorded reserves on the balance sheet at the end of the observation year based on Penman and Zhang [2002].14 CRANK ALL incorporates different aspects of conservatism:  conditional conservatism  proxied by negative  non-operating accruals  and  relative skewness measure, as well as adoption of unconditional accounting
+
+minimum servation observation reserves accruals skewness adoption conservatism accounting earnings 
+===========
+Key phrases in paragraph12:
+12 Conservatism  results  in  persistently  negative  accruals,  while the  rate  of accumulation of negative  non-operating accruals  indicates  the  degree of conservatism  (Givoly and  Hayn [2000]). Averaging over a number of periods  mitigates the impact  of any temporary large accruals on conservatism measurement, as accruals tend to reverse within two years (Richardson et al. [2005]). In addition, measuring over a five-year window centered in year t, that is [t – 2,
+
+window number addition accruals conservatism measurement conservatism Richardson Conservatism accumulation Givoly 
+===========
+Key phrases in paragraph13:
+13 In additional analyses, we measure C ACCR and  C SKEW over either a five-year window centered in  year t + 1 or  a three-year  window centered in  year t, and  still find  a positive
+
+window analyses year t C ACCR C SKEW 
+===========
+Key phrases in paragraph14:
+14 Specifically, C PZ is calculated as the sum of (i) LIFO reserve as reported in the observa-
+
+sum LIFO reserve i C PZ 
+===========
+Key phrases in paragraph15:
+15 We do  not  include  C-score in our  composite measure because  C-score would  capture changes  in firm characteristics following the regime change, which need  not have anything  to do with conservatism  in our setting. We thank  the anonymous referee for pointing this out.
+
+anything changes setting C-score measure firm characteristics referee regime conservatism 
+===========
+Key phrases in paragraph16:
+16 We thank  Tyler Shumway for sharing  the  SAS program to calculate  EDF scores (wwwpersonal.umich.edu/�shumway/papers.dir/nuiter99 print.sas).
+
+SAS program Tyler Shumway EDF scores 
+===========
+Key phrases in paragraph17:
+19 Our  pre-ruling period begins  in 1988 because  1988 is the  first year in which operating cash flows data become widely available in Compustat, and this variable is required to estimate two-dimensional conservatism  measures,  that  is, negative  non-operating accruals  (C ACCR) and relative earnings skewness (C SKEW). We exclude  year 1992 from our analysis because the ruling  was passed  at the  end  of 1991, and  it is unlikely  to be fully implemented during the transition year of 1992.
+
+become transition conservatism measures analysis Compustat SKEW earnings skewness accruals 
+===========
+Key phrases in paragraph18:
+To corroborate our findings in section 3.1, we explore  board  characteristics identified in prior literature to examine the role of board characteristics in the  adoption of accounting conservatism.  We create  a composite measure of board  governance, BSCORE, that is equal to the sum of the four dichotomous variables, namely: board  size (D SMBRD), board  independence (D MAJIND), board  accounting expertise (D ACCEXP), and board  industry expertise (D INDEXP). D SMBRD is a dichotomous variable equal to one if the total count  of directors on the board  is smaller than the sample median of eight members and zero otherwise.  Similar to Ajinkya, Bhojraj, and Sengupta  [2005], we measure board  independence (D MAJIND) as a dichotomous variable equal to one if more than  50% of directors on the board  are independent, and zero otherwise. D ACCEXP is measured as a dichotomous variable equal to one if at least one independent director on the board  has accounting expertise, and  zero otherwise.22  We define  D INDEXP as a dichotomous variable  equal  to one  if at least one  independent director on the  board  has industry  expertise, defined as any prior  experience in another firm that  operates in the  same two-digit primary SIC industry, and zero otherwise (Faleye, Hoitash,  and Hoitash  [2012]). To examine how the board of directors could serve as a channel for the court ruling, we estimate
+
+characteristics governance accounting conservatism independence variables Sengupta experience literature 
+===========
+Key phrases in paragraph19:
+21 In an additional analysis, we also cluster  standard errors  of the main model  by firm and find the effect of ruling  on the composite conservatism  measure, CRANK ALL, is still positive
+
+CRANK ALL firm analysis conservatism measure errors effect model 
+===========
+Key phrases in paragraph20:
+CRANK ALL = β0 + β1 DEL + β2 HEDF93 + β3 DEL × HEDF93
+
+CRANK ALL β1 DEL β0 β2 HEDF93 β3 DEL 
+===========
+Key phrases in paragraph21:
+23 One  caveat with using  asymmetric  timeliness  of earnings as a conservatism  measure in our  setting  is that  its construction uses market  returns, while market  prices possibly respond to the court  ruling  and may embed an expectation of what the firm will do in response to the ruling.  This is the primary reason  why we rely on several conservatism proxies in our study. and DCF×CF.
+
+response study caveat conservatism proxies DCF×CF timeliness conservatism earnings expectation construction 
+===========
+Key phrases in paragraph22:
+ TA B L E  1
+
+L E TA B B L 
+===========
+Key phrases in paragraph23:
+Sample Description
+
+Description 
+===========
+Key phrases in paragraph24:
+C ACCR, C SKEW, and C PZ)
+
+C ACCR C PZ C SKEW 
+===========
+Key phrases in paragraph25:
+ (8,131) (22,389) (5,256)
+
+
+===========
+Key phrases in paragraph26:
+Number of firms in the final sample 	2,705
+
+sample firms Number 
+===========
+Key phrases in paragraph27:
+Panel  A of table 1 describes  construction of the sample  used to test our main  hypothesis.  We begin  with 86,672 firm-year observations from  Compustat  for 1988–1991 and  1993–1996. We first drop  11,092 firm-years with missing state of incorporation data  in Compustat and  another 17,148 observations of financial  firms. We lose an additional 8,131 observations because of missing data needed to estimate  the three  conservatism  measures, that is, C ACCR, C SKEW, and C PZ. We also drop  22,389 observations with missing data to compute 1993 EDF scores to measure near  insolvency, and another 5,256 observations with negative market  value equity or missing financial  statement and institutional ownership data. Finally, after requiring each  firm  in our  sample  to have at least one  observation in each  of the preand post-ruling periods,  our final sample has 18,827 firm-year observations (2,705 unique firms). Panel B of table 1 shows annual distribution of sample firms partitioned by DEL and HEDF93.
+
+hypothesis post-ruling observation incorporation conservatism insolvency distribution observations firm-years construction 
+===========
+Key phrases in paragraph28:
+Summary Statistics
+
+Statistics 
+===========
+Key phrases in paragraph29:
+ 
+
+
+===========
+Key phrases in paragraph30:
+Lower 	Upper on  a 0–9 scale. Mean  (median) C ACCR (i.e.,  negative  non-operating accruals) is 0.017 (0.009)  and mean (median) C SKEW (i.e., the ratio of earnings skewness to cash flows skewness) is 0.820 (0.191), generally  consistent with prior  literature (e.g., Givoly and Hayn [2000],  Ahmed  and Duellman [2007],  Beatty, Weber, and  Yu [2008],  and  Zhang  [2008]). Similar to Penman  and  Zhang  [2002],  our  sample  has a mean  (median) C PZ of 0.356 (0.100).  About  half  of our  sample  is in the  post-ruling period (mean of POST, 0.516). Consistent with prior findings (e.g., Daines [2001]), approximately 51% of firm-years in our sample correspond to firms incorporated in Delaware (mean of DEL, 0.507). Mean (median) EDF93 of 5.4% (0.002%) implies that  the 1993 EDF distribution is right  skewed, that  is, our  sample includes  some firms that were highly distressed  in 1993.25  The mean  value of HEDF93 (0.186)  indicates  that  about  19% of sample  firm-year observations  have a 1993 EDF score  in the  top  quartile of its distribution. Mean (median) MVE of our sample is $852.401 (94.500) million,  suggesting  that our  sample  is somewhat  skewed toward  larger  firms. Descriptive  statistics on other control variables are in general consistent with expectations.26
+
+correspond distribution statistics variables consistent literature observations findings firm-years 
+===========
+Key phrases in paragraph31:
+Table  3 presents Spearman correlations among  variables  in  our  main sample.  CRANK ALL  is negatively  correlated with  firm  size, supporting
+
+CRANK ALL correlations sample variables firm size presents 
+===========
+Key phrases in paragraph32:
+25 In section  6, we run  several robustness tests to disentangle the  effect of including firms that may be practically insolvent or extremely  distressed.
+
+firms section robustness tests effect 
+===========
+Key phrases in paragraph33:
+8 GROWTH 	−0.072 	−0.064    0.028  −0.098     0.152  −0.071 −0.309
+
+GROWTH 
+===========
+Key phrases in paragraph34:
+This table provides  the Spearman correlation coefficients  for the main variables in the main tests. Italicized rows are p-values. Significant  correlations are indicated in bold  (p < 0.10, two-tailed test).  All variables are  calculated as defined in the  appendix. All continuous variables are  winsorized  at 1st and  99th percentiles. the  income  aggregation and  information asymmetries  hypothesis  by LaFond  and  Watts [2008]  and  consistent with prior  literature (Ramalingegowda  and  Yu  [2012],   LaFond  and  Roychowhury  [2008]); and  is positively correlated with litigation risk and institutional ownership (e.g., Beatty, Weber,  and  Yu  [2008]  and  Ramalingegowda and  Yu  [2012]). The  negative correlation between  our  conservatism measure and  leverage  appears to contradict prior  studies  (e.g., Khan  and  Watts [2009]), but  multivariate analyses confirm  the documented positive association  of leverage  with conservatism.  The  negative  association  of book-to-market ratio  with conservatism is consistent with the expected positive association  between  conservatism and market-to-book (e.g., Roychowdhury and Watts [2007]). HEDF93 is positively correlated with CRANK ALL, that  is, firms approaching near  insolvency in 1993 are on average more  conservative  during the sample period. Predictably,  firm size (natural log of market  value of equity) board  in our sample has about eight directors (similar to Anderson, Mansi, and Reeb [2004]). The  average  PCT INDDIR is 0.675, suggesting  that  on  average  about  68%  of the  directors on  the  board  are  independent, similar  to  data  reported in  Ahmed  and  Duellman [2007]. The mean  D MAJIND is 0.873, implying that  about  87% of firms in our sample  have majority independent boards.  In addition, consistent with the  perceived lack of accounting expertise on  boards  prior  to the  passage  of the  Sarbanes-Oxley  Act in 2002 and  with the  findings  in Krishnan  and Visvanathan [2008], we find that only 22.1% of our sample observations have at least one director with accounting expertise. Finally, we find at least one director with industry expertise on 28.2% of firm-years in our sample. firms exhibit  a larger  increase  in  conservatism  around the  court  ruling. Focusing on the full specification in column  (iii), we find that CRANK ALL is positively associated  with litigation  risk and  institutional ownership, and negatively with firm size, book-to-market ratio, and asset growth, consistent with prior  literature (e.g., Roychowdhury and Watts [2007],  Beatty, Weber, and Yu [2008], Ramalingegowda and Yu [2012]).
+
+coefficients Roychowhury specification book-to-market Ramalingegowda market-to-book conservatism Sarbanes-Oxley Visvanathan Roychowdhury 
+===========
+Key phrases in paragraph35:
+27 To test robustness of our main findings to the confounding effects of firm-level characteristics, we run  the following sensitivity tests: (1) as presented in online  appendix table A4, we main  qualitatively similar to those  reported in table  4 (β7  for CRANK ALL = 0.794, t-stat =
+
+CRANK ALL characteristics β7 appendix table sensitivity robustness findings effects 
+===========
+Key phrases in paragraph36:
+Panel A: Court ruling and composite conservatism rank
+
+conservatism rank Court ruling 
+===========
+Key phrases in paragraph37:
+(i) 		(ii)		(iii) Dep. Var. = CRANK  ALL 	DEL = 1 	HEDF93 = 1 	Full sample
+
+CRANK ALL Dep ALL DEL Var Full sample i iii HEDF93 
+===========
+Key phrases in paragraph38:
+Intercept	ß0	4.625∗∗∗ 	33.10 	5.295∗∗∗ 	23.16 	4.637∗∗∗ 	42.25 operating cycle and cash flow volatility, with or without their  interaction terms with the seven ruling-related variables. The results of these estimations are all consistent with those reported in table 4.
+
+operating cycle interaction cash flow flow volatility variables estimations results Intercept 
+===========
+Key phrases in paragraph39:
+Dep. Var. = CRANK ALL 	(i) 	(ii) 	(iii)
+
+CRANK ALL ii Dep Var i iii 
+===========
+Key phrases in paragraph40:
+Intercept	ß0	4.584∗∗∗ 	20.90 	4.777∗∗∗ 	20.37 	4.791∗∗∗ 	18.02
+
+Intercept 
+===========
+Key phrases in paragraph41:
+Dep. Var. = X/P 	(i) 	(ii) 	(iii)
+
+ii Dep Var X/P i iii 
+===========
+Key phrases in paragraph42:
+DEL = 1 	HEDF93 = 1 	Full sample
+
+Full sample DEL HEDF93 
+===========
+Key phrases in paragraph43:
+Intercept                                   ß0        −0.002       −0.16   −0.040       −1.32   −0.001       −0.11
+
+Intercept ß0 
+===========
+Key phrases in paragraph44:
+Adj. R2                                                                                                               28.9%                       31.0%                       30.4%
+
+Adj R2 
+===========
+Key phrases in paragraph45:
+6.1.1.  Real Actions. Asquith, Gertner, and  Scharfstein [1994]  show that, as firms approach distress, they engage  in asset sales, or improve  their operating efficiency  through optimizing the  inventory  and  discretionary expenditure policies. The authors also suggest that better performing distressed   firms  are  more   likely  to  avoid  insolvency.  To  mitigate   the concern that  our  observed  change in  conservatism  could  be  driven  by real  actions  taken  by firms,  we augment our  model  (1)  with additional controls   for  the  following  real  actions:  (i)  DEC CAPEX, a  dichotomous variable  equal   to  one   if  a  firm’s  capital   expenditure  decreases   when compared  to  the  prior   year  and   zero  otherwise;   (ii)   INC SPPE, a  dichotomous  variable   equal   to  one   if  a  firm’s  sale  of  PP&E  increases from   the   prior   year  and   zero   otherwise;   (iii)   DEC NSEG,  a  dichotomous   variable   equal   to  one   if  a  firm   decreases   the   number  of  its business  or  geographic segments   during the  year  and  zero  otherwise;
+
+controls Scharfstein segments expenditure policies inventory operating efficiency insolvency conservatism 
+===========
+Key phrases in paragraph46:
+(iv) NABN DISEXP, (−1) × abnormal discretionary expenses  (Roychowdhury  [2006]), and  (v) NABN PROD, (−1) × abnormal production  costs
+
+NABN PROD iv v −1 production costs NABN DISEXP expenses Roychowdhury 
+===========
+Key phrases in paragraph47:
+28 For instance,  Chava and Roberts  [2008] show that  capital expenditures decrease following  violations  of debt  covenants.  Tan  [2013] further elaborates on  the  mechanism of how creditors can impose restructuring changes  on defaulting borrowers.
+
+mechanism violations elaborates Chava covenants capital expenditures creditors borrowers instance 
+===========
+Key phrases in paragraph48:
+Dep. Var. = CRANK ALL 	(i) 	(ii)
+
+CRANK ALL ii Dep Var i 
+===========
+Key phrases in paragraph49:
+Intercept                                                     ß0                     4.482∗∗∗           39.81           4.517∗∗∗        39.07
+
+Intercept 
+===========
+Key phrases in paragraph50:
+DEC CAPEX                                                       ß14                   0.115∗∗∗             4.77           0.045           0.88
+
+DEC CAPEX 
+===========
+Key phrases in paragraph51:
+INC SPPE                                                           ß15              −0.019          −0.69       −0.024        −0.43
+
+INC SPPE SPPE ß15 
+===========
+Key phrases in paragraph52:
+DEC NSEG                                                          ß16              −0.018          −0.31       −0.108        −0.81
+
+NSEG ß16 DEC NSEG 
+===========
+Key phrases in paragraph53:
+NABN DISEXP                                                   ß17              −0.680∗∗∗      −10.25       −0.529∗∗∗      −3.18
+
+DISEXP ß17 NABN DISEXP 
+===========
+Key phrases in paragraph54:
+NABN PROD                                                      ß18                   0.116             1.58           0.197           1.13
+
+NABN PROD 
+===========
+Key phrases in paragraph55:
+Adj. R2                                                                                                                                                          18.1%                             18.2%
+
+Adj R2 
+===========
+Key phrases in paragraph56:
+This table presents regression estimates  to test the effect of the 1991 Delaware court  ruling  on conservatism rank  after controlling for effects of real actions.  The sample includes  18,402 observations for 2,676 firms spanning calendar years 1988–1991 and  1993–1996. DEC CAPEX is a dichotomous variable equal  to
+
+calendar DEC CAPEX sample regression estimates presents regression conservatism observations Delaware 
+===========
+Key phrases in paragraph57:
+1 if the capital expenditure (CAPX) decreases  from the prior  year and 0 otherwise.  INC SPPE is a dichotomous variable equal to 1 if the sale of PPE (SPEE) increases from the prior year and 0 otherwise. DEC NSEG is a dichotomous variable equal  to 1 if either  the number of business segments  or number of geographic segments  decreases  from prior  year and  0 otherwise.  NABN DISEXP is (−1) × abnormal discretionary expenditures (the  sum of XRD, XAD, XSGA) per  Roychowdhury [2006].  NABN PROD is (−1) × abnormal production costs (COGS  + change in INVT) per  Roychowdhury [2006].  All other variables are  defined
+
+business segments production change expenditures variables DISEXP capital expenditure Roychowdhury 
+===========
+Key phrases in paragraph58:
+29 Recent  research, however, disputes  that  notion and  shows that  even after covenants  are violated firms adopt  more accounting conservatism (Wang, Xie, and Xin [2011],  Tan [2013]).
+
+Tan Xin notion covenants conservatism Wang research Xie firms 
+===========
+Key phrases in paragraph59:
+31 We  thank   John   Graham  for   providing  us  with  these   data   (https://faculty.fuqua. duke.edu/町jgraham/taxform.html).
+
+John Graham data https 
+===========
+Key phrases in paragraph60:
+32 The marginal significance  for the two-year event window is probably  due to two reasons: (1)  conservatism measures  are estimated over multiple  years (e.g.,  C ACCR and  C SKEW) to mitigate the impact of any temporary large accruals, and thus the change  in conservatism over a short period may be small; (2) the effect of the ruling  may also need  more  than  one year to take hold.
+
+window conservatism measures ruling SKEW impact accruals effect significance reasons 
+===========
+Key phrases in paragraph61:
+Conservatism  Measures
+
+Conservatism Measures 
+===========
+Key phrases in paragraph62:
+(Continued)
+
+
+===========
+Key phrases in paragraph63:
+REFERENCES
+
+
+===========
+Key phrases in paragraph64:
+
+
+
 ===========

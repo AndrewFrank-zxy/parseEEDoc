@@ -20,8 +20,9 @@ import nltk
 
 import io
 import os
+import re
 pc = path_config()
-
+match_filter = re.compile(r'^\W+$')
 
 def setup_environment():
     """Download required resources."""
@@ -33,7 +34,7 @@ def setup_environment():
 # filter out nouns, and proper nouns
 def filter_for_tags(tagged, tags=['NN', 'NNS', 'NNP', 'NNPS']):
     """Apply syntactic filters based on POS tags."""
-    return [item for item in tagged if item[1] in tags]
+    return [item for item in tagged if item[1] in tags and not re.match(match_filter, item[0])]
 
 
 def normalize(tagged):
@@ -88,7 +89,7 @@ def draw_graph(graph):
     plt.show()
 
 
-def extract_key_phrases(text, nums=-1):
+def extract_key_phrases(text, nums=-1, comb=False):
     """Return a set of key phrases.
 
     :param text: A string.
@@ -99,6 +100,7 @@ def extract_key_phrases(text, nums=-1):
     # assign POS tags to the words in the text
     tagged = nltk.pos_tag(word_tokens)
     textlist = [x[0] for x in tagged]
+    # print(textlist)
 
     tagged = filter_for_tags(tagged)
     tagged = normalize(tagged)
@@ -235,9 +237,9 @@ def summarize_all():
         kpa = ''
         for prgh in text_list:
             n += 1
-            m_keyphrases, keyphrases, graph = extract_key_phrases(prgh, 5)
+            m_keyphrases, keyphrases, graph = extract_key_phrases(prgh, 10)
             kpa = kpa + gen_key_phrases(prgh, m_keyphrases, n)
-        write_key_phrases(article, kpa)       
+        write_key_phrases(article, kpa)
 
         # keyphrases, graph = extract_key_phrases(text)
         # summary = extract_sentences(text)
