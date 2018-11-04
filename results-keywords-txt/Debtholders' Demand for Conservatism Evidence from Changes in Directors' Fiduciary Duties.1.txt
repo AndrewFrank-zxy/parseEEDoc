@@ -1,16 +1,15 @@
 Key phrases in paragraph1:
-presumption
-associations
-shareholders
-conservatism
-characteristics
+Research on accounting conservatism posits that demand from lenders is the main reason why firms adopt conservative accounting policies (Watts [2003]). Supporting evidence for this conjecture is primarily based on documented associations between conservatism and various characteristics of debt contracting (e.g., Ahmed et al. [2002], Ball and Shivakumar [2005], Beatty, Weber,  and Yu  [2008], Zhang [2008]), but most of them are not  of a causal nature, raising the question of whether conservatism is indeed demanded by debtholders. Moreover, conservatism could also be excessive and thus inefficient for firms and even detrimental to debtholders, which appears to conflict with the presumption that debtholders would always demand conservatism. For instance, too much conservatism may result in tighter debt covenants leading to premature transfer of decision rights to debtholders, which might unduly constrain a firm’s investment and financing policies (Leuz [2001]). Also, excessive conservatism may allow managers to create hidden reserves, which may be reversed in the future at the discretion of shareholders (Leuz [1998]). To help resolve this ambiguity on debtholder preferences, we exploit an important legal event to identify a causal link between debtholders’ demand and accounting conservatism.
+
+characteristics shareholders conservatism associations presumption 
+===========
 Key phrases in paragraph2:
-Communications
-debtholders
-conservatism
+A 1991 Delaware court in the ruling of Credit Lyonnais Bank v. Pathe Communications (hereafter “the court ruling”) expanded the scope of directors’ fiduciary duties to include creditors when a Delaware incorporated firm is in the “vicinity of insolvency.” The fact that the court ruling had no judgment on financial reporting per se, combined with the natural event setting, which helps mitigate the issue of confounding factors, makes it possible to attribute any post-ruling change in conservatism by near insolvent Delaware companies to debtholders’ demand for conservatism.1
+
+conservatism Communications debtholders 
+===========
 Key phrases in paragraph3:
-Shivakumar
-obligations
-post-ruling
-difference-in-differences
-conservatism
+We use a difference-in-differences research design to capture the differential post-ruling changes in financial reporting conservatism between firms near insolvency and away from insolvency and between firms incorporated in and outside the State of Delaware. We employ a firm-year specific composite score as our main measure of conservatism and supplement it with the asymmetric timeliness models of Basu [1997] and Ball and Shivakumar [2006]. Overall, we find that, in the immediate period following the court ruling in 1991, financial reporting conservatism significantly increased for near insolvent Delaware firms. The results indicate that, in response to their increased fiduciary obligations to creditors, directors of firms subject to the court ruling influence managers to adopt more conservative financial reporting.
+
+obligations Shivakumar conservatism post-ruling difference-in-differences 
+===========

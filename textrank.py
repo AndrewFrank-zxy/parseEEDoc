@@ -190,11 +190,13 @@ def extract_sentences(text, summary_length=100, clean_sentences=False, language=
     return summary
 
 
-def gen_key_phrases(key_phrases, para_num):
+def gen_key_phrases(para_content, key_phrases, para_num):
     """Generate key phrases to write."""
     kpp = 'Key phrases in paragraph%d:\n' % para_num
+    kpp = kpp + para_content + '\n\n'
     for key_phrase in key_phrases:
-        kpp = kpp + key_phrase + '\n'
+        kpp = kpp + key_phrase + ' '
+    kpp = kpp + '\n===========\n'
     return kpp
 
 def write_key_phrases(filename, key_phrases):
@@ -234,7 +236,7 @@ def summarize_all():
         for prgh in text_list:
             n += 1
             m_keyphrases, keyphrases, graph = extract_key_phrases(prgh, 5)
-            kpa = kpa + gen_key_phrases(m_keyphrases, n)
+            kpa = kpa + gen_key_phrases(prgh, m_keyphrases, n)
         write_key_phrases(article, kpa)       
 
         # keyphrases, graph = extract_key_phrases(text)
