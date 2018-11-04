@@ -1,0 +1,840 @@
+Key phrases in paragraph1:
+Conservatism
+duties
+governance
+insolvency
+Keywords
+Key phrases in paragraph2:
+Key phrases in paragraph3:
+presumption
+associations
+shareholders
+conservatism
+characteristics
+Key phrases in paragraph4:
+Communications
+debtholders
+conservatism
+Key phrases in paragraph5:
+Shivakumar
+obligations
+post-ruling
+difference-in-differences
+conservatism
+Key phrases in paragraph6:
+argument
+conservatism
+Delaware
+characteristics
+directors
+Key phrases in paragraph7:
+bankruptcies
+incorporation
+performance
+conservatism
+stakeholders
+Key phrases in paragraph8:
+understanding
+contributions
+endogeneity
+conservatism
+Key phrases in paragraph9:
+explanation
+debtholders
+measurement
+insolvency
+conservatism
+Key phrases in paragraph10:
+concludes
+regression
+hypotheses
+sensitivity
+elaborate
+Key phrases in paragraph11:
+Hypotheses
+Motivation
+Key phrases in paragraph12:
+responsibilities
+incorporation
+Incorporation
+Key phrases in paragraph13:
+circumstances
+Communications
+shareholders
+risk-bearers
+stockholder
+Key phrases in paragraph14:
+Key phrases in paragraph15:
+bankruptcy
+obligations
+Nevertheless
+insolvency
+Finkelstein
+Key phrases in paragraph16:
+Shivakumar
+preferences
+conservatism
+possibility
+appropriations
+Key phrases in paragraph17:
+Consequently
+verifiability requirement
+shareholder
+conservatism
+Key phrases in paragraph18:
+litigation
+corporation
+indemnification
+insolvency
+proceedings
+Key phrases in paragraph19:
+risk-taking
+willingness
+conservatism
+shareholder–debtholder
+contradicting
+Key phrases in paragraph20:
+discussions
+hypothesis
+conservatism
+Delaware
+ruling
+Key phrases in paragraph21:
+insolvent Delaware
+H1
+Delaware firms
+conservatism
+Key phrases in paragraph22:
+obligations
+shareholders
+Visvanathan
+conservatism
+characteristics
+Key phrases in paragraph23:
+Research Design
+Key phrases in paragraph24:
+measurement
+variables
+model specifications
+appendix
+Key phrases in paragraph25:
+nonrandomness
+treatment/control
+incorporation
+difference-in-differences
+conservatism
+Key phrases in paragraph26:
+litigation
+accounting conservatism
+estimation
+generalizability
+conservatism
+Key phrases in paragraph27:
+conservatism score
+hypothesis
+regression model
+Key phrases in paragraph28:
+studies
+conservatism proxies
+β2HEDF93
+conservatism measure
+Key phrases in paragraph29:
+minimum
+average
+accruals
+window
+observation
+Key phrases in paragraph30:
+accounting
+adoption
+conservatism
+accruals
+observation
+Key phrases in paragraph31:
+analyses
+appendix
+conservatism
+nonoperating
+skewness
+Key phrases in paragraph32:
+reserves
+LIFO reserve
+income
+conservatism
+Key phrases in paragraph33:
+transformation
+post-transition
+differencein-differences
+distance-to-default
+Key phrases in paragraph34:
+literature
+regression
+liabilities
+conservatism
+association
+Key phrases in paragraph35:
+high-litigation
+accounting conservatism
+Ramalingagowda
+accounting
+performance
+conservatism
+Key phrases in paragraph36:
+independence
+characteristics
+accounting conservatism
+Key phrases in paragraph37:
+Hann
+[
+experts
+equation
+Defond
+Key phrases in paragraph38:
+beginning
+variables
+earnings
+addition
+β2HEDF93
+Key phrases in paragraph39:
+interaction
+book-to-market
+difference
+hypothesis
+volatility
+Key phrases in paragraph40:
+Key phrases in paragraph41:
+Description
+Key phrases in paragraph42:
+C SKEW
+C ACCR
+C PZ
+Key phrases in paragraph43:
+Key phrases in paragraph44:
+sample
+firms
+Number
+Key phrases in paragraph45:
+Descriptive Statistics
+Selection
+Key phrases in paragraph46:
+construction
+incorporation
+post-ruling
+distribution
+conservatism
+Key phrases in paragraph47:
+statistics
+sample
+median
+Conservatism rank
+Key phrases in paragraph48:
+consistent
+correspond
+observations
+distribution
+Key phrases in paragraph49:
+CRANK
+sample
+variables
+correlations
+presents
+Key phrases in paragraph50:
+Correlation Matrix
+Key phrases in paragraph51:
+CRANK ALL
+Key phrases in paragraph52:
+POST
+Key phrases in paragraph53:
+DEL
+Key phrases in paragraph54:
+HEDF93
+Key phrases in paragraph55:
+LNMVE
+Key phrases in paragraph56:
+LEV
+Key phrases in paragraph57:
+BTM
+Key phrases in paragraph58:
+GROWTH
+Key phrases in paragraph59:
+LITIG
+Key phrases in paragraph60:
+Ramalingegowda
+market-to-book
+book-to-market
+Roychowhury
+Roychowdhury
+Key phrases in paragraph61:
+Results
+Key phrases in paragraph62:
+subsample
+conservatism
+difference-in-differences
+coefficient
+insolvency
+Key phrases in paragraph63:
+specification
+Ramalingegowda
+book-to-market
+conservatism
+Roychowdhury
+Key phrases in paragraph64:
+Delaware
+evidence
+dependent
+conservatism
+Key phrases in paragraph65:
+iii
+ii
+Key phrases in paragraph66:
+R2
+Adj
+%
+Key phrases in paragraph67:
+CRANK PZ
+SKEW =
+ACCR =
+= CRANK
+CRANK ACCR
+CRANK SKEW
+Key phrases in paragraph68:
+t-stat Coef
+Var
+Coef
+Key phrases in paragraph69:
+Key phrases in paragraph70:
+definitions
+accounting
+conservatism
+performance
+insolvency
+Key phrases in paragraph71:
+shortand
+leverage distribution
+insolvency
+indicator
+Key phrases in paragraph72:
+information
+interaction
+coefficient
+conservatism
+characteristics
+Key phrases in paragraph73:
+Var
+CRANK
+Coef
+Independent Var
+t-stat Coef
+Key phrases in paragraph74:
+DEL
+Key phrases in paragraph75:
+DEL HEDF93
+Key phrases in paragraph76:
+BSCORE DEL
+Key phrases in paragraph77:
+BSCORE HEDF93
+Key phrases in paragraph78:
+DEL HEDF93
+BSCORE DEL
+Key phrases in paragraph79:
+LNMVE
+Key phrases in paragraph80:
+BTM
+Key phrases in paragraph81:
+GROWTH
+Key phrases in paragraph82:
+Controls DEL
+Key phrases in paragraph83:
+Controls HEDF93
+Key phrases in paragraph84:
+hypothesis
+Included
+conservatism
+directors
+evidence
+Key phrases in paragraph85:
+Asymmetric
+incorporation
+coefficient
+conservatism
+recognition
+Key phrases in paragraph86:
+Intercept
+Key phrases in paragraph87:
+D
+Key phrases in paragraph88:
+D RET
+Key phrases in paragraph89:
+POST RET
+Key phrases in paragraph90:
+POST D
+Key phrases in paragraph91:
+POST D
+D RET
+Key phrases in paragraph92:
+HEDF93
+Key phrases in paragraph93:
+HEDF93 RET
+Key phrases in paragraph94:
+HEDF93 D
+Key phrases in paragraph95:
+HEDF93 D
+D RET
+Key phrases in paragraph96:
+HEDF93 POST
+Key phrases in paragraph97:
+POST RET
+HEDF93 POST
+Key phrases in paragraph98:
+POST D
+HEDF93 POST
+Key phrases in paragraph99:
+POST D
+D RET
+HEDF93 POST
+Key phrases in paragraph100:
+DEL
+Key phrases in paragraph101:
+DEL RET
+Key phrases in paragraph102:
+DEL D
+Key phrases in paragraph103:
+DEL D
+D RET
+Key phrases in paragraph104:
+DEL POST
+Key phrases in paragraph105:
+DEL POST
+POST RET
+Key phrases in paragraph106:
+DEL POST
+POST D
+Key phrases in paragraph107:
+DEL POST
+D RET
+POST D
+Key phrases in paragraph108:
+HEDF93 DEL
+Key phrases in paragraph109:
+HEDF93 DEL
+DEL RET
+Key phrases in paragraph110:
+DEL D
+HEDF93 DEL
+Key phrases in paragraph111:
+DEL D
+HEDF93 DEL
+D RET
+Key phrases in paragraph112:
+DEL POST
+HEDF93 DEL
+Key phrases in paragraph113:
+DEL POST
+POST RET
+HEDF93 DEL
+Key phrases in paragraph114:
+DEL POST
+POST D
+HEDF93 DEL
+Key phrases in paragraph115:
+DEL POST
+D RET
+POST D
+HEDF93 DEL
+Key phrases in paragraph116:
+RET Included
+Controls RET
+Included Included
+Key phrases in paragraph117:
+Included Included
+D Included
+Controls D
+Key phrases in paragraph118:
+D RET
+RET Included
+Included Included
+Controls D
+Key phrases in paragraph119:
+interaction
+incorporation
+insolvency
+coefficient
+timeliness
+Key phrases in paragraph120:
+expectation
+interaction
+Asymmetric
+incorporation
+coefficient
+Key phrases in paragraph121:
+supplement
+hypothesis
+conservatism
+timeliness
+Delaware
+Key phrases in paragraph122:
+Analyses
+Key phrases in paragraph123:
+number
+analyses
+robustness
+models
+explanations
+Key phrases in paragraph124:
+debtholders
+profitability
+accounting
+conservatism
+expenditure
+Key phrases in paragraph125:
+Intercept
+Key phrases in paragraph126:
+CF
+Key phrases in paragraph127:
+DCF
+Key phrases in paragraph128:
+DCF CF
+Key phrases in paragraph129:
+POST CF
+Key phrases in paragraph130:
+POST DCF
+Key phrases in paragraph131:
+DCF CF
+POST DCF
+Key phrases in paragraph132:
+HEDF93
+Key phrases in paragraph133:
+HEDF93 CF
+Key phrases in paragraph134:
+HEDF93 DCF
+Key phrases in paragraph135:
+HEDF93 DCF
+DCF CF
+Key phrases in paragraph136:
+HEDF93 POST
+Key phrases in paragraph137:
+POST CF
+HEDF93 POST
+Key phrases in paragraph138:
+HEDF93 POST
+POST DCF
+Key phrases in paragraph139:
+HEDF93 POST
+DCF CF
+POST DCF
+Key phrases in paragraph140:
+DEL
+Key phrases in paragraph141:
+DEL CF
+Key phrases in paragraph142:
+DEL DCF
+Key phrases in paragraph143:
+DCF CF
+DEL DCF
+Key phrases in paragraph144:
+DEL POST
+Key phrases in paragraph145:
+DEL POST
+POST CF
+Key phrases in paragraph146:
+DEL POST
+POST DCF
+Key phrases in paragraph147:
+DEL POST
+DCF CF
+POST DCF
+Key phrases in paragraph148:
+HEDF93 DEL
+Key phrases in paragraph149:
+DEL CF
+HEDF93 DEL
+Key phrases in paragraph150:
+HEDF93 DEL
+DEL DCF
+Key phrases in paragraph151:
+HEDF93 DEL
+DCF CF
+DEL DCF
+Key phrases in paragraph152:
+DEL POST
+HEDF93 DEL
+Key phrases in paragraph153:
+DEL POST
+HEDF93 DEL
+POST CF
+Key phrases in paragraph154:
+DEL POST
+HEDF93 DEL
+POST DCF
+Key phrases in paragraph155:
+DEL POST
+HEDF93 DEL
+DCF CF
+POST DCF
+Key phrases in paragraph156:
+CF Included
+Controls CF
+Included Included
+Key phrases in paragraph157:
+DCF Included
+Controls DCF
+Included Included
+Key phrases in paragraph158:
+covenants
+variables
+operating
+conservatism
+Included Included
+Key phrases in paragraph159:
+Scharfstein
+expenditure
+efficiency
+insolvency
+conservatism
+Key phrases in paragraph160:
+production
+hypothesis
+interactions
+coefficient
+Roychowdhury
+Key phrases in paragraph161:
+SPI/SALES
+variations
+interactions
+write-offs
+conservatism
+Key phrases in paragraph162:
+Actions
+Key phrases in paragraph163:
+Key phrases in paragraph164:
+Action Controls
+Controls HEDF93
+Key phrases in paragraph165:
+Controls DEL
+Action Controls
+DEL HEDF93
+Key phrases in paragraph166:
+Action Controls
+Controls POST
+Key phrases in paragraph167:
+POST DEL
+Action Controls
+Controls POST
+Key phrases in paragraph168:
+POST HEDF93
+Action Controls
+Controls POST
+Key phrases in paragraph169:
+Included Industries
+Controls POST
+HEDF93 Included
+Included Included
+Key phrases in paragraph170:
+POST×DEL×HEDF93
+observations
+conservatism
+Roychowdhury
+expenditures
+Key phrases in paragraph171:
+debtholders
+findings
+conservatism
+stakeholders
+explanations
+Key phrases in paragraph172:
+observations
+subsample
+liabilities
+distribution
+conservatism
+Key phrases in paragraph173:
+observations
+subsample
+appendix
+violations
+conservatism
+Key phrases in paragraph174:
+observations
+bankruptcy
+bankruptcy proceedings
+bankruptcy observations
+hypothesis
+conservatism
+Key phrases in paragraph175:
+iii
+A12
+panel B
+appendix
+Key phrases in paragraph176:
+debtholders
+Stakeholders
+interactions
+coefficient
+conservatism
+Key phrases in paragraph177:
+DEL×HEDF93
+Roychowdhury
+coefficient
+conservatism
+Key phrases in paragraph178:
+groups
+treatment
+confounding
+performance
+conservatism
+Key phrases in paragraph179:
+explanation
+Performance
+deteriorations
+coefficient
+conservatism
+Key phrases in paragraph180:
+observations
+definition
+robustness
+confounding
+conservatism
+Key phrases in paragraph181:
+selection
+Propensity
+incorporation
+insolvency
+methodology
+Key phrases in paragraph182:
+performance
+conservatism
+probability
+explanatory
+debt–equity
+Key phrases in paragraph183:
+propensity
+indicator
+conservatism
+characteristics
+probability
+Key phrases in paragraph184:
+jurisdictions
+conservatism
+antitakeover
+Balakrishnan
+informativeness
+Key phrases in paragraph185:
+Key phrases in paragraph186:
+incorporation
+performance
+conservatism
+antitakeover
+stakeholders
+Key phrases in paragraph187:
+minimum
+Deciles
+accruals
+measure
+observation
+Key phrases in paragraph188:
+minimum
+earnings skewness
+quarters
+observation
+Key phrases in paragraph189:
+advertising
+observation
+advertising expenditures
+coefficients
+Sougiannis
+expenditures
+Key phrases in paragraph190:
+CHE IVAO
+PSTK DVPA
+DVPA CHE
+DVPA
+IVAO MIB
+Key phrases in paragraph191:
+average
+CRANK
+conservatism measure
+observation
+Key phrases in paragraph192:
+period
+calendar year
+Key phrases in paragraph193:
+State
+Delaware
+DEL A
+firm
+Key phrases in paragraph194:
+bankruptcy probability
+Frequency
+quartile
+distribution
+Key phrases in paragraph195:
+beginning
+market
+equity
+Nature
+observation
+Key phrases in paragraph196:
+Total liabilities
+beginning
+assets
+observation
+Key phrases in paragraph197:
+value equity
+market value
+beginning
+observation
+Key phrases in paragraph198:
+AT
+year
+assets
+GROWTH Change
+Key phrases in paragraph199:
+risk industry
+SIC
+litigation risk
+firm
+Key phrases in paragraph200:
+INSTOWN
+holdings
+Spectrum
+ownership
+percentage
+Key phrases in paragraph201:
+ACCEXP
+variables
+MAJIND
+governance
+measure
+Key phrases in paragraph202:
+count
+directors
+D SMBRD
+median
+Key phrases in paragraph203:
+percentage
+D MAJIND
+directors
+%
+Key phrases in paragraph204:
+accounting expertise
+director
+accountant
+experience
+Key phrases in paragraph205:
+expertise
+characteristics variables
+Disclosure
+experience
+Key phrases in paragraph206:
+Northeastern University
+Industry Expertise
+Corporate
+Key phrases in paragraph207:
+Characteristics
+Northwestern University
+LITWAK
+Key phrases in paragraph208:
+Creditor
+University
+Financial Reporting
+Key phrases in paragraph209:

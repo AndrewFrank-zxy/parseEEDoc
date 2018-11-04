@@ -15,8 +15,9 @@ class path_config(object):
         self.pap = setting['pdf_articles_path']
         self.tap = setting['txt_articles_path']
         self.wap = setting['word_articles_path']
-        self.takp = setting['txt_article_keywords_path']
-        self.tasp = setting['txt_article_summary_path']
+        self.trkp = setting['txt_results_keywords_path']
+        self.trsp = setting['txt_results_summaries_path']
+        self.rgp = setting['results_graphs_path']
     
     def get_pap(self):
         return self.pap
@@ -27,11 +28,14 @@ class path_config(object):
     def get_wap(self):
         return self.wap
 
-    def get_takp(self):
-        return self.takp
+    def get_trkp(self):
+        return self.trkp
 
-    def get_tasp(self):
-        return self.tasp
+    def get_trsp(self):
+        return self.trsp
+
+    def get_rgp(self):
+        return self.rgp
 
 
 class word_format(object):

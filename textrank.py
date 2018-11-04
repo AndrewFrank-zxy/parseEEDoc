@@ -20,6 +20,7 @@ import nltk
 
 import io
 import os
+pc = path_config()
 
 
 def setup_environment():
@@ -29,7 +30,8 @@ def setup_environment():
     print('Completed resource downloads.')
 
 
-def filter_for_tags(tagged, tags=['NN', 'JJ', 'NNP']):
+# filter out nouns, and proper nouns
+def filter_for_tags(tagged, tags=['NN', 'NNS', 'NNP', 'NNPS']):
     """Apply syntactic filters based on POS tags."""
     return [item for item in tagged if item[1] in tags]
 
@@ -86,7 +88,7 @@ def draw_graph(graph):
     plt.show()
 
 
-def extract_key_phrases(text):
+def extract_key_phrases(text, nums=-1):
     """Return a set of key phrases.
 
     :param text: A string.
@@ -113,13 +115,17 @@ def extract_key_phrases(text):
     calculated_page_rank = nx.pagerank(graph, weight='weight')
 
     # most important words in ascending order of importance
-    keyphrases = sorted(calculated_page_rank, key=calculated_page_rank.get,
+    # keyphrases = sorted(calculated_page_rank, key=lambda x: x.get,
+    #                     reverse=True)
+    keyphrases = sorted(calculated_page_rank.items(), key=lambda x: x[1],
                         reverse=True)
 
     # the number of keyphrases returned will be relative to the size of the
     # text (a third of the number of vertices)
-    one_third = len(word_set_list) // 3
-    keyphrases = keyphrases[0:one_third + 1]
+    nums = (min(int(nums), len(word_set_list)) if int(nums) > -1
+            else len(word_set_list) // 3 + 1)
+    keyphrases = keyphrases[0:nums]
+    keyphrases_search = [i[0] for i in keyphrases]
 
     # take keyphrases with multiple words into consideration as done in the
     # paper - if two words are adjacent in the text and are selected as
@@ -133,25 +139,25 @@ def extract_key_phrases(text):
     while j < len(textlist):
         first = textlist[i]
         second = textlist[j]
-        if first in keyphrases and second in keyphrases:
+        if first in keyphrases_search and second in keyphrases_search:
             keyphrase = first + ' ' + second
             modified_key_phrases.add(keyphrase)
             dealt_with.add(first)
             dealt_with.add(second)
         else:
-            if first in keyphrases and first not in dealt_with:
+            if first in keyphrases_search and first not in dealt_with:
                 modified_key_phrases.add(first)
 
             # if this is the last word in the text, and it is a keyword, it
             # definitely has no chance of being a keyphrase at this point
-            if j == len(textlist) - 1 and second in keyphrases and \
+            if j == len(textlist) - 1 and second in keyphrases_search and \
                     second not in dealt_with:
                 modified_key_phrases.add(second)
 
         i = i + 1
         j = j + 1
 
-    return modified_key_phrases, graph
+    return modified_key_phrases, keyphrases, graph
 
 
 def extract_sentences(text, summary_length=100, clean_sentences=False, language='english'):
@@ -184,21 +190,28 @@ def extract_sentences(text, summary_length=100, clean_sentences=False, language=
     return summary
 
 
-def write_files(summary, key_phrases, filename):
-    """Write key phrases and summaries to a file."""
-    pc = path_config()
-    tasp = pc.get_tasp()
-    takp = pc.get_takp()
-
-    print("Generating output to " + takp + '/' + filename)
-    key_phrase_file = io.open(
-        takp + '/' + filename, 'w', encoding='UTF-8')
+def gen_key_phrases(key_phrases, para_num):
+    """Generate key phrases to write."""
+    kpp = 'Key phrases in paragraph%d:\n' % para_num
     for key_phrase in key_phrases:
-        key_phrase_file.write(key_phrase + '\n')
+        kpp = kpp + key_phrase + '\n'
+    return kpp
+
+def write_key_phrases(filename, key_phrases):
+    """Write key phrases to a file."""
+    print("Generating output to " + pc.trkp + '/' + filename)
+    key_phrase_file = io.open(
+        pc.trkp + '/' + filename, 'w', encoding='UTF-8')
+    key_phrase_file.write(key_phrases)
     key_phrase_file.close()
 
-    print("Generating output to " + tasp + '/' + filename)
-    summary_file = io.open(tasp + '/' + filename, 'w', encoding='UTF-8')
+    print("-")
+
+
+def write_summary(filename, summary):
+    """Write summaries to a file."""
+    print("Generating output to " + pc.trsp + '/' + filename)
+    summary_file = io.open(pc.trsp + '/' + filename, 'w', encoding='UTF-8')
     summary_file.write(summary)
     summary_file.close()
 
@@ -207,16 +220,25 @@ def write_files(summary, key_phrases, filename):
 
 def summarize_all():
     # retrieve each of the articles
-    pc = path_config()
-    tap = pc.get_tap()
-    articles, dp = util.retrieve_input_path(tap, 'txt')
+    articles, dp = util.retrieve_input_path(pc.tap, 'txt')
 
     for article in articles:
-        print('Reading \"' + tap + '/' + article + '\"')
-        article_file = io.open(tap + '/' + article,
+        article_path = util.full_local_path(pc.tap, article)
+        print('Reading \"' + article_path + '\"')
+        article_file = io.open(article_path,
                                'r', encoding='UTF-8')
         text = article_file.read()
-        keyphrases, graph = extract_key_phrases(text)
-        summary = extract_sentences(text)
-        write_files(summary, keyphrases, article)
-        draw_graph(graph)
+        text_list = text.split('\n')
+        n = 0
+        kpa = ''
+        for prgh in text_list:
+            n += 1
+            m_keyphrases, keyphrases, graph = extract_key_phrases(prgh, 5)
+            kpa = kpa + gen_key_phrases(m_keyphrases, n)
+        write_key_phrases(article, kpa)       
+
+        # keyphrases, graph = extract_key_phrases(text)
+        # summary = extract_sentences(text)
+        # draw_graph(graph)
+if __name__ == '__main__':
+    summarize_all()
