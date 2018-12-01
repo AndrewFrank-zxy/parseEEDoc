@@ -1,0 +1,416 @@
+Contents  lists available at 
+Journal of Purchasing and  Supply  Management journal  homepage:  
+Broadening the  perspective of supply  chain  ﬁnance:  The performance impacts  of network power  and  cohesion
+Steven  Carnovalea,⁎, Dale S. Rogersb,  Sengun  Yeniyurtc a Rochester  Institute  of Technology,  Saunders College of Business,  Department of Management, 108  Lomb Memorial  Drive, Lowenthol  Hall  (Bldg.  12), Room 3336, Rochester,  NY 14623, United  States b Arizona  State  University,  Department of Supply Chain  Management, BA 402, W. P. Carey  School  of Business,  450  E. Lemon St., Tempe,  AZ 85287, United  States c Rutgers University,  Department of Supply Chain  Management and  Marketing  Science,  Rutgers Business School-Newark and  New Brunswick,  100  Rockefeller  Rd.-Room
+3153, Piscataway, NJ 08854, United  States
+A R T I C L E  I N F O
+Keywords:
+Supply chain ﬁnance
+Supply network structure Resource dependency Network theory
+
+A B S T R A C T
+Because  ﬁrms  do  not  operate in isolation, they  are  bound by the  structure of the  networks in which they  are embedded. This structure has  implications on  a ﬁrm's  ability to  access  resources and  utilize them  to  their ad- vantage. We consider two  critical components of this  network structure: network power and  network cohesion. Both  of these  network structures can  be critical determinants of ﬁrm  ﬁnancial success.  Yet, to date  the  extant research has not yet considered the role of network relations in the  context of Supply  Chain  Finance (SCF). This manuscript attempts to contribute to this gap. Through the use of a dynamic supply  chain network structure, we test  the  role  that   network power and  cohesion have  on  a  ﬁrm's  ﬁnancial performance. The  results indicate network cohesion contributes positively to eﬃciency in ﬁnancial performance, whereas power is a critical factor in earnings performance. Taken together, the study  advances a nuanced perspective of managing the ﬁrm's levels of network power and  cohesion to allow  for heightened ﬁnancial performance.
+1.  Introduction
+Traditionally, the research that  connects supply  chain  management with  ﬁnance  primarily focuses  on  factoring and  reverse  factoring  of accounts receivables so as to facilitate the  ease  with  which  cash ﬂows
+(e.g.  Buzacott  and  Zhang,  2004;  Tsai, 2008;  Tsai, 2011),  as well as to optimize the  working  capital  positions  of ﬁrms (Wuttke  et al., 2013b). Accordingly, most Supply Chain Finance  (SCF) deﬁnitions focus on the “planning,  managing,  and   controlling  of  supply   chain   cash  ﬂows”
+(Wuttke  et al., 2013b:773). This perspective has been  echoed  in more recent  research where  it has been suggested that  the supply chain  has a direct  and signiﬁcant impact  on the ﬁrm's “revenue, cost, balance sheet, customer service,  risk management and compliance” initiatives (Foster,
+2015).   Modern  supply  chains,   however, are  increasingly dense  and interconnected (Bernardes and  Zsidisin,  2008;  Carnovale, Rogers  and
+Yeniyurt,  2016)  with  ﬁrms such as General  Motors (GM), for example, having  over 2700 suppliers globally (Colias, 2015).  Not considering the implications of  such  interconnectedness on  the  implementation of  a ﬁrm's  SCF initiatives, and  ﬁnancial performance overall,  can  have  po- tentially negative ramiﬁcations. Particularly because   such  expansive and  interconnected supply  bases can impact  the success (Foerstl  et al.,
+
+2013)  or failure  (Bode, Hübner  and Wagner,  2014)  of a ﬁrm's ﬁnancial performance.
+One example  of this growing  interconnectedness is the inclusion  of the  so called  “FinTech” intermediaries leveraging procure-to-pay tech- nologies  that  “incorporate both  purchasing management and  accounts payable functionality” (Rogers,  Leuschner  and Choi, 2016:2), typically backed  by a large  ﬁnancial institution. These systems  can often  render savings  for the  procurement professional, but  in turn  they  necessarily increase   the   complexity  and   interconnectedness  of  the   network  in which ﬁrms are embedded. Accordingly, research demonstrates that the ﬁrm's extended network is the primary means through which ﬁrms gain access  to  resources  (Dubois   and   Fredriksson,  2008;   Kähkönen   and
+Virolainen, 2011;  Tate, Ellram  and  Gölgeci, 2013;  Finne,  Turunen and
+Eloranta, 2015).  This  body  of work  suggests  that  the  entity  (i.e.  the ﬁrm) exists in a larger  interconnected system, and the ability  to manage and   navigate  this  interconnectedness  can  lead   to  signiﬁcant  value creation, and  access  to  diverse   resources.  However, accessing  these network (i.e. external) resources requires a certain level of dependence on  the  focal  ﬁrm's  network partners. Thus,  argumentation from  re- source  dependency theory  (RDT) provides for a theoretical connection between accessing resources via the ﬁrm's network connections, and the
+⁎ Corresponding author.
+E-mail addresses:  (S. Carnovale), (D.S. Rogers), (S. Yeniyurt).
+Received 21 January 2017;  Received in revised form  26 July  2018;  Accepted 31 July  2018
+Available online 07  August 2018
+1478-4092/ © 2018 Elsevier Ltd. All rights reserved.
+Please cite this article  as: Steven Carnovale, Journal of Purchasing and Supply Management (2018), https://doi.org/10.1016/j.pursup.2018.07.007 ﬁnancial performance of the  ﬁrm.  Generally,  RDT posits  that  “inter- corporate relations can be understood as a product of patterns of inter- organizational dependence and  constraint" (Pfeﬀer,  1987:40) and  is
+”premised  on  the  notion   that  all  organizations critically depend on other  organizations for the provision of vital resources” (Drees and Heugens,  2013:1667).
+RDT as  a  theoretical lens  implicitly leverages the  network as  a source  of  access  to  resources, and  necessarily includes   the  ﬁnancial resources contained in  a supply  chain  (Hofmann and  Kotzab,  2010). Thus, upon juxtaposing the network view with RDT, as it relates  to SCF, two  prominent themes  emerge:  (1)  levels  of interdependence (power) facilitate  resource access,  and  therefore can  signiﬁcantly  impact   ﬁ- nancial  performance and (2) the structure and cohesion  of the network is the conduit through which such resources are accessed,  and therefore can be utilized  to increase  performance. Thus, the main objective  of this research is to elucidate the  role  that  the  juxtaposition of network and resource dependency theories has  in  explaining the  eﬀect(s)  that  the structural characteristics of  a  ﬁrm's  network have  in  enhancing the ﬁrm's ﬁnancial performance; an area to-date, that  has received minimal attention in the  research on SCF and  related work.
+In order  to answer  this  question, we analyze  the  eﬀect of network structure on the  ﬁnancial performance of ﬁrms  contained in an  auto- motive  supply  chain  network, from 1985  to 2003.  This network struc- ture  is comprised of manufacturing partnerships explicitly  focused  on the  procurement, production, and  distribution of ﬁnished  goods  and services  and was created using automotive joint venture (JV) formation information from the Thompson  SDC platinum database. This database constitutes an ideal repository from which to re-create the structure of a supply  chain  network, given  the  detailed information on the  sourcing information between (and  among)  all  parties  involved  in  such  trans- actions,  and has been  used in similar  lines of inquiry  (Carnovale et al.,
+2016,  2017).  Furthermore, manufacturing JVs present a unique  and worthwhile vantage point for the purchasing and sourcing  context. A JV occurs when two or more ﬁrms combine equity  and create  a third  entity with  a speciﬁc  purpose (Kogut,  1988).  In the  manufacturing context, these   arrangements are  focused   on  the  sourcing   and  production  of ﬁnished  goods and services.  Take, for example, the $3.3 billion Fiat Spa JV with  the  Russian  automotive ﬁrm,  Sollers,  which  was  initiated in order  to “to produce up to 500,000 vehicles  per year” and will “will be capable of producing up to 500,000 passenger cars and SUVs annually” (Vasilyeva,  2018:  1).  Also, it's  worth  noting  that  while  this  focus  is outside  the  traditional scope  of core  SCF related research, the  related nature of ﬁrm  ﬁnancial performance and  network characteristics can yield  ﬁndings  that  are  also valuable to the  body  of SCF research, writ large.
+2.  Literature review
+2.1.  What is supply chain ﬁnance?
+SCF has  been  deﬁned  as the  “optimized  planning, managing, and controlling of supply  chain  cash  ﬂows” in order  “to facilitate eﬃcient supply  chain  material ﬂows” (Wuttke  et  al.,  2013b:773). The core  of
+SCF, then,  “…is  based  on the  idea  that  collaboration among  actors  in the  supply   chain   is  key  for  better   management of  ﬁnancial  ﬂows”
+(Caniato  et al., 2016).  This research engenders the idea that  the level of analysis  should  be raised  from  the  focal  ﬁrm  to the  supply  chain  net- work.   In  fact,  some  have   suggested  that   SCF initiatives  should   be thought of as  “using  the  supply  chain  to  fund  the  organization, and using  the  organization to  fund  the  supply  chain”  (Huﬀ and  Rogers,
+2015:5). Eﬀectively,  this  view  advocates for  ﬁrms  to  leverage their extended networks for heightened ﬁnancial performance and  manage- ment,  as well as access to ﬁnancial resources.
+SCF is focused on the coordination of cash ﬂows between entities in the  supply  chain  to achieve  increased ﬁnancial performance and  eﬃ- ciency   (Wuttke   et  al.,  2013b).  The  need   for  such   coordination   is
+
+apparent, as ﬁnancial coordination between entities can depend “on the terms  of payment that  may  include  penalty for late  payments and/or discounts for early  payments” (Gupta  and  Dutta,  2011:47). The com- plexity  of managing these  terms  can  increase  as  the  supply  bases  of ﬁrms increase  in size. Firms that  leverage SCF as a tool through which to optimize ﬁnancial management, both  the  focal  ﬁrm  and  their  sup- plier  (typically through the  use  of a ﬁnancial intermediary), can  de- crease  (interest rate)  costs (Wuttke  et al., 2013a) and increase  payment speed (Holter  et al., 2010).  These results  are congruent with other  SCM theories suggesting  that  supplier (Germain et al.,  2011)  and  customer integration, generally, can lead to increases  in ﬁnancial and operational performance (Ralston  et  al.,  2015).   To date,  however, little  SCF re- search  exists (c.f. Carnovale and  Yeniyurt,  2015a) that  raises  the  level of SCF to the network, and connects the structural properties of a ﬁrm's network to their  ﬁnancial performance.
+2.2.  Network and resource dependency theories
+2.2.1.  Network theory
+Firms do not  operate in isolation and  so, their  actions  are  directly dependent upon  the  networks in  which   they  are  embedded.  Stated diﬀerently, “to understand the  behavior of an  organization you  must understand  the   …  the   ecology   of  the   organization”  (Pfeﬀer   and
+Salancik,   1978:1). In  the  context   of  supply  chain  management, this ecology  is necessarily the  supply  chain  network. Speciﬁcally,  a ﬁrm's supply  chain  network “consists  of ties  to its immediate suppliers and customers, and  ties  between them  and  their  immediate suppliers and customers” (Kim et al., 2011:194). Thus, the relationships between and among  two  or more  ﬁrms,  in aggregate, deﬁne  the  overarching struc- ture  of  the  network in  which  a  ﬁrm  exists.  Given  this  emphasis on structure and  interconnectedness, scholars  have  suggested that  supply chain management research should continue to develop  network theory driven  research as  a  means  to  solve  supply  chain  problems (Galaskiewicz, 2011).
+Such  calls  to  action  have  been  answered by  recent  research.  For example, scholars  have  investigated network based  views  of strategic procurement and  sourcing,  and  have  shown  that  network based  cap- abilities     positively   impact     the    ﬁrm's    customer    responsiveness
+(Bernardes and  Zsidisin,  2008).  Building  on  this  research, work  that examines the  antecedents of network structure, and  network develop- ment,  has  shown  that  the  composition of a  ﬁrm's  focal  network  sig- niﬁcantly explains  its future  network development behavior (Carnovale and Yeniyurt,  2014).  The network perspective has also been utilized  to unravel supply  network composition and  structure in the  global  auto- motive  industry, demonstrating important insights  regarding the  con- nection  between network structure and  how  ﬁrms  navigate it to their beneﬁt  (Kim, Choi, Yan and Dooley, 2011).  In a similar  line of inquiry, research has  also  investigated the  role  that  the  brokerage and  reach abilities  a ﬁrm has when  expanding its network composition inter- nationally, ﬁnding  that  as these  network characteristics increase  so too will the  ﬁrm's  access  to information (Carnovale, Rogers  and  Yeniyurt,
+2016).  Other  such research has examined the role that  a ﬁrm's position in  the  overall   network  plays  in  increasing  its  power   to  gain,   and therefore,   utilize    resources   across    overlapping   supply    networks
+(Kähkönen and  Virolainen, 2011).
+2.2.2.  Resource dependency theory
+Firms  with  the  ability  to  maintain, navigate, and  successfully  op- erate  within  these  networks experience signiﬁcant beneﬁts  and  access to resources (Zaheer  et al., 2010).  The assumption that  ﬁrms operating within  a network can navigate it presupposes a certain degree  of de- pendence upon  the  network structure in which  the  ﬁrm  is embedded
+(Choi  and  Kim, 2008).  Principally, this  is because  “organizations  are not  autonomous, but  rather are  constrained by  … interdependencies with other  organizations” (Pfeﬀer, 1987:26–27). Such “dependencies in the   global   supply   chain   arise   when   ﬁrms  do  not  have   alternative outcomes or have a high level of commitment to the outcomes at stake”
+(Connelly  et  al.,  2013:229). This idea  that  [inter]dependencies aﬀect ﬁrm operations (either positively or negatively) is generally traced  back to resource dependency theory  (RDT) (Pfeﬀer and  Salancik,  1978).
+RDT suggests  that  “inter-corporate relations can be understood as a product of patterns of inter-organizational dependence and  constraint" (Pfeﬀer,  1987:40). That deﬁnition is dual-faceted having  the following fundamental components: (1) interdependence and (2) constraint. First is the degree  of interdependence, which  is ”premised on the notion  that all organizations critically depend on other  organizations for the  pro- vision  of vital  resources” (Drees  and  Heugens,  2013:1667). This inter- dependence exists  whenever one  actor  does  not  entirely control   all conditions necessary for the achievement of an action  or obtaining the desired  outcome (Pfeﬀer and Salancik,  1978).  A ﬁrm's dependence on a partner is directly proportional to the  goals  mediated by the  partner, and inversely  proportional to the availability of these  goals outside  the partnership  (Emerson, 1962).   Essentially, this  perspective notes  that ﬁrms act as “coalitions in which  structures and patterns of behavior are molded   to  acquire   needed  external  resources”  (Oke,   Prajogo   and
+Jayaram, 2013:45).
+The second  part  of the  above  deﬁnition deals  with  constraint, and necessarily follows  from  the  degree   of  interdependence that   a  ﬁrm faces.  Constraint generally refers  to the  eﬀect of the  interdependence. That  is to  say,  ﬁrms  are  faced  with  constraints based  on  the  level  of interdependence with  another actor  in the  network and  are  bound  by such  conditions. Essentially  in  RDT, because  the  “organizational  sur- vival  hinges  on  the  ability  to  procure critical  resources from  the  ex- ternal  environment…organizations will try to restructure their  de- pendencies with a variety  of tactics” (Casciaro  and Piskorski, 2005:167) and will “attempt to manage these  resource dependencies by setting  up diﬀerent  forms   of   interorganizational  arrangements”  (Pfeﬀer   and
+Salancik,  2003:xxxiii). That is to say, leveraging the network in ways so as  to  increase   control   while  reducing dependence, and  thereby  im- proving  performance. Eﬀectively,  the  ﬁrm's  ability  to successfully  op- erate  within  the  network depends on its power  to do so (Zhao  et al.,
+2008;  Terpend  and Ashenbaum, 2012)  and the cohesion  of the network structure (Reagans  and  Mcevily, 2003).
+2.3.  Network structure, supply chain practices and focal ﬁrm performance
+Fundamentally, ﬁrms that  can take advantage of their  supply  chain network structure are  in much  better  resource access  positions, which should   lead   to  ﬁnancial  performance.  Extant   research  tangentially supports this  notion, suggesting   that  ﬁrms  who  have  high  levels  of supply  chain  competency (included in which  is the  ability  to manage the   supply    base)   will   experience  positive    ﬁnancial  performance
+(Ellinger  et al., 2011).  Yet, such competency essentially echoes  a broad body  of literature tackling  a problem of understanding the  so called
+‘structure-performance  link’  (c.f.  Wagner  et  al.,  2012;  Salvador   and Villena,  2013;  Ralston  et  al.,  2015)   which,   essentially connects the practices of the ﬁrm to its performance (Foerstl  et al., 2016).  This body of research has  revealed several  key ﬁndings.  An earlier  study  on the topic  examined the  eﬀect of congruence between strategy and  design, ﬁnding  that  for performance beneﬁts  (ROA in this case) to be attained, there  must  be a congruence between strategy, and  organizational de- sign  (David  et  al.,  2002).  In  a  sourcing  context, the  organization  of these  activities was  shown  to  be  a  critical   determinant of  ﬁnancial performance. Eﬀectively, this study supports the contingency argument underpinning the structure performance link: in order  for performance to increase  there  needs  to be commensurate (i.e. contingent) structural design.
+Furthermore,  recent   research  has  examined  the   direct   ﬁnancial beneﬁts  (i.e. cost savings) that are attainable to ﬁrms who integrate key members  of  their   supply   bases   early   on  in  the   sourcing   process. Speciﬁcally,  this  research (Van  Poucke  et al.,  2016)  empirically ﬁnds that  early  involvement of  purchasing (i.e.  increased cohesion   of the
+
+network) in  sourcing  decisions  leads  to  ﬁnancial gain  (cost  savings). Further, Vos et al. (2016) examine whether or not  there  are  ﬁnancial beneﬁts   attainable to  ﬁrms  that  expand   their  supply  bases  globally, ﬁnding  that  there  are potential performance beneﬁts  to be attained are through a broader supply  base,  among  other  factors.
+Thus,  as  research continues to  articulate that  ﬁrms  are  operating within  complex  supply  chain  networks, where  access  to  resources  is critically dependent upon  other  actors  in the network, their  level of interdependence necessarily increases. As the level of interdependence increases  between ﬁrms, so too will the impact  that  these  dependencies have  on  the  ﬁnancial performance of  ﬁrms  (indirectly the  ﬁnancial ﬂows  between them), and  by extension, the  supply  chain  network in which  these  ﬁrms are embedded. Yet, to date there  is minimal  research undertaking such areas  of inquiry, speciﬁcally in the  domain  of SCF.
+3.  Hypothesis  development
+There  are  two  fundamental constructs to  this  study  that  emerge from  the  literature  reviewed above.  The  ﬁrst  is  the  idea  that  inter- dependence inherently exists and  governs  the  behaviors between (and among)  actors of the network. This notion  of interdependence is closely connected to  the  ﬁrm's  power,  which  is critical  to  managing depen- dence  in network relations (Carnovale et al., 2017).  The next construct is resource access. The research suggests  that  when  ﬁrms can navigate their  network connections competently, they  can heighten their  access to resources, and thereby can engender performance. The navigation of these  network connections implies  a certain degree  of cohesion  (i.e. density) within  the network, which  is generally how such resources are attained (Burt, 1992a, b). Taken together there  is a mutual importance between power  (dependence) and  cohesion   as  it  relates   to  resource access,  and  therefore, ﬁnancial performance.
+Accordingly, the  following   hypothesis development  will  serve  to explain  the role that  network power  and network cohesion  have on the ﬁnancial and operational performance of ﬁrms.  Speciﬁcally,  we utilize eigenvector centrality to  represent network power,  and  ego  network density  to represent network cohesion. On the performance side of the equation, we  examine the  cash-conversion-cycle (CCC), EBITDA and
+Return  on Assets (ROA). The use of these  three  ﬁnancial performance metrics   serves  to  capture the  dynamics of  both  explicitly   ﬁrm-level
+(EBITDA and  ROA) as well as network related (CCC) ﬁnancial perfor- mance.  Note that  while  the  CCC is traditionally a working  capital  me- tric, it does necessarily depend on the interactions with  a ﬁrm's supply base.  It is for that  reason  why we interpret it is a network related me- tric.
+It is also important to note  that  with  respect  to the three  dependent variables used  in  this  study  the  logic  is  to  capture several  levels  of
+‘performance’ as it relates  to SCF. Thus,  the  hypothesized CCC re- lationship will explain  the  eﬃciency  with  which  the ﬁrm can leverage its  power  and  cohesion  so as to  increase  the  speed  that  cash  is con- verted. Next, the  logic around EBITDA is an operational vantage point on performance, and  will suggest  that  the  two  constructs (power  and cohesion) will improve  the  ﬁrm's ability  to generate earnings. Finally, the  logic  around ROA is that  as the  ﬁrm  increases  its power  and  co- hesion,  it can wield  this network inﬂuence so as to be able to heighten the eﬃciency with which it generates returns on deployed assets as well as  leveraging its  cohesion   to  foster  better   performance. Table  1  re- presents the operationalization and conceptual framing  of each of these variables.
+3.1.  Network power
+The notion  of power  has  long  been  studied in the  purchasing and supply   chain   management  literature  (Ramsay,   1995;   Pulles   et  al.,
+2014).  In the  sourcing  context, a ﬁrm's  power  arises  “from  a combi- nation  of the  attractiveness of their  own resources and  the  … freedom to obtain  resources from other  organizations” (Ramsay, 1996:129). This
+Table 1
+Variable operationalization and  descriptions.
+Variable of interest
+
+
+Dependent/ independent/ control
+
+
+Operationalization/comments
+Cash  Conversion
+Cycle  (CCC)
+
+
+Dependent	A ﬁrm's CCC is a “a composite metric that … requires adding days  of inventory plus  days  of accounts receivable and  subtracting days  of accounts payable” so as to bridge “material activities with suppliers, production operations, distribution functions, and  outbound sales activities” (Farris et  al.,  2005:114).
+Inventory
+
+Accounts Receivables
+DOI: Days of  Inventory = ⎛⎜  	 ⎞⎟*365  DOR:  Days of  Receivables = ⎛  	 ⎞*365
+⎝ Cost of  Goods Sold ⎠
+Accounts  Receivables
+
+⎝	Net  Sales 	⎠
+DOP: Days of  Payables  = ⎜⎛  	 ⎟⎞*365  Cash   Conversion   Cycle = DOI +DOR − DOP
+⎝ Cost  of   Goods  Sold ⎠
+(Source(s): Farris and  Hutchison, 2003:85; Hutchison et  al.,  2007:42)
+EBITDA	Dependent	Represents earnings before interest, taxation, depreciation and  amortization. This  measure was  taken from  COMPUSTAT,  and  is calculated as net  sales  minus cost  of goods sold  (COGS)  and  selling, general and  administrative expenses (WRDS,  2015).
+Return on  Assets
+(ROA)
+
+Dependent	For  ROA we  use  the  commonly used  operationalization:
+ROAft   = net  incomeft /total assetsft
+Network Power	Independent 	For  the  operationalization we  use  the  ﬁrm's eigenvector centrality, which “is deﬁned as the  principal eigenvector of the  adjacency matrix deﬁning the  network” and  can  be interpreted as “a node that has  a high eigenvector score is one  that is adjacent to nodes that are  themselves high scorers” (Borgatti, 2005: 61). For  the  operationalization we  deﬁne xj  as the  centrality score. The  eigenvector
+“centrality of a vertex is proportional to the  sum  of the  centralities of the  vertices to which it is connected. λ is the  largest eigenvalue of A and  n is the  number of vertices” (Bonacich, 2007:556). Note  that A refers to  the  adjacency matrix in a speciﬁc year (see  Methods section for more detail) and  the  vertices to which the  deﬁnition makes mention, are  the  ﬁrms (nodes) in the  network. Mathematically:
+Network  Powerf ,t = λxf   =      n     ai,j xn   i = 1, ..., n ∀ t where f = i, j and i ≠ j (i.e.  the  ﬁrms in the  network) and  t represents the  year under observation.
+Network Cohesion	Independent 	To operationalize network cohesion, we  use  ego  network density and  follow (Borgatti et  al.,  2002) and  calculate:
+Network Cohesionf ,t = Actual Ties/Maximum Number Pairs where actual ties  refers to the  quantity of connections that exist  in the  ﬁrm's ego  network and  maximum number of pairs refers to the number of possible connections in the  ego  network (Borgatti et al.,  2002). This  is bound to [0,1], though for purposes of analysis the scale  of the  variable is [0,100].
+Network
+
+Independent 	Finally, to  calculate the  diminishing returns to  network cohesion, we  take the  quadratic of its  linear counterpart:
+Cohesion2
+
+Network Cohesion   Squared
+
+= (Network Cohesion    )
+Focal  Firm
+Network Size
+
+f ,t 	f ,t  2
+This  operationalization tests the  so called ‘curvilinear’ eﬀect  of the  variable (Cohen and  Cohen, 1983) and  has  been used  in extant management research (Powell et  al.,  1999; Lechner et  al.,  2010).
+Control	A focal  ﬁrm's (ego) network size  refers to  the  sum  of the  unique, ﬁrst  degree (i.e.  direct) connections a ﬁrm  has  (Wei,  2010) and  is important to  control for  in the  context of the  present study. Operationalized as (Carnovale and  Yeniyurt, 2014):
+Focal Firm  Network Sizef ,t = ∑n   ai,j ∀ t
+Firm  Age 	Control	Operationalized as the  number of years the  ﬁrm  has  been in business, relative to  the  year under observation.
+Firm  Assets 	Control	Firm  Assets=Log(Total  Assets) conceptualization of power  necessarily implies  that  the  ﬁrm  must  de- sign their  sourcing  relationships and arrangements under  the constraint of  network structure so  as  to  “manage  interdependence with  either sources   of  input   or  purchasers  of  output”  (Pfeﬀer,   1976:39)  and therefore broaden their  access to resources. From the perspective of the balance  of  power   between  entities  (c.f.  Emerson,   1962)   ﬁrms   at- tempting to foster this network power can “lessen their dependency” on certain connections by  “cultivating  alternative sources  of desired  re- sources” (Provan  et al., 1980).
+Thus,  for ﬁrms to truly  gain  and  beneﬁt  from  network power  they must  develop  capabilities to manage and  navigate the  interconnected- ness of their  ﬁrst-degree connections (i.e. their  'ego networks', c.f. Burt,
+1980;  Freeman, 1982;  Borgatti  and  Halgin,  2011),  as well as their  in- direct  network connections. Previous   research has  deﬁned   such  net- work  power  as “an actor's  attempts in a multi-actor network to utilize their  current position  to  allocate and  decouple actors,  resources and activities according to its own  beneﬁt” (Olsen  et al.,  2014:2580). Ac- cordingly, we conceptualize, a ﬁrm's network power  to extend  beyond just the  focal ﬁrm's ﬁrst-degree connections, to its local  neighborhood
+(i.e.  the  connection's connections), and  the  prominence of those  con- nections. Theoretically, the network characteristic that  most closely represents this  power  is a ﬁrm's  eigenvector centrality. This network construct is well suited  to understand network power,  generally, (Wasserman and  Faust,  1994)  and  speciﬁcally in the context  of supply chain  networks (Carnovale et al.,  2017).  This is the  case  because  this network measure does not weigh each connection a ﬁrm has equally  (as is  the   case   with   degree   centrality,  for  example),  but   rather  pro- portionally to its network position  (Bonacich,  2007).
+
+
+Accordingly, we  expect  a  positive   relationship  between network power  and improvements in the ﬁrm's CCC; speciﬁcally because  of the inherent dependence of resource access in such supply  chain  networks. Firms  that   increase   their   network power   are  in  better   positions   to manage their supply bases, which can signiﬁcantly increase  their ability to access (and often control) the allocation of resources (Kim and Bettis,
+2014).  Inherently, a shortening in the  CCC implies  that  there  exist fa- vorable  payment modalities and  terms  between members of the  net- work  (Farris  and Hutchison, 2003)  thereby decreasing the delays  in payment. As network power  increases  so too can the bargaining power of  the  ﬁrm,  which  can  make  terms  of  a  transaction more  favorable
+(Crook  and  Combs, 2007)  further engendering supply  bases to comply and  therefore reduce   payment delays.  Furthermore, network power, and  indirectly the  capability that  the  ﬁrm  has  to  manage the  supply base  through it,  ensures  that  ﬁrms  can  mitigate supply  risk  and  op- erational disruptions to  the  ﬁnancial ﬂows  in  supply  chain  networks
+(Mizgier  et al., 2015)  thereby engendering a shortened CCC. Such mi- tigation initiatives can reduce  the potential loss (i.e. lack of resources) due to ﬁnancially distressed suppliers (Bode et al., 2014)  and positively aﬀect the ﬁnancial positions  of ﬁrms (Buzacott  and Zhang, 2004).  Thus, we expect  that:
+H1a. Network  power  has  a shortening eﬀect  (i.e.  a decrease) on  the cash conversion cycle.
+In addition to the  beneﬁts  to a ﬁrm's CCC, we expect  that  network power  will also have a positive  impact  on a ﬁrm's earnings and returns performance;  speciﬁcally, its  EBITDA and  ROA. In  the  context   of  a ﬁrm's ﬁnancial performance, EBITDA is a worthwhile metric  to explore given its operational nature and exclusion  of non-operational expenses in its calculation (Brockman  and  Russell,  2012:84). In line  with  RDT, ﬁrms will seek to reduce  uncertainty by increasing their control  through various   types  of  organizational arrangements  (Pfeﬀer  and  Salancik,
+2003).  Higher  levels  of network power  have  been  shown  to  be  posi- tively   associated  with   network  design   (Kähkönen  and   Virolainen,
+2011),  which  in  turn  has  been  shown  to  heighten ﬁrm  performance
+(Wagner,  Grosse-Ruyken and  Erhun,  2012).  Access to  resources, and thus  tacitly  the  means  with  which  to  generate  earnings, necessarily depends upon the network of ﬁrms and the interconnectedness between them  (Ramsay,  1996; Cendon and Jarvenpaa, 2001).  Increasing a ﬁrm's network power  can raise  their  standing in the  network (Bonacich  and
+Lloyd,  2001:192) which  can  further increase   the  ﬁrm's  access  to  re- sources  and  can  heighten their  bargaining power  (Bloom  and  Perry,
+2001).   Taken  together, such  beneﬁts  should  therefore increase   their ﬁnancial performance in both earnings, and in returns. Furthermore, as it has been shown  that  the ﬁrm's strategic partnerships with  ﬁnancially sound  partners can  beneﬁt  the  focal  ﬁrm  ﬁnancially (Hertzel   et  al.,
+2008)  and such partnerships are engendered by heightened levels of network power (Carnovale, Yeniyurt and Rogers, 2017).  Hence, as ﬁrms increase  their  network power,  thereby rendering themselves in a posi- tion  to  gain  access  to  these  resources, we  expect  that  their  levels  of EBITDA and  ROA will also increase. Thus:
+H1b. Network  power  has a positive  eﬀect on EBITDA
+H1c. Network  power  has a positive  eﬀect on ROA.
+3.2.  Network cohesion
+Though  network power  is critical  in  explaining performance, the degree  to which  cohesion  exists  within  a ﬁrm's  network (as eluded  to above  in the ‘structure-performance link’ discussion) requires ex- amination as well. In order  to represent such cohesion, we examine the density  of a ﬁrm's  ego  network. Density  has  been  studied in  various related contexts  such  as innovation (Carnovale and  Yeniyurt,  2015b) knowledge creation (Mcfadyen  et al.,  2009),  alliance  (Soh, 2010)  and managerial performance (Rodan,  2010),  as well as the structure of competition in networks (Skilton  and  Bernardes, 2015).
+We expect  that  a ﬁrm's  network cohesion  will improve  the  perfor- mance  of their  CCC. In order  to achieve  optimal ﬁnancial performance, the  ﬁrm must  “optimize functions and  processes  across  the network of ﬁrms  in a collaborative fashion” (Randall  and  Farris  Ii, 2009:684). As the  cohesion   of  the  network increases, ﬁrms  gain  access  to  a  more varied  pool  of  resources, as  well  as  the  ability  to  generate stronger network connections (Walker  et al.,  1997);  all of which  can  facilitate reductions in the  CCC. Network  cohesion  is then  a critical  factor  to an improved CCC because  for CCC performance to increase  there  needs  to be  a  “collaborative  eﬀort  between a  company, immediate customers and  immediate suppliers” (Farris  and  Hutchison, 2003:88). Such  col- laborative initiatives are  fundamental to the  ﬁnancial performance of the  supply  chain  (Caniato  et al.,  2016)  and  are  engendered by tightly connected, cohesive  networks (Reagans  and  Mcevily,  2003).  Thus,  we expect  that:
+H2a. Network  Cohesion  has a shortening eﬀect (i.e.  decreases) on the cash conversion cycle.
+Next,  we  expect  that  increased network cohesion   will  lead  to  a positive  eﬀect on the ﬁrm's EBITDA and ROA for the following  reasons. First, a ﬁrm's network relationships are  considered a critical  organiza- tional   resource, given  their   ability   to  facilitate interactions  and  ex- changes  with other  network connections (Burt and Durham, 2000; Burt,
+2004,  2007)  and can directly result in the ﬁrm generating a competitive advantage (Gulati,  1999).  Furthermore, performance increases  are  di- rectly  associated with  organizational, and  by extension network, structure (David  et  al.,  2002).  Further, because  of the  positive  eﬀect
+
+between supply chain structure (of which cohesion  is necessarily a part) and supply  chain  integration (Defee and Stank,  2005),  cohesion  can be seen  as  a  fundamental  underpinning  to  facilitate  strategic  ﬁt  (c.f.
+Wagner  et al., 2012)  and  therefore positively impact  performance. By contrast, absence  of such network cohesion  can lead  to diminished re- source access, which  can cause downstream intermediaries to “to delay raw  material ordering, squeeze  work-in-process inventories, or skimp on   service    levels   or   quality    processes”   (Hofmann   and    Kotzab,
+2010:305). This  can  render the  ﬁrm  in  a  position   of  potentially  di- minished earnings, the  supply  base  has a direct  eﬀect on performance
+(Foerstl  et  al.,  2016),  and  also  on  the  ﬁrm's  ﬁnancial success  (Bode et al., 2014).
+Thus, ﬁrms that  increase  their  network cohesion  also increase  their access  to  resources and  can  potentially reduce   its  interdependence, which   in  turn   has  a  direct   impact   on  the  ﬁnancial  performance  of network members (Dai  et  al.,  2012).  In addition, ﬁrms  that  increase their  network cohesion  through more diverse  network relationships, experience positive  relational exchange (Dahlstrom and Ingram,  2003) which   has  been  shown   to  improve   ﬁnancial performance (Germain et al., 2011).  Taken together, these resources can engender the health of the supply  chain  (e.g. access to lower  cost suppliers or capital  through bridged  connections  in   a  more   densely   connected  network),  and thereby ﬁrms  are  in  a much  stronger position  to  increase  both  their
+EBITDA as well as their  ROA. Accordingly, we expect:
+H2b. Network  Cohesion  has a positive  eﬀect on EBITDA.
+H2c. Ego network density  has a positive  eﬀect on ROA.
+3.3.  Diminishing returns to network cohesion
+There  does exist a strong  theoretical tension  inherent in the  devel- opment of network cohesion  as a construct. Some have argued  that  the tighter the  network (i.e.  more  densely  connected and  cohesive) the larger  the potential beneﬁt  (Coleman, 1988)  and thus  advocate for full cohesion  as a means  by which  to improve  performance. Others  argue that  the  more  sparsely  connected the  network the  larger  the  potential for the  ﬁrms contained in it to beneﬁt  (Burt,  1992a) through access to network brokers.  While we expect that  there  will be positive  beneﬁts  to the  ﬁrm's  ﬁnancial performance as levels  of density  increase  (i.e.  H2 above),  given  this  tension  we  also  expect  that  this  eﬀect  will  see  di- minishing returns at  a certain point,  thereby exhibiting a curvilinear relationship (Cohen  and  Cohen,  1983).
+Firms that engage  in several network relationships might experience administrative complexities that  arise  with  the  management of a large supplier portfolio, which  can  increase  the  complexity of coordination, making   relationship management more  challenging (Yeniyurt   et  al.,
+2009).  Similar  eﬀects  have  been  seen  with  respect  to  organizational performance and increased levels of network complexity (Powell  et al.,
+1999; Lechner et al., 2010).  Furthermore, increasing the cohesion  in the focal  ﬁrm's  network can  lead  to  overlapping, potentially redundant, resources. In such  instances the  beneﬁts  of access  are  diminished and ﬁrms  need  to seek out  alternate, new  connections. This new  sourcing process  can result  in increased managerial complexity which  has been shown  to increase  “inventory and  cash-ﬂow  bullwhip along  with  lead time” (Tangsucheeva and Prabhu, 2013:431) and can negatively aﬀect a ﬁrm's CCC. In addition, if ﬁrms take  on leverage (Kale and  Shahrur,
+2007)  so as to bridge  such a potential delay in cash ﬂow, they could be subject  to increased cost and decreased availability of capital  (Buzacott and  Zhang,  2004)   thereby negatively eﬀecting  its  EBITA and  ROA. Maintaining a  ﬁrm's  accounts receivables can  also  be  negatively  af- fected   when   network  cohesion   raises   above   an   optimal  level,   as heightened complexity can cause challenges with  managing cash ﬂows (Gupta  and  Dutta,  2011),   thereby further  diminishing a  ﬁrms  CCC,
+EBITDA and  ROA. Thus,  given  the  managerial complexity, the  poten- tially  negative impact  to capital  availability, as well as the  potentially negative impact  to the  management of cash ﬂows, we hypothesize the following  regarding the  diminishing returns to network cohesion:
+H3a. Network  cohesion  has a diminishing return (i.e. U-shaped1) eﬀect on the  cash conversion cycle.
+H3b.  Network   cohesion   has  a  diminishing return  (i.e.  inverse1   U- shaped) eﬀect on EBITDA.
+H3c.  Network   cohesion   has  a  diminishing return  (i.e.  inverse1   U- shaped) eﬀect on ROA.
+4.  Empirical study
+4.1.  Data sources
+The overarching research question guiding  this study focuses on the role   that   network  power   and   network  cohesion   (i.e.   the   network structure) have  on the  ﬁrm's  ﬁnancial performance. In order  to rigor- ously  do so, the  method requires two data  sources:  (1) a supply  chain network (or a reasonable proxy  such  as a JV network) and  (2)  the  ﬁ- nancial  measures required to  calculate each  ﬁrm's  CCC, EBITDA and
+ROA. The process  by which  the  data  were  gathered is detailed below.
+In  order  to  capture the  structure of  a  supply  chain  network the Thompson   SDC platinum database was  used,  speciﬁcally we  use  the section   that  aggregates joint  venture (JV)  activity   for  a  speciﬁc  in- dustry. Next, we note that  the SDC database aggregates reports of ﬁrms that  are  engaging  in partnerships (in  various  capacities) for activities such as research and development, marketing alliances, mergers  and acquisitions, and manufacturing partnerships. It is also worthy to note, that  included in the  sample  are  both  OEMs and  component suppliers, providing a rather robust  picture of a supply  chain  network. Given the necessity   to  replicate the  structure of  the  supply  chain   network  as closely  as  possible  (i.e.  material and  ﬁnancial ﬂows)  in  such  an  in- dustry, we draw  from the  section  of the  SDC database that  gathers in- formation on JV activity  dealing  speciﬁcally with manufacturing part- nerships.  The  database  provides  detailed  information  on  each   ﬁrm engaging  in the respective JV, the purpose of the collaboration and the role each  participant played  in the venture. As an example  of the level of detail  available, the  purpose of one  such  JV between a component supplier and  a  major  OEM was  to  “manufacture  disk  brakes,   drum brakes  and  vacuum  boosters” for  the  inclusion  into  a  new  model  of automobile. Though not a traditional buyer-supplier network, given the explicit  sourcing/production  related purpose of  the  partnership, the frequency and volume of sourcing  between entities, and equity involved in   these   transactions,  we   believe   it   to   be   an   acceptable  proxy. Furthermore, we choose the automotive industry for its vast production networks and resource intensive manufacturing processes  (Choi and Hartley,  1996;  Choi and  Hong,  2002;  Kim et al., 2011).
+Next,  in  order  to  construct the  JV supply  chain  network for each year  using  this  data,  we ﬁrst  generate symmetric (i.e.  square)  binary matrices  for  year   the  years   1985–2003  as  follows.   Each  matrix   is comprised of n rows and n columns  (i.e. a matrix  of size nXn, hence  the symmetric label)  where  each  ﬁrm constitutes a distinct  row (of size n) and  column  of the  matrix  (of length  n).  In the  original  sample  there were  1158  ﬁrms  (both  buyers  and  suppliers) thereby generating 19 adjacency matrices, one for each  year,  with  dimensions 1158  by 1158.
+1 Note  that  there are  two  expectations of the  functional form  of the  curvi- linear relationship, both  of which are  non-monotonic in  nature. First,  at  low levels of density the eﬀect is shortening and there exists a minimizing eﬀect, yet when the  density increases there is a lengthening of the  cash  conversion time; hence the  traditional ‘U-Shape’ (i.e.  initial decline, bottoming out,  then  an  in- crease). This is in contrast to the  next  two  hypotheses wherein we expect  that there will be an initial positive eﬀect on EBITDA & ROA as density increases, we expect   that   this   beneﬁt  will  exhibit  an  ‘inverse  U-Shape’  (i.e.   initial  rise, reaching the  maximum, then  decline thereafter). See: Figs. 1 and  2.
+
+We  label  these  matrices At ,  where   t  represents the  year  under   ob- servation (t = 1,2,…,19). Then,  each  element, a ij,  of the  matrix  (for year  t) was assigned  a value  of either  0 or 1 (thus  its binary  construc- tion),  where  a value of 1 indicates that  ﬁrms i and j (in year t), engaged in a JV. This constitutes a tie  between ﬁrms  i and  j. When  taken  to- gether, all of the values in the matrix deﬁne the structure of the network for that  speciﬁc year (e.g. a value of 1 in row 1, column  3 indicates that there  was a JV involving ﬁrms 1 and 3). This process is then repeated in each  year  for all 19 years  under  observation (i.e.  19 binary  adjacency matrices for each  year,  all of which  having  dimensions 1158 × 1158).
+Additionally, each matrix  was updated annually to cumulatively reﬂect the  dynamics of  the  network and  the  composition changes   therein.
+Thus, we have  a dynamic panel  dataset of automotive JV supply  chain network structure over  the  course  of 19 years.  Accordingly, this  data- base   constitutes  a  suitable  repository  from  which   to  re-create the structure of a supply network, given the detailed information on the sourcing  information between (and  among)  all parties  involved  in such transactions. Furthermore, while extant  supply  chain  research has used similar  datasets to construct a supply chain  network (c.f. Carnovale and Yeniyurt,  2014,  2015b;  Carnovale et al., 2016,  2017),  the present data include   additional  dependent  and   independent  variables,  collected speciﬁcally for the  purpose of this  study.  It is also  worth  noting  that using  JVs to understand supply  chain  network structure is a useful  or- ganizational collaboration to examine from the perspective of the RDT, given that ﬁrms use these arrangements in order  to increase  control  and access  to  resources (Pfeﬀer  and  Nowak,  1976;  Pfeﬀer  and  Salancik,
+1978,  2003;  Gupta  and  Dutta,  2011).
+Next, to gather  performance information, we use the COMPUSTAT2 database, which  provides disclosure information on publicly  traded companies. Using this dataset, we cross reference it against  the ﬁrms in the  JV supply  chain  network using  their  ticker  symbols,  and  thus  tri- angulate the data.  Extant research suggests that  such techniques ensure methodological  rigor   in  empirical  research  (Ancarani  and   Zsidisin,
+2010).  Collectively, the above  referenced matrices deﬁne  the structure of the  JV network and  thus  all network related independent variables were  calculated, for each  year,  using  these  matrices. After calculating all network related variables, removing observations that  did not have complete the  ﬁnancial information required, adding   in  the  relevant controls  and lagging  the dependent variable by two years,  we were left with  387,  411,  and  388  observations for the  ﬁrm's  CCC, EBITDA and
+ROA, respectively.
+4.2.  Operationalization  of variables
+4.2.1.  Dependent variables
+For speciﬁc mathematical formulae, refer to Table 1. There are three dependent variables used: CCC, EBITDA and ROA. The ﬁrst dependent variable we examine is the  ﬁrm's  CCC, which  is a “composite  metric that  … requires adding  days  of  inventory plus  days  of  accounts re- ceivable   and   subtracting  days   of  accounts  payable”  (Farris   et  al.,
+2005:114).  Next,  we  examine  each  ﬁrm's  EBITDA, which   refers  to earnings before  interest, taxation, depreciation and amortization and is calculated as  net  sales  minus  cost  of goods  sold  (COGS) and  selling, general   and  administrative expenses   (WRDS, 2015).   Finally,  we  ex- amine  each ﬁrm's Return  on Assets (ROA), which is the net income over total  assets.
+4.2.2.  Independent variables
+First, in order  to operationalize a ﬁrm's network power  we use the centrality measure eigenvector centrality. This network measure cap- tures  “(1) the  number of links to other  points;  (2)  the  intensity of the links;   and   (3)   the   centrality  of  those   with   whom   one   is  linked”
+2 Compustat  Industrial   [Annual   Data]. (1985–2003).  Available: Standard  & Poor's/Compustat. Retrieved from  Wharton Research Data  Service.
+Table 2
+Correlations and  summary statistics.
+(Mizruchi  and Bunting,  1981:478) and is conceptually explained as “an actor  is more  central  if it is in relation with  actors  that  are themselves central” (Ruhnau, 2000:360). To capture a ﬁrm's network cohesion, we examine each  ﬁrm's  ego  network density. First,  the  ego  network of a focal  ﬁrm  deals  with  its  ﬁrst-degree connections.  These  ﬁrst-degree connections are those ﬁrms to whom  the ego is directly connected, and the  ties  among  the  ﬁrms  to  which  the  ego  is connected (Burt,  1980;
+Freeman, 1982;  Borgatti  and Halgin,  2011).  Essentially, this variable is a ratio  comprised on the number of actual  ties in the ﬁrm's ego network (i.e. the connections to which  the ego, or focal ﬁrm, is connected) over the  maximum possible  number of pairs  in that  ego  network. The  co- hesion  of the ego network, then,  captures the degree  to which  all ﬁrms contained within  an  focal  ﬁrm's  network are  connected to each  other
+(Ahuja,  2000).   For  the  empirical tests  of  the  diminishing returns to network cohesion, we simply  take  the  squared value  of the  ﬁrms  net- work  density, thereby resulting in a quadratic equation where  a nega- tive  coeﬃcient would  represent the  presence of  diminishing returns (i.e.  a curvilinear eﬀect, c.f. Cohen  and  Cohen  (1983)). Please  refer  to Table 1, above,  for the  speciﬁc  operationalizations noted  herein.
+4.2.3.  Control variables
+In  order  to  capture the  any  unobserved heterogeneity associated with  the  relationship between the  ﬁrm's  network structure and  their ﬁnancial performance,  we  also  include   some  key  control   variables.
+First,  because  extant  research has  shown  that  the  size of the  ego net- work  is an important determinant to the  eﬃcacy in understanding the connection between network structure and  performance, we include  a ﬁrm's ego network size. We also control  for any experiential eﬀects by including the  ﬁrm's age. Additionally, to control  for ﬁrms with  higher levels  of liquidity and  resources, we include  the  logarithmic transfor- mation of the  ﬁrm's  total  assets.  Note  that  total  assets  was  chosen  to reﬂect  all  of those  resources that  are  easily  convertible to  cash  (i.e. property, plant,  land  & equipment), or those  already liquid  (i.e. cash). Thus,  total  assets  provides a more  robust  picture of both  liquidity and resource access, particularly germane in light of RDT. Next, we control for ﬁrm size by including the ﬁrm's total  number of employees. Finally, because  the  three  dependent variables are  all ﬁnancial in nature and implicitly dependent upon time, we expect that  there  will be signiﬁcant autocorrelation as well as the  potential for endogeneity. Thus,  in each model,  two  lags  (i.e.  as independent variables t-1  and  t-2)  of the  de- pendent variables are included. This lagged  DV approach to control  for auto  correlation and  endogeneity has  been  suggested so as to  econo- metrically  correct   for  such   issues   (Patatoukas,  2012;   Kim,  2017). Table 2 shows the correlation and summary statistics of all the variables used  in this study.
+4.3.  Econometric method
+First,  it's  important to  note  that  the  data  used  in  this  study  are measured on the same group  of ﬁrms over a 19-year  period. Therefore,
+
+the  resulting sample   is  a  dynamic panel  data  set.  Furthermore, the dependent variables are  continuous in their  distributions. While long- itudinal data  allows researchers to account for dynamic variable re- lationships and one needs to take into account several  complexities that arise such as autocorrelation, heteroscedasticity, and endogenous re- gressors.  Fortunately, longitudinal econometric methods exist that  can take  into  account such complexities and  address  additional issues that exist in non-longitudinal designs,  such as endogeneity and  unobserved heterogeneity. In addition, such longitudinal methods allow for a more robust  picture of the  dynamics of the  network that  a traditional panel would  not oﬀer (i.e. variations in network structure over time).  In this study,  one  such  method was  chosen  speciﬁcally to  handle  (1)  a con- tinuous dependent variable, and (2) a dynamic panel structure. We thus chose  the  Arellano–Bover/Blundell–Bond  linear  panel  data  estimator
+(Arellano   and  Bond,  1991;  Arellano   and  Bover,  1995;  Blundell  and
+Bond, 1998).  This estimation technique builds  upon  Arellano  and Bond (1991)’s method whereby a ﬁrst diﬀerenced, generalized method of moments (GMM) estimator is used. However, Blundell and Bond (1998) noted  this  method can  suﬀer  from  small  sample  bias  due  to weak  in- struments. Thus,  they  suggest  “a system  GMM estimator with  ﬁrst-dif- ferenced instruments for the equation in levels” (Bruno, 2005:474). The reason  why  this  method is preferable over  other  dynamic panel  data models  is because  “the lagged  dependent variables are correlated with the  unobserved panel-level eﬀects,  making  standard estimators incon- sistent” (Stata,  2015:3). In addition, this method is ideal when there  are “few  time  periods  and  many  individual units…one left  hand  variable that  is dynamic, depending on  its  own  past  realizations” and  “right- hand  variables that  are  not  strictly  exogenous” (Baum,  2013:10). Ef- fectively,  in the  present context  this  model  is ideal  given  its ability  to cope   with   “independent  variables  that   are   not   strictly   exogenous, meaning correlated with  past  and  possibly  current realizations of the error;  with  ﬁxed  eﬀects;  and  with  heteroskedasticity and  autocorrela- tion” (Roodman, 2006:1). Thus, for to test the eﬀects of network power and network cohesion  on the ﬁrm's CCC, EBITDA and ROA we estimate three  such models,  one for each  dependent variable noted  above.
+5.  Results
+Examining  each  model's  Wald χ2, we see that  all values  are  statis- tically  signiﬁcant (p < .01)  thus  indicating that  each  model  ﬁts  the data  adequately. Table 3 presents these  results.
+5.1.  Network power
+Hypothesis 1 (a–c) dealt  speciﬁcally with  the impact  that  the ﬁrm's network power  has  on  the  ﬁrm's  CCC, EBITDA and  ROA. First,  the coeﬃcient for the  model  examining CCC as the  dependent  variable is positive, and not statistically signiﬁcant (p > .1); thus  hypothesis H1a is not supported. Next, the coeﬃcient for the impact  of network power on  the  ﬁrm's  EBITDA is  2064.25, which  is  positive  and  statistically
++ Note  that  'Dependent Variable' refers  to each  model's dependent variable, and  was  concentrated for space  considerations.
+*  p < .1.
+**  p < .05.
+***  p < .01.
+Fig. 1. Diminishing e
+
+ ﬀect of network cohesion on CCC.
+
+increases   to  a  ﬁrm's  network  cohesion   has  in  explaining  its  CCC,
+EBITDA and  ROA performances; both  linearly, and  non-monotonically by way of its diminishing returns. First, we see that  the  coeﬃcient for the linear  impact  that  network cohesion  has on a ﬁrm's CCC is negative and  statistically  signiﬁcant  (p < .01).   Hence,   H2a  is  strongly   sup- ported. Next, we see that while the coeﬃcient for the impact  of network power  on a ﬁrm's  EBITDA is positive, it is not  statistically signiﬁcant
+(p > .1). Thus, hypothesis H2b is not supported. Finally,  in the  linear context  we hypothesized that  increased levels of cohesion  would  posi- tively impact  the ﬁrm's ROA. We see that  the coeﬃcient is positive  and marginally  statistically  signiﬁcant  (p < .1).  Thus,   H2c  is  partially supported.
+We also hypothesized that  while cohesion  is good, that  there  would be a diminishing return as levels continue to increase. Thus for H3a we suggested that  at  a certain level  of cohesion, the  CCC would  actually lengthen, thereby creating ineﬃciencies with respect  to managing cash ﬂow  (the  traditional ‘U-Shaped’ eﬀect).  Examining  this  coeﬃcient we see that  it is in fact positive, and  statistically signiﬁcant (p < .01).  In
+Fig. 1 we see that  the  optimal point  of cohesion  manifests itself at be- tween  8% and  10%  of maximum density, immediately thereafter the beneﬁt  exhibits  a rather sharp  increase  (i.e.  lengthening) in the  CCC.
+Thus,  H3a  is strongly  supported. We also  suggested this  diminishing return eﬀect  would  occur  between cohesion  and  EBITDA. While  the coeﬃcient for  the  impact  of density  on  EBITDA is negative, it  is not statistically signiﬁcant (p > .1).  Thus,  H3b  is not  supported. Finally, we suggested that  at a certain point  too  much  cohesion  in a network would  detract away  from  the  ﬁrm's  ROA performance. Examining  the coeﬃcient we  see  that  it  is negative and  marginally  statistically  sig- niﬁcant (p < .1). Furthermore, in Fig. 2 we see the same optimal point of cohesion  (i.e.  8–10%)  whereby thereafter the  beneﬁt  to  ROA sig- niﬁcantly drops  oﬀ. Thus H3c is partially supported.
+Finally,  it's worth  highlighting the  impact  that  certain key control variables have  on  the  dependent  variables. First,  coeﬃcient for  ego
+Fig. 2. Diminishing eﬀect  of network cohesion on ROA. signiﬁcant (p < .01).  Thus, H2b is strongly  supported. Finally,  we see that  while the coeﬃcient for network power's  impact  on a ﬁrm's ROA is positive, it  is  not  statistically  signiﬁcant  (p > .1)  thus  we  ﬁnd  no support for H2c.
+5.2.  Network cohesion
+The next  set  of hypotheses dealt  speciﬁcally with  the  impact  that
+
+network size  on  the  CCC model  is − 129.27, which  is negative and statistically signiﬁcant (p < .01),  suggesting  that  as a ﬁrm's  ego net- work  increases  its size by one  unit,  its overall  CCC decreases by over
+129 units,  ceteris  paribus. This suggests  that  there  may exist increased complexity with  generating working  capital  as the  size of the  network with which  the ﬁrm interacts grows in size. Also of note,  is the positive and statistically signiﬁcant (p < .001) impact  that the lagged DVs have on  the  CCC. This suggests  that  there  may  exist  experiential eﬀects  to harnessing the beneﬁts  of CCC eﬃciencies. Table 4 presents a summary of these  results  matched to their  respective hypothesis.
+Table 5
+Theoretical contributions.
+Network construct
+
+
+Implications for  theory
+Supply chain  ﬁnance 	Network  theory 	Resource  dependence theory
+Network
+Cohesion
+
+
+Network cohesion plays the  largest role  in engendering a ﬁrm's eﬃciency in their ﬁnancial performance.
+
+
+The  results add  to  the  conversation around the contingent beneﬁts of density (i.e.  Burt  (1992) vs. Coleman, 1988) where by  ﬁrms experience
+
+
+The  approach herein integrates RDT into  the
+SCF conversation to suggest that ﬁrms consider both power, and  cohesion as critical
+• That is, high levels of this  construct increase a
+
+positive outcomes, but  up  to  a certain point.
+•
+
+determinants  of
+
+ﬁnancial success.
+Network
+Power
+
+ﬁrm's ability to  assimilate ﬁnancial reserves from their network (shorten the  time to  recover ﬁnancial resources).
+This  eﬀect  is, however, not  inﬁnitely positive, and is only  beneﬁcial to  a certain point due  to diminishing returns
+Thus, there is an  optimal point of cohesion in the network that ﬁrms should strive to  achieve.
+Network power, in contrast to  network cohesion, appears to  positively aﬀect earnings performance of the  ﬁrm.
+The  ability to  leverage network resources and reduce dependence appears to  increase earnings
+
+Findings suggest that loosely connected networks
+(Burt, 2004), those with lower levels of cohesion, lead  to  positive outcomes.
+The  results extend the  context around the importance of eigenvector centrality in networks.
+Speciﬁcally, its  use  as an  operationalization  of power in network analysis.
+
+From the  RDT perspective, the  results are  two- fold:  (1)  cohesive networks engender access to tightly connected local  resources, which are more eﬀective for  cashﬂow and  working capital performance. Next,  (2)  Network power can  have a dependence reduction eﬀect  that can  increase earnings performance.
+6.  Discussion
+The central  purpose of this  study  was to contribute to the  existing gap in the  supply  chain  management literature dealing  with  the  inter- section  of the  network perspective and  ﬁnancial performance. That  is, to date,  extant  research has  not  yet  considered the  role  that  network structure has on SCF related performance metrics.  Through the  use of resource dependence  and  network theories,  we  tested   the  eﬀect  of network power  and  network cohesion  on  three  measures of ﬁnancial performance  (CCC, EBITDA and  ROA)  thereby  broadening  out  the perspective of  SCF and  further contributing to  the  literature on  the
+‘structure-performance link’ (Foerstl,  Franke  and Zimmermann, 2016). In the  process,  two  (2)  central  themes  emerged from  the  results:  (1) network cohesion  engenders eﬃciency  in  ﬁnancial performance; and
+(2) network power  engenders earnings performance. Table 5 provides a summary of the  contributions of this  study  to SCF, RDT and  network theory.
+6.1.  Theme 1: network cohesion engenders eﬃciency in ﬁnancial performance
+Network  cohesion  speaks directly to the local network structure, or the  composition a  ﬁrm's  immediate network. Empirically, this  study shows that  it is at this level of network analysis  where  the largest  gains to a ﬁrm's  performance are  achieved: a shortening of the  CCC and  an increase  to the  ﬁrm's ROA. Each of these  performance measures relate directly to the ability  for the ﬁrm to extract  resources and value  out of their  ﬁnancial processes.  In the  context  of SCF, the  importance of col- laboration (Caniato  et al., 2016)  attention to the ﬁnancial health of the supply  base  (Bode et al.,  2014)  are  large  antecedents to performance.
+
+Accordingly, the  results  herein  contribute to this  discussion  by articu- lating   the   importance  of  cohesion   for  engendering  eﬃciency   (i.e. making  better  use of ﬁnancial resources). Speciﬁcally,  when  local net- work  structure is optimized ﬁrms  are  able  to leverage resources more eﬃciently  and   reduce   the   CCC, thereby  increasing  their   access  to cashﬂow.  In the  context  of RDT, this  result  is also noteworthy.  Speci- ﬁcally,  the  predominant thinking around why ﬁrms  seek to engage  in collaborative initiatives is to increase  access to resources and decrease dependence  to  achieve   some   end.   To  date,   however,  the   present thinking around SCF is that  performance increases  are  generally only seen in the  context  of managing the  ﬁrm's ﬁnancial processes  through capital  (Mizgieret al., 2015)  or procurement initiatives (Wuttke  et al.,
+2013a). The present study builds on this thinking and suggests that, generally, performance beneﬁts  are  also seen  when  ﬁrms  manage and develop  their  local network structures.
+However, it  is important to  note  that  there  has  been  a fair  bit  of theoretical tension  surrounding network cohesion  (i.e.  density), with some highlighting the beneﬁts  gained  as it increases, others  suggesting the  opposite. The empirical results  herein  seem to side with  the latter. Speciﬁcally,  though network cohesion  is a positive  thing,  an  optimal point  was  shown  to  exist,  beyond  which  subsequent increases  in  co- hesion  actually reduce the  positive  eﬀect.  In both  the  case  of the  re- lationship between cohesion  and CCC as well as cohesion  and ROA, the performance beneﬁts  gained  are at their  optimal point between 8% and
+10%  density, and  begin  a precipitous decline  thereafter. This ﬁnding conﬁrms  earlier  work  (Burt,  2004)  that  loosely  connected networks, those  with  lower  levels  of cohesion, can  lead  to positive  outcomes. In the  context   of  SCF, the  results   contribute to  the  work  focusing  on broadening the  scope  of SCF to  include  the  extended enterprise (c.f.
+Huﬀ and  Rogers,  2015)   as  well  as  that   work  which   considers the cluded   that   ﬁrms  seeking  to  optimize the  eﬃciency   with  which   ﬁ- nancial  resources are  used,  and  therefore increase  their  ROA and  de- crease their  CCCs, must be cautious about  increasing the connectedness of their  networks. This  is also  substantiated upon  examining the  ne- gative eﬀect that  focal ﬁrm network size has on both the CCC and ROA.
+We did not,  however, ﬁnd support for the  eﬀect of network power on  neither ROA nor  CCC. This  merits  further exploration. Taken  to- gether, the  ﬁrms  CCC and  ROA are,  to  a  certain degree,   essentially representing the  eﬃciency  with  which  ﬁrms are  deploying and  mana- ging their  ﬁnancial assets locally  (i.e. ego network level)  in the supply chain  network. One possible  explanation for the  result  is that  the  ex- ertion  of power  can  lead  to  opportunistic behavior (Handley, 2012) and,  if wielded   inappropriately, can  lead  to  negative relational out- comes.  In the context  of the ﬁrm's CCC performance, the need  to foster collaborative partnerships (Caniato  et al., 2016)  is critical  and thus, this may explain  why there  is no signiﬁcant eﬀect present.
+6.2.  Theme 2: network power facilitates earnings performance
+Network  power,  as deﬁned  above, speciﬁcally dealt with how a ﬁrm leverages its network position  and connections to its beneﬁt. Thus, as a construct it is externally driven  and  from  an  RDT perspective, funda- mental  to reduced dependency and  increased access  to resources. The ﬁndings  indicate that  as  ﬁrms  increase  their  network connections to those  ﬁrms  with  more  power  in the  network, they  increase  access  to resources and thus generate signiﬁcant improvements to their  earnings performance. In the  context  of SCF, the  ﬁndings  suggest  that  depen- dence  can  have  a negative eﬀect  on performance. This result  also  ac- centuates earlier  work  which  advocates managing the  ﬁnancial health of the  ﬁrm's supply  base to the  focal ﬁrm's beneﬁt  (Bode et al., 2014), and  extends  it by suggesting  that  power  and  dependence are  also cri- tical  to manage in this  process.  Additionally, the  ﬁnding  extends  pre- vious work suggesting  that sound partnerships can beneﬁt  the focal ﬁrm ﬁnancially (Hertzel  et al., 2008),  in this  case with  respect  to the  earn- ings performance of the  focal ﬁrm.
+In  this  context, however, there  were  no  signiﬁcant ﬁndings  with respect  to the  eﬀect of network power  on the  CCC and  ROA. Perhaps one possible  interpretation of this  is the  emphasis that  the  CCC places on  the  importance of collaboration so as  to  facilitate cash  ﬂow  eﬃ- ciency.  Thus, increasing power  might  have  a negative eﬀect on such a process  (i.e. the balance of power  might  be shifted),  whereby powerful
+OEMs aren’t compelled to cooperate. Another  potential reason  for the lack  of signiﬁcance in the  predicted eﬀect,  might  be due  to the  price pressure that  ﬁrms  who  partner with  large,  powerful ﬁrms  often  face
+(Bloom and  Perry,  2001),  and  thus  certain metrics  of ﬁnancial perfor- mance  could  therefore be aﬀected.
+6.3.  Managerial implications
+Our  ﬁndings  have  noteworthy implications for supply  chain  man- agement practice. Procurement and  sourcing  professionals need  to be aware  of the  relationship between the  structure of their  supply  chain networks and  the  ﬁnancial performance of their  ﬁrm  for two  (2)  pri- mary  reasons.  First,  managers should  consider the  role  that  their  ﬁrst degree  supply  base  connections, and  extended networks overall,  have on their  ﬁnancial performance. Primarily, a larger  network is particu- larly beneﬁcial for cash conversion cycles and return on assets. Thus, to maximize  their  ﬁnancial performance, managers should  strive  towards a relatively robust  and  diverse  supply  base  (i.e.  larger  network struc- ture)  where  their  organization has a central  role. Additionally, it's quite important for managers to focus on the structure of the connections in the  ﬁrm's  supply  base,  as indirect negative consequences (i.e.  dimin- ishing  returns) on  ROA can  arise  when  networks are  too connected.
+That is, when there  exist redundancies in the supply base, negative externalities can  arise  and  ameliorate any  beneﬁts  attained.  Second,
+
+that  it is these connections have the largest  impact  on earnings per- formance. We ﬁnd that  the prominence of the ﬁrm's extended network connections (i.e. the degree  to which  the ﬁrm works with key suppliers, either   high  volume  or  those  suppliers who  have  a  large  number  of supply  relationships throughout the network), is the characteristic that managers should  focus on to increase  their  earnings performance. This insight becomes particularly important in the supplier selection  process. Working with such suppliers, perhaps given their position  in the market and ability  to drive value for their  customers, allows the ﬁrm to free up resources and  signiﬁcantly increase   earnings. Taken  together, mana- ging  both  the  local  and  extended  network  connections of  the  ﬁrm provides a robust  picture, and a nuanced perspective, of how to increase ﬁnancial performance and  manage SCF initiatives.
+7.  Conclusion,  limitations, and future  directions
+Overall,  this research integrates two overarching theoretical per- spectives, resource dependency theory  and  network theory, in  an  at- tempt  to contribute to SCF research from a non-traditional perspective: the impact  that  network structure has on resource access, and therefore the ﬁrm's ﬁnancial performance. Theoretically, the research adds to the
+SCF domain   by  suggesting   that  network cohesion   increases   a  ﬁrm's ability  to assimilate ﬁnancial reserves  from their  network (shorten the time  to  recover   ﬁnancial resources). Also,  that   network power   is  a critical   component as  ﬁrms  seek  to  engender their  earnings  perfor- mance.   From  the  RDT perspective, the  contribution is  two-fold:  (1) cohesive  networks engender access to tightly  connected local resources, and therefore increase  eﬃciency in performance and capital  availability
+(i.e. CCC). Next, (2) Network  power  can have  a dependence reduction eﬀect that  can increase  earnings performance.
+While  this  study  has  furthered our  understanding of the  role  that network structure and  composition has  in explaining a ﬁrm's  internal and  external supply  chain  performances, there  are  several  limitations that  need  to be noted.  First,  this  study  uses  manufacturing JVs to re- plicate  a supply  chain  network which  may  not  include  certain other buyer/supplier relationships (i.e.  arms  length  sourcing  arrangements, etc.).  Also, while  the  network herein  is dynamic, in future  research it would  be worth  explicitly  analyzing the  length  and  the  importance  of the  JV (or  other  buyer/supplier relationships) as it  relates  to  perfor- mance.  Next, we sample  from the automotive industry and thus there  is a chance  that  the  external validity  of the  ﬁndings  is not  as strong  had we used a cross-industry sample.  It's also worth  noting  that  the way in which  power  was measured is diﬀerent from previous works, as the use of power  is not  captured. Clearly,  a more  contextual understanding of power  (rather than  the  structural one adopted herein) would  be bene- ﬁcial. Additionally, related to the sample,  the data are somewhat dated.
+While  the  large  number of  ﬁrms,  and  the  interconnections between them,  is generally representative of a modern JV network, future  re- search  should capture a more updated network structure for this type of analysis.  Future  research should  also  perform  inter-industry compar- isons in order  to extend  external validity  and theoretical understanding of these  concepts. In addition, research should  extend  to other  areas  of general  ﬁnance  to  further broaden the  SCF vantage point  to  include things  like dynamic discounting, FinTech,  and  other  SCF related con- structs  should  be studied.
+References
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+. 
+.
+Burt,  R.S., Durham, N.C., 2000. The network structure of social capital, In: Proceedings of the  social networks and  social capital conference. Duke  University The  Network Structure of Social  Capital Research in Organizational Behavior, 22  SRC -
+GoogleScholar pp.  345–423.
+.
+. ﬁ
+. ﬁ
+.
+. ﬁ ﬁ.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Colias, M., 2015. Gm squeezes its suppliers–gently, 
+, 9/16/2015.
+. 
+.
+.
+.
+.
+.
+.
+.  ﬁﬁ
+.
+.
+
+.
+.
+.
+. ﬁ
+.
+.
+.
+. ﬁ
+. ﬂ ﬁ.
+.
+. ﬃﬁ ﬀﬁ.
+.
+. ﬀﬁ
+.
+.
+.
+.
+.
+.
+.
+.
+. 
+. ﬂ
+.
+.
+. ﬁ
+. ﬀ
+. ﬀ
+. ﬀ
+.
+. ﬀ
+. ﬁ
+.
+. ﬀ
+. ﬀ.
+. . ﬁ
+. 
+.
+. ﬁ
+.
+Roodman, D. (2006). An introduction to  "diﬀerence" and  "system"  gmm  in stata. Center for  Global Development, Working Paper Number 103.
+. ﬀ
+.
+.
+.
+Stata, I., Xtdpdsys-arellano-bover/blundel-bond linear dynamic panel-data estimation,
+October 23,  2015 〈〉. 
+. ﬀ
+.
+. ﬂ. 
+
+.
+. Vasilyeva, N., 2018. Fiat  agrees $3.3 billion joint venture in russia,  ﬁ, 4/24/
+2018.
+.  ﬁﬁ.
+.
+.
+Wrds,  2015. Earnings before intrest, 
+, October 22. ﬁ
+. ﬁﬂ ﬁ
+.
+.
+. 
+.

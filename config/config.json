@@ -1,10 +1,10 @@
 {
-    "pdf_articles_path": "./articles-pdf",
-    "txt_articles_path": "./articles-txt",
-    "word_articles_path": "./articles-word",
-    "txt_results_keywords_path": "./results-keywords-txt",
-    "txt_results_summaries_path": "./results-summaries-txt",
-    "results_graphs_path": "./results-graphs",
+    "pdf_articles_path": "./articles/pdf",
+    "txt_articles_path": "./articles/txt",
+    "word_articles_path": "./articles/word",
+    "txt_results_keywords_path": "./results/keywords-txt",
+    "txt_results_summaries_path": "./results/summaries-txt",
+    "results_graphs_path": "./results/graphs",
     "format" : {
         "wdFormatDocument" : 0,
         "wdFormatDocument97" : 0,

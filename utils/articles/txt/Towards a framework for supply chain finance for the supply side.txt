@@ -1,0 +1,53 @@
+Contents  lists available at  journal  homepage:  
+Institute  of Supply Chain  Management, University  of St.Gallen, 9000 St.Gallen, Switzerland
+Keywords:
+ A B S T R A C T
+Buyers increasingly oﬀer ﬁnancing alternatives to their suppliers – so called  supply  chain ﬁnance (SCF) practices for the supply  side. Expected beneﬁts however do not always materialize for involved actors. Guidance is needed when to provide these  SCF practices to suppliers and  why  to select  diﬀerent types  of practices. To provide this basis  to develop a contingency framework on SCF practices for the  supply  side.
+ however, has either  remained on the conceptual level (Hofmann, 2005) or analyzed speciﬁc  SCF techniques. In particular, several  studies  have focused  on approved payables ﬁnancing (Wandﬂuh et al.,  2016),  and researchers have  identiﬁed  prerequisites for  its  application. For  instance,  van der Vliet et al. (2015) discussed  how a supplier's ﬁnancing costs aﬀect approved payables ﬁnancing. Yet, the  question arises  as to whether these  factors  are  only  relevant for  approved payables ﬁnan-
+1478-4092/ © 2018 Elsevier Ltd. All rights reserved.
+ and  cash  outﬂows  to  suppliers (Jose  et  al.,  1996).  Suppliers  thereby represent a possible  source  of ﬁnancing, thanks  to  their  provision  of timing.1   Post-shipment ﬁnancing occurs  after  goods  have  been  delivered  and  approved by the  buyer,  while  pre-shipment ﬁnancing is of- ternal  and  supply  chain-external funding  sources,  depending on  whether  the  approach involves  an additional funder  or utilizes  the  buyer's own funds. The latter  approach results  in a working  capital  increase  for buyers.
+Fig. 1 depicts  four  types  of practices (with  example  techniques), classiﬁed  according to the  dimensions “time of ﬁnancing” and  “source of funds”. Appendix  A includes  a brief description of these SCF techniques
+ Fig. 1. Classiﬁcation of SCF practices for the supply  side and corresponding SCF
+Fig. 2. Preliminary framework based  on the  contingency approach. on the supply  side. In addition to our previously described reasons,  we have  selected  this  focus  on  the  supply  side,  as  it  permits  an  explicit study  design.  Thereby,  we ensure  cross-case  comparability but can still
+ study  design  (Yin, 2009).  In total,  we  conducted 20  interviews with representatives of buying  companies.
+ 3.3.  Case analysis
+Category	Deﬁnition 	Operationalization (e.g.)
+ 
+ • Financial costs
+ • Financial strength
+ • Quality level
+ Supplier dependence describes the  degree to  which a supplier requires valuable resources from  a buyer (Pfeﬀer and  Salancik, 1978).
+ • Buyer's share of sales  volume
+ • Growth rates
+• Stability of ﬁnance industry
+ accessing   the  buyer's   ﬁnancing  costs  and  funding   sources.   Thus,  a buyer's  ﬁnancial strength forms the foundation of SCF practices for the
+Examples of quotes regarding key categories related to supply  chain-internal and  supply  chain-external ﬁnancing.
+Category (type of contingency)
+ 
+(exogenous)
+ 
+ 
+Category (type of contingency) 	Pre-shipment ﬁnancing 	Post-shipment ﬁnancing
+(relationshiprelated)
+ “The purchase order basically obliges us to accept the  delivery afterwards. Therefore, we  are  exposed with 95%  of the purchase value.” (Epsilon)
+ “We are  able  to reject deliveries and  adapt orders prior to delivery. Thus, it becomes diﬃcult to  evaluate ﬁnancial risks  prior to
+ supplier's ﬁnancial beneﬁts  (van  der  Vliet  et  al.,  2015).  Thus,  ﬁnan-
+ All buyers  noted  that they only oﬀered SCF practices for the supply side
+ when  buyers  combine supply  chain-external ﬁnancing with  an  exten-
+ factors  are not essential for post-shipment ﬁnancing, although they are important for pre-shipment ﬁnancing. Epsilon  and  Zeta pointed to the
+Fig. 3. Contingency framework for the  application of SCF practices for the  supply  side.
+ supply  side.  Nevertheless, our  ﬁndings  indicate that  not  all identiﬁed
+ lenses  applicable in  the  ﬁeld  of SCF (Hofmann and  Johnson, 2016). Fifth, our ﬁndings  diﬀerentiate among  three  types of reasons  (ﬁnancial, cash ﬂow-related, and relational) explaining a supplier's commitment to
+SCF techniques for the  supply  side  and  their classiﬁcation with  regard to source of funds  and  time  of ﬁnancing.
+SCF technique	Description	Source  of funds	Time  of ﬁnancing 	Example studies
+SC-ext 	SC-int 	PoS	PrS
+ An FSP is introduced as an intermediary to the  buyer-supplier dyad. The buyer approves the  invoice for payment to the  FSP. The supplier receives an  early payment from  the  FSP in exchange for  a discount. The  buyer pays  the  full  invoice on  the  agreed-upon due  date. The  FSPs ensures
+ X	X	(Lekkakos and  Serrano, costs  for  suppliers.
+ X	X	(Caniato et  al.,  2016)
+ • Data  triangulation of multiple sources (interviews, presentations, reports, etc.)
+• Open-coding and  pattern-matching among cases
+External validity	(Partial) generalizability of results to  another context 	Within-case analyses
+Theoretical sampling approach
+• Involvement of independent researchers
+ .
+ .

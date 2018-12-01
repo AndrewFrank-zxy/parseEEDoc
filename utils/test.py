@@ -14,6 +14,7 @@ new_local_dir = local_dir
 wf = word_format()
 wdFormatPDF = wf.get_wdFormatPDF()
 
+
 def get_pdf(in_file, out_file):
     word = comtypes.client.CreateObject('Word.Application')
     doc = word.Documents.Open(in_file)
@@ -58,6 +59,7 @@ def pdf_to_word():
             print('Conversion cancelled')
             continue
         get_doc(util.full_path(pap, file_name), util.full_path(wap, o_f))
+
 
 if __name__ == '__main__':
     pdf_to_word()

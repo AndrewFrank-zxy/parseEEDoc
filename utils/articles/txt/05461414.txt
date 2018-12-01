@@ -1,0 +1,316 @@
+Empirical Analysis of Influences of Fictitious Economy on Real Economy in
+China
+Zhou Ying-ying1, Liu Chuan-zhe2, Tang Liang3
+1. School of Management, China University of Mining and Technology, Xuzhou 221116, China
+E-mail: 
+2. School of Management, China University of Mining and Technology, Xuzhou 221116, China
+E-mail: 
+3. Chairman’s Assistant, China National Automotive Industry International Corp, Beijing 100080, China
+E-mail: 
+Abstract: Influences of fictitious economy on real economy appeared gradually in China. An empirical analysis about the influences was given by using quarterly data from April 1998 to December 2008. The results show that there is cointegration relationship between China’s fictitious economy and real economy in the long term; there is Granger cause of the representative variables of China’s fictitious economy to the representative variable of real economy respectively; the influences of the turnover of stock trading, the turnover of foreign exchange transactions, and the turnover of commodity futures trading on the real economy are much remarkable based on the least squares analysis which is consistent to the conclusion of variance decomposition; and the effect from stock market to real economy is strongest in China. Therefore, the results indicate that the influences of stock market, foreign exchange market and commodity futures market on real economy development of China are much remarkable.
+Key Words: Fictitious Economy, Foreign Exchange Market, Futures Market, Real Economy, Stock Market
+I.	INTRODUCTION
+Fictitious economy of developed countries and some newly industrialized  countries  has  been  developing  rapidly  since
+1980s, and its scale has been greater than the scale of real economy. The total of the world’s fictitious economy reached
+$160 trillion in 2000 which was equivalent to 5 times of the world’s gross national product. Therefore, influences of fictitious economy on real economy become remarkable gradually. The stock market, bond market and futures market of China have been developing rapidly based on the establishment  of  Shanghai  Stock  Exchange  and  Shenzhen Stock Exchange since 1990s. The stock market, bond market, foreign exchange market and financial derivatives market etc. are important sub-markets of China’s financial markets; and the scale of China’s fictitious economy expands rapidly based on the development of financial market and real estate markets which can take more and more influences on China’s real economy.
+Shiller  (1990)  thought  that  the  market  had  its  own development trend to a certain extant based on an analysis of many datum[1]. Sethi (1996) gave a conclusion that the wealth of  the  market  decided  the  degree  of  endogenesis  of  the fictitious economy[2]. Chang (2002) thought that the variables of the market conditions, the degree of financial development, the currency management system and the macroeconomic policy in different stage of economy development could influence the relationship between the fictitious economy and real  economy[3].  Liu  and  Wang  (2004)  thought  that  the fictitious  economy’s  development  was  very  important  to
+This   work   is   supported  by   Philosophy  &   Social   Science   College
+
+national economic security[4]. Therefore, there is little quantitative analysis of the influences of fictitious economy on real economy.
+The influences of fictitious economy on real economy in China will be analyzed by both qualitative and quantitative methods. The paper proceeds as follows. In Section 2, the model reflecting the influences of China’s fictitious economy on real economy will be analyzed. In Section 3, an empirical analysis on the influences of China’s fictitious economy on real economy will be taken. Finally, Section 4 concludes.
+II.   METHODOLOGY
+Wang (2007) put forward a common equilibrium model of fictitious economy and real economy, as follows[5]:
+It is supposed that the entire economic system is divided into the real economy and fictitious economy when the condition of a country’s macroeconomic is closed. Two important variables of the real economy system are the price level P and the profitability level r. Because real economy’s price system is supported by cost, the price level can remain unchanged in the short term; and the profitability level is determined by exogenous variables. Two important variables of fictitious economy are the price level P* and the interest rate i. Because fictitious economy is a price system supported by psychological, the price level is flexible; and the interest level is determined by supply and demand in the money market. It is supposed  that  risk-neutral  investors  construct  portfolio between the real economy and fictitious economy and the capital can flow freely without any restrictions which has to meet the arbitrage qualification as in Eq.(1) that the fictitious economy’s expected yield is equal to the real economy’s.
+P*e  − P*
+Foundation   of   Jiangsu   Province   Education   Department   under   Grant
+09SJD790069.
+
+1 + r = (1 + i) +
+P*
+
+(1)
+Fictitious economy’s price change degree is almost affected by investors’ expectedness of the future, and the equation of expected mechanism can be expressed as Eq.(2).
+
+TABLEⅠ ALL VARIABLES’   UNIT ROOT TEST RESULTS
+P*e  − P*
+P*
+*
+
+
+P  − P*
+= (	)θ
+P*
+
+
+(2)
+P  is  fictitious  economy’s  long-run  equilibrium  price.  The synthesis of these two formulas can be expressed as Eq.(3).
+*	*	 	 r − i = ( P
+*
+
+− P )θ ≈ θ (ln P* − ln P* ) = θ ( p*  − p* )
+P*
+*
+
+
+(3) ln P is equal to
+
+p	and
+
+ln P*
+
+is equal to
+
+p*     in Eq.(3), and
+
+It is evident in tableⅠthat all the variables LNGDP, LNST, these are same to the following equations.
+If the macroeconomic system is in long-run equilibrium and fictitious   economy   is   determined   by   real   economy,   the long-run relationship between fictitious economy and real economy can be expressed as Eq.(4).
+
+LNTD, LNFE, LNFS and LNCT have unit root under 5% and
+10% confidence level, so these series are not level stationary. First-order, second-order or third-order differential must be taken to the primary series in order to have unit root test again.
+The first-order differential variables’ test results are reported in
+Ⅱ. d p 
+=   = 1 dp 
+
+
+(4)
+
+table
+TABLEⅡ THE FIRST-ORDER DIFFERENTIAL VARIABLE’S UNIT ROOT TEST RESULTS
+Influences of Chin’s fictitious economy on real economy will be analyzed based on the above theoretical analysis. Financial market is the most important part of fictitious economy, so China’s financial market mainly contains the stock market, the bond market, the foreign exchange market and financial derivatives market etc. According to the analysis, we choose the  gross  domestic  product  (GDP)  as  the  representative variable of real economy, and the turnover of stock trading (ST), the turnover of treasury bonds trading (TD), the turnover of foreign exchange transactions (FE), the turnover of investment of futures and securities trading (FS) and the turnover of commodity futures trading (CT) as the representative variables of China’s fictitious economy.
+III. RESULTS
+A.    Data
+Because the statistic data of the turnover of trading of investment of futures and securities was from April 1998, the data of all economic variables are quarterly data from April
+1998 to December 2008 which are taken from the electronic data delivery system of the National Bureau of Statistics of China and the People’s Bank of China. Because the selected data is quarterly data, the original data must be adjusted by
+X12 seasonal adjustment method and the adjusted data can be taken to the empirical analysis. All the variables are broke to natural logarithm, which are recorded as LNGDP, LNST, LNTD, LNFE, LNFS, and LNCT.
+B.      Unit Root Test
+The Engle and Granger (1987) and Gregory and Hansen (1996) cointegration  tests  require  same  degree  of  integration  of nonstationary series[6-7]. The augmented Dickey-Fuller (ADF) unit root test was used to ascertain the order of integration in this paper. The test results are reported in tableⅠ.
+
+
+It is evident in table Ⅱ that all the first-order differential variables DLNGDP, DLNST, DLNTD, DLNFE, DLNFS and DLNCT have no unit root under 5% and 10% confidence level, so all the series are I(1).
+C.    Cointegration Test
+All variables are I(1), so they can be taken to cointegration analysis. Based on the cointegration test, the results reported in table  Ⅲ.
+Table  Ⅲ shows that there is at most 6 cointegrating equation under 5% confidence level between the variable LNGDP, LNST,  LNTD,  LNFE,  LNFS  and  LNCT.  Furthermore,  the resid U of that cointegration test must be taken to smooth test, and the result is shown in table  Ⅳ.It is evident in table  Ⅳ that the series of the resid U is level stationary, so it validates there is cointegration relationship between the variable of money supply and variables of China’s fictitious economy.
+D.    Causality
+On the basis of the Gregory and Hansen (1996) test for cointegration, the Granger Causality Test will be carried on.
+The Granger Causality Test results are reported in table Ⅴ.
+0.05
+
+latter.    The  Granger  cause  of  the  gross  domestic  product (GDP) to the turnover of foreign exchange transactions (FE) is remarkable and bidirectional. The Granger cause of the gross domestic  product  (GDP)  to  the  turnover  of  investment  of futures and securities trading (FS) and the turnover of commodity futures trading (CT) respectively is remarkable and unilateral, and GDP is the Granger cause of FS and CT. However,  there  is  no  Granger  cause  between  the  gross domestic product (GDP) and the turnover of treasury bonds trading (TD) which indicates that there is no causality between GDP and TD in the short term.
+E.      Least Squares Analysis
+The influences of the representative variables of China’s fictitious economy on real economy respectively have been
+ 	   analyzed by the method of least squares, and the results are
+Variable	Trace
+Statistic
+
+
+Critical
+Value
+
+Prob.	Hypothesized
+No. of CE(s)
+
+following as:
+LNGDP =
+
+
+7.3
+
+
++ 0.3332LNST
+
+
+(5)
+(17.7797 )	( 7.7927 )
+R2  = 0.8970
+
+
+2 adj
+
+
+= 0.8871
+
+
+F = 60.7264
+
+
+DW = 1.8936
+TABLEⅣ SMOOTH TEST RESULT OF THE RESID U OF THE COINTEGRATION TEST
+
+It can be seen in Eq.(5) that the effect from the turnover of stock trading (ST) to the gross domestic product (GDP) is strong, the statistic of T is remarkable and the coefficient is about 0.3332 which indicates that there is positive correlative relationship between ST and GDP. The value of R-squared is big which is about 0.897, and the value of F-statistic is 60.7264 which indicates that the statistic of F is remarkable.
+LNGDP = 11.5004− 0.1166LNTD
+(10.3929) 	( −0.9200)
+
+(6)
+R2  = 0.0202
+
+
+2 adj
+
+
+= −0.0036
+
+
+F = 0.8464 DW = 0.0352
+TABLEⅤ GRANGER CAUSALITY TEST RESULTS OF ALL VARIABLES
+
+Eq.(6) shows that the statistic of T about the influence of the turnover   of   treasury   bonds   trading   (TD)   on   GDP   is
+ 		unremarkable, the values of R-squared and adjusted R-squared
+Probability
+
+are small, the statistic of F is unremarkable and the value of Durbin-Watson statistic is very small. The result is almost consistent with the conclusion that there is no Granger cause between TD and GDP in table  Ⅴ. Because the turnover of treasury bonds trading (TD) is composed by the turnover of spot trading of treasury bonds (GX) and the turnover of repo. trading of treasury bonds (GH), the least squares analysis between GX, GH and GDP has been done as Eq.(7).
+LNGDP = 12.4641+ 0.2017 LNGH −0.5488LNGX
+(19.1795) 	( 2.7150 )	( −8.6387 )
+
+(7)
+R2  = 0.8511
+
+
+2 adj
+
+
+= 0.8336
+
+
+F = 37.3192
+
+
+DW = 1.6926
+It is evident in Eq.(7) that the statistic of T between GX, GH and GDP respectively is remarkable, the value of R-squared is big which is about 0.8511, and the statistic of F is remarkable. The coefficients of GH to GDP and GX to GDP are 0.2017 and
+-0.5488 respectively which indicate that the effect from GH to
+GDP is stronger than GX to GDP.
+LNGDP = 8.1288+ 0.2895LNFE
+(17.7797 )	(18.4057 )
+
+(8)
+It is evident in table Ⅴthat the Granger cause of the gross domestic product (GDP) to the turnover of stock trading (ST)
+
+
+R2  = 0.8920
+
+
+2 adj
+
+
+= 0.8894
+
+
+F = 338.77
+
+
+DW = 1.6351 influence of the turnover of foreign exchange transactions (FE) on GDP is remarkable, the vale of R-squared is 0.892 and the statistic of F is remarkable. The coefficient is 0.2895 which indicates that there is positive correlative relationship between FE and GDP.
+
+degree of prediction error from the turnover of stock trading, the turnover of treasury bonds trading, the turnover of foreign exchange transactions, the turnover of investment of futures and securities trading and the turnover of commodity futures trading to the gross domestic product. It is evident in table  Ⅵ
+LNGDP = 9.2701+ 0.2043LNFS
+( 27.5152 ) 	(3.6529 )
+
+(9)
+
+R2  = 0.8455
+
+that the contribution degree of prediction error from all the variables of China’s fictitious economy to the gross domestic
+2 adj
+
+= 0.8271
+
+F = 131.3435 DW = 1.7264
+
+product   respectively   is   becoming   bigger   in   the   terms.
+Eq.(9) shows that the statistic of T about the influence of the turnover of investment of futures and securities trading (FS) on GDP is remarkable, the vale of R-squared is 0.8455 and the statistic of F is remarkable. The coefficient is 0.2043 which indicates that there is positive correlative relationship between FS and GDP.
+
+Therefore, it indicates that there are great influences from all the variables of China’s fictitious economy to the gross domestic  product,  and  the  conclusion  is  consistent  to  the results of cointegration test.
+100
+80
+LNGDP = 7.3962+ 0.3095LNCT
+(37.0075) 	(15.5653)
+
+(10)	60
+R2  = 0.8553
+
+2 adj
+
+= 0.8517
+
+F = 242.2782 DW = 1.4095	40
+It is evident in Eq.(10) that the turnover of commodity futures trading (CT) on GDP is remarkable, the vale of R-squared is
+0.8553 and the statistic of F is remarkable. The coefficient is
+0.3095 which indicates that there is positive correlative relationship between CT and GDP.
+Therefore, the influences of the representative variables of China’s fictitious economy ST, GH, FE, FS and CT on the representative variable of real economy GDP is remarkable, and the coefficients are positive. Furthermore, the influences of ST, FE and CT on GDP are more remarkable, and the effect from the turnover of stock trading (ST) to GDP is strongest.
+F.    Variance Decomposition
+The result of smooth test on the VAR(1) of the variables LNGDP, LNST, LNTD, LNFE, LNFS and LNCT shows that some roots of the characteristic equation are out of the unit circle,  so  the  VAR(1)  is  not  smooth  and  it  need  to  take first-order differential of all variables in order to test again. The VAR(2) is established based on the optimal lag according to AIC and SC. The result of smooth test on the VAR(2) shows that all the reciprocal of the roots of VAR(2) are less than 1, and VAR(2) is smooth. Therefore, VAR(2) can be used to do variance decomposition test. The results are reported in table
+Ⅵ and Figure  Ⅰ.
+TABLEⅥ VARIANCE DECOMPOSITION OF DLNGDP
+
+
+20
+0
+1	2	3	4	5	6	7	8	9   10   11   12
+DLNGDP 	DLNST
+A. Variance Decomposition of DLNST
+00    	
+80
+60
+40
+20
+0
+1	2	3	4	5	6	7	8	9	10   11   12
+DLNGDP 	DLNTD
+B. Variance Decomposition of DLNTD
+100
+80
+60
+40
+20
+0
+1	2	3	4	5	6	7	8	9	10   11   12
+DLNGDP	DLNFE
+C. Variance Decomposition of DLNFE
+FigureⅠ shows the contribution degrees. It can be seen in figure ⅠA that the fluctuation of the turnover of stock trading is almost cased by itself by about 97.59% degree in the first term, and the influence of the turnover of stock trading on the gross  domestic  product  (GDP)  is  increasing  gradually  over time, then, the biggest degree is about 10.2% in the ninth term. The  influence  degree  is  up  to  about  10%  finally  which indicates that the effect from the turnover of stock trading to
+100
+80
+60
+40
+20
+0
+
+
+1	2	3	4	5	6	7	8	9   10   11   12
+DLNGDP	DLNFS
+D. Variance Decomposition of DLNFS
+
+from April 1998 to December 2008 and choosing the turnover of stock trading, the turnover of treasury bonds trading, the turnover of foreign exchange transactions, the turnover of investment of futures and securities trading and the turnover of commodity futures trading as the representative variables of China’s fictitious economy, as well as the gross domestic product as the representative variable of real economy based on the cointegration test, Granger causality test, least squares analysis and variance decomposition. The results show that there is cointegration relationship between China’s fictitious economy and real economy in the long term; there is unilateral
+100
+80
+60
+40
+20
+0
+
+
+1	2	3	4	5	6	7	8	9   10  11  12
+DLNGDP 	DLNCT
+E. Variance Decomposition of DLNCT FIGUREⅠ RESULT OF VARIANCE DECOMPOSITION.
+
+Granger cause of GDP to the turnover of stock trading, the turnover of investment of futures and securities trading and the turnover of commodity futures trading respectively; there is bidirectional Granger cause of GDP to the turnover of foreign exchange transactions; and there is no Granger cause of GDP to the turnover of treasury bonds trading in the short term which is consistent to the conclusion of least squares analysis.
+The results of least squares analysis show that there is remarkable positive correlative relationship between the turnover of stock trading, the turnover of foreign exchange transactions,   the   turnover   of   investment   of   futures   and securities  trading  and  the  turnover  of  commodity  futures trading  and  GDP  respectively,  and  the  coefficient  of  the turnover of stock trading to GDP is biggest which is about
+0.3332. The results of variance decomposition show that the contribution degrees of the turnover of stock trading and the
+GDP is strong in the short term. It can be seen in figure ⅠB that the fluctuation of the turnover of treasury bonds trading is almost cased by itself in the first term, and the influence degree of the turnover of treasury bonds on GDP is up to 0.95% from the fourth term which indicates that the effect is very weak in the  short  term.  It  is  evident  in  figure  Ⅰ C  that  the  in fluctuation of the turnover of foreign exchange transactions is almost cased by itself by about 90.62% degree in the first term, then, the influence degree of the turnover of foreign exchange transactions on GDP is almost stable in every term, and the biggest degree is about 10% in the second term which indicates that the effect is strong in the shot term. Figure ⅠD shows that the fluctuation of the turnover of investment of futures and securities trading is also almost cased by itself in the first term, then, the influence degree of the turnover of investment of futures and securities trading on GDP is becoming bigger from the third term, and the degree is up to about 6.6% finally which indicates that the effect is weak in the short term. It can be seen in   figure   Ⅰ E   that   the   fluctuation   of   the   turnover   of commodity futures trading is almost caused by itself by about
+97% degree in the first term, and the influence degree of the turnover of commodity futures trading on GDP is up to about
+4% from the third term which the effect is very weak in the short term.
+IV.  CONCLUSION
+An empirical analysis of influences of fictitious economy on real economy in China has been given by using quarterly data
+
+turnover of foreign exchange transactions to GDP are up to
+10.2% and 10% respectively finally which are bigger than the others fictitious economy variables to GDP. Therefore, there is positive correlative relationship between China’s fictitious economy to real economy; the influences of stock market, foreign exchange market and commodity futures market on
+GDP are much remarkable; and the effect from stock market to
+GDP is strongest.
+REFERENCES
+[1]    R. J. Shiller, Market volatility, Massachusetts, USA, MIT Press, 1990.
+[2]    R. Sethi, Endogenous regime switching in speculative markets, Structural
+Change and Economic Dynamics, vol.26, No.7, pp.99-118, 1996.
+[3]    T. Y. Chang, Financial development and economic growth in mainland China: a note on testing demand following or supply leading hypothesis, Applied Economic Letters, vol.36, No.9, pp.869-873, 2002.
+[4]    J.  M.  Liu  and  G.  Z.  Wang,  Study  on  fictitious  economy  stability, systematic and economy safety, Nankai Economic Studies, vol.48, No.6, pp. 32-39, 2004. (in Chinese)
+[5]    A.  J.  Wang, Research of  the  Proper Scale  and  Risk  Early  Warning
+System of Fictitious Economy, Beijing, China, Finance of China Press,
+2007.
+[6]    R. F. Engle and C. W. J. Granger, Cointegration and error correction: representation, estimation and testing, Econometrica, vol.55, No.6, pp.251-276, 1987.
+[7]    A. W. Gregory and B. E. Hansen, Residual-based tests for cointegration in models with regime shifts, Journal of Econometrics, vol.70, No.2, pp.99-126, 1996.
