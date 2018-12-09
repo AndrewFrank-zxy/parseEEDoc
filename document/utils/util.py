@@ -10,7 +10,7 @@ class ModefyPath(object):
         self.__pattern = {}
         self.__pattern['depart'] = re.compile(r'[\\/]+') #分割
         self.__pattern['begin'] = re.compile(r'^[.\\/][\\/]*') # ./
-        self.__pattern['begin_ddot'] = re.compile(r'^[A-Z]:') # [A-z]:
+        self.__pattern['begin_ddot'] = re.compile(r'^[a-zA-Z]:') # [A-z]:
 
         for k in patterns:
             self.__pattern[k] = re.compile(patterns[k])
@@ -91,6 +91,11 @@ class ModefyPath(object):
                     logging.info('The file \"' + f +
                                   '\" is not a ' + type + ' document')
         return fl
+
+    def create_folder(self, folder):
+        if not os.path.exists(folder):
+            os.mkdir(folder)
+        return folder
 
     def retrieve_file(self, folder, filename, type='txt'):
         '''

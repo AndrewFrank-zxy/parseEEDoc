@@ -90,8 +90,9 @@ class TextRank4Keyword(object):
         else:
             _edge_source   = result['words_no_stop_words']
 
-        self.keywords = util.sort_words(_vertex_source, _edge_source, window = window, pagerank_config = pagerank_config)
-
+        self.keywords, graph_msg = util.sort_words(_vertex_source, _edge_source, window = window, pagerank_config = pagerank_config)
+        return graph_msg
+        
     def get_keywords(self, num = 6, word_min_len = 1):
         """获取最重要的num个长度大于等于word_min_len的关键词。
 

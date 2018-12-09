@@ -110,7 +110,6 @@ converter
 
 
 # def file_converter(input_file, output_file, function='pdf_to_word'):
-
 def folder_converter(input_folder_relative, function='get_word', output_folder_relative=''):
     file_list = mp.load_file(input_folder_relative, in_file_type[function])
     if function.startswith("get"):

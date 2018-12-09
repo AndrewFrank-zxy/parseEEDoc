@@ -1,12 +1,12 @@
 # -*- coding: utf-8 -*-
+import os
 from textrank.TextRank4Keyword import TextRank4Keyword
 from textrank.TextRank4Sentence import TextRank4Sentence
 from document.document import get_document
-
-# def initialize():
-#     """Download required nltk libraries."""
-#     textrank.setup_environment()
-
+from document.utils.util import ModefyPath
+from pyecharts import Graph
+current_path = os.path.dirname(__file__)
+mp = ModefyPath()
 
 # def extract_summary(filename):
 #     """Print summary text to stdout."""
@@ -20,17 +20,49 @@ from document.document import get_document
 #     with open(filename) as f:
 #         phrases = textrank.extract_key_phrases(f.read())
 #         print(phrases)
+def form_graph(para_msg, **args):
+    store_msg = para_msg.split('_')
+    link_source = args['graph']
+    node_source = args['word']
+    links = []
+    nodes = []
+    for i in node_source:
+        nodes.append({'name': node_source[i]})
+        j = 0
+        for item in link_source[i]:
+            if item == 1:
+                links.append({"source": node_source[i], "target": node_source[j]})
+            j += 1
+    graph = Graph("段落关系图", width=1200, height=600)
+    graph.add(
+        "",
+        nodes,
+        links,
+        repulsion=8000,
+        # label_pos="right",
+        # graph_repulsion=50,
+        # is_legend_show=False,
+        # line_curve=0.2,
+        # label_text_color=None,
+    )
+    html_folder = mp.join_path(current_path, 'graph',
+                     'doc' + store_msg[0])
+    mp.create_folder(html_folder)
+    graph.render(mp.join_path(html_folder, store_msg[1] + '.html'))
+    return {'nodes': nodes, 'links': links}
 
 
-def extract_key_phrases(pragh, num=5):
-    print(pragh)
+def extract_key_phrases(paragraph, para_msg, num=5):
+    print(paragraph)
     print()
 
     tr4w = TextRank4Keyword()
 
     # py2中text必须是utf8编码的str或者unicode对象，py3中必须是utf8编码的bytes或者str对象
-    tr4w.analyze(text=pragh, lower=False, window=2)
-
+    graph_msg = tr4w.analyze(text=paragraph, lower=False, window=2)
+    print(graph_msg)
+    form_graph(para_msg, **graph_msg)
+    
     print('keywords:')
     for item in tr4w.get_keywords(num, word_min_len=1):
         # print(item.word, item.weight)
@@ -42,7 +74,7 @@ def extract_key_phrases(pragh, num=5):
         print(phrase)
 
     tr4s = TextRank4Sentence()
-    tr4s.analyze(text=pragh, lower=False, source='all_filters')
+    tr4s.analyze(text=paragraph, lower=False, source='all_filters')
 
     print()
     print('abstract:')
@@ -54,70 +86,15 @@ def extract_key_phrases(pragh, num=5):
 
 if __name__ == '__main__':
     docs = get_document()
+    print(docs)
+    doc_num = 0
     for doc in docs:
         paragraphs = docs[doc].split('\n')
         print(paragraphs)
-        n = 0
+        para_num = 0
         kpa = ''
-        for prgh in paragraphs:
-            n += 1
-            extract_key_phrases(prgh)
+        for paragraph in paragraphs:
+            para_num += 1
+            para_msg = str(doc_num) + '_' + str(para_num)
+            extract_key_phrases(paragraph, para_msg)
 
-#             m_keyphrases, keyphrases, graph = extract_key_phrases(prgh, 10)
-#             kpa = kpa + gen_key_phrases(prgh, m_keyphrases, n)
-#         write_key_phrases(article, kpa)
-
-#         keyphrases, graph = extract_key_phrases(text)
-#         summary = extract_sentences(text)
-#         draw_graph(graph)
-
-#     # retrieve each of the articles
-# #     articles, dp = util.retrieve_input_path(pc.tap, 'txt')
-
-# #     for article in articles:
-# #         article_path = util.full_local_path(pc.tap, article)
-# #         print('Reading \"' + article_path + '\"')
-# #         article_file = io.open(article_path,
-# #                                'r', encoding='UTF-8')
-# #         text = article_file.read()
-# #         text_list = text.split('\n')
-# #         n = 0
-# #         kpa = ''
-# #         for prgh in text_list:
-# #             n += 1
-# #             extract_key_phrases(prgh)
-
-#         #     m_keyphrases, keyphrases, graph = extract_key_phrases(prgh, 10)
-#         #     kpa = kpa + gen_key_phrases(prgh, m_keyphrases, n)
-#         # write_key_phrases(article, kpa)
-
-#         # keyphrases, graph = extract_key_phrases(text)
-#         # summary = extract_sentences(text)
-#         # draw_graph(graph)
-
-#     # extract_summary("./pdfReader/txt/Debtholders' Demand for Conservatism Evidence from Changes in Directors' Fiduciary Duties.txt")
-#     # extract_phrases("./pdfReader/txt/Debtholders' Demand for Conservatism Evidence from Changes in Directors' Fiduciary Duties.txt")
-#     # textrank.summarize_all()
-#     # text = codecs.open("articles-txt/Debtholders' Demand for Conservatism Evidence from Changes in Directors' Fiduciary Duties.txt", 'r', 'utf-8').read()
-#     # tr4w = TextRank4Keyword()
-
-#     # tr4w.analyze(text=text, lower=True, window=2)   # py2中text必须是utf8编码的str或者unicode对象，py3中必须是utf8编码的bytes或者str对象
-
-#     # print( 'keywords:' )
-#     # for item in tr4w.get_keywords(5, word_min_len=1):
-#     # # print(item.word, item.weight)
-#     #     print(item.word)
-
-#     # print()
-#     # print( 'keyphrases:' )
-#     # for phrase in tr4w.get_keyphrases(keywords_num=20, min_occur_num= 0):
-#     #     print(phrase)
-
-#     # tr4s = TextRank4Sentence()
-#     # tr4s.analyze(text=text, lower=True, source = 'all_filters')
-
-#     # print()
-#     # print( 'abstract:' )
-#     # for item in tr4s.get_key_sentences(num=1):
-#     #     print(item.sentence)
-#     # # print(item.index, item.weight, item.sentence)

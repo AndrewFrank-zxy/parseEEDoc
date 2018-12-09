@@ -134,6 +134,7 @@ def sort_words(vertex_source, edge_source, window = 2, pagerank_config = {'alpha
     window          --  一个句子中相邻的window个单词，两两之间认为有边
     pagerank_config --  pagerank的设置
     """
+    graph_msg = {}
     sorted_words   = []
     word_index     = {}
     index_word     = {}
@@ -158,7 +159,8 @@ def sort_words(vertex_source, edge_source, window = 2, pagerank_config = {'alpha
                 graph[index2][index1] = 1.0
 
     debug('graph:\n', graph)
-    
+    graph_msg['graph'] = graph
+    graph_msg['word'] = index_word
     nx_graph = nx.from_numpy_matrix(graph)
     scores = nx.pagerank(nx_graph, **pagerank_config)          # this is a dict
     sorted_scores = sorted(scores.items(), key = lambda item: item[1], reverse=True)
@@ -166,7 +168,7 @@ def sort_words(vertex_source, edge_source, window = 2, pagerank_config = {'alpha
         item = AttrDict(word=index_word[index], weight=score)
         sorted_words.append(item)
 
-    return sorted_words
+    return sorted_words, graph_msg
 
 def sort_sentences(sentences, words, sim_func = get_similarity, pagerank_config = {'alpha': 0.85,}):
     """将句子按照关键程度从大到小排序
