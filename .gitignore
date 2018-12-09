@@ -109,4 +109,4 @@ venv.bak/
 # _not_use_now
 __not_use_now
 
-graph
+*.html
