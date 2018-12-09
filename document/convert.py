@@ -4,24 +4,21 @@ import winerror
 import comtypes.client
 from win32com.client.dynamic import Dispatch, ERRORS_BAD_CONTEXT
 
-import sys
-sys.path.append('..')
-# 采用绝对导入
-from utils.util import ModefyPath, save_txt
-from content import Content, strQ2B
-from config.Config import WordFormat
-
+from .utils.util import ModefyPath, save_txt
+from .utils.content import Content, strQ2B
+from .config.Config import WordFormat
 logging.getLogger().setLevel(logging.INFO)
 ERRORS_BAD_CONTEXT.append(winerror.E_NOTIMPL)
 mp = ModefyPath()
 ct = Content()
-wf = WordFormat('../config/config.json')
+wf = WordFormat()
 wdFormatPDF = wf.get_format('PDF')
 
 in_file_type = {
     'pdf_to_word': 'pdf',
     'word_to_pdf': 'docx',
-    'word_to_txt': 'docx'
+    'word_to_txt': 'docx',
+    'get_word': 'docx'
 }
 out_file_type = {
     'pdf_to_word': 'docx',
@@ -62,34 +59,43 @@ def get_docx_fontsize(run):
     except AttributeError:
         return 'None'
 
+def is_paragraph_ICCAE(*args):
+    '''
+    @args[0]: run
+    @args[1]: paragraph
+    '''
+    if get_docx_fontsize(args[0]) == 'None':
+        return True
+    else:
+        return False
 
-def get_docx_content(paragraphs):
+def get_docx_content_ICCAE(paragraphs):
     '''检查处理正文信息
     '''
-    # context_filter = re.compile(r"Figure [\d]+\.")
-    # filter = re.compile(r"[ ][ ]+")
     content = ""
     for paragraph in paragraphs:
         par_str = strQ2B(paragraph.text)
         par_runs = paragraph.runs
-        # if re.search(context_filter, par_str) or not check_paragraph(par_str):
-        #     continue
-
-        if len(par_runs):
-            # and check_font_size(par_runs[0]) == 'None'
-            if len(par_str):
-                # par_str = content.tidy_para_text(par_str)
-                if par_str and par_str[0].islower():
-                    content = content[:-1] + ' ' + par_str + '\n'
-                else:
-                    content = content + par_str + '\n'
-    # content = re.sub(filter, ' ', content)
+        # par_runs == 0 => par_str == 0
+        if len(par_runs) and is_paragraph_ICCAE(par_runs):
+            par_str = ct.tidy_paragraph_ICCAE(par_str)
+            if not par_str:
+                continue
+            if par_str[0].islower():
+                content = content[:-1] + ' ' + par_str + '\n'
+            else:
+                content = content + par_str + '\n'
     return content
 
 
 def word_to_txt(word_file_path, txt_file_path):
     doc = Document(word_file_path)
-    save_txt(txt_file_path, get_docx_content(doc.paragraphs))
+    save_txt(txt_file_path, get_docx_content_ICCAE(doc.paragraphs))
+
+
+def get_word(word_file_path):
+    doc = Document(word_file_path)
+    return get_docx_content_ICCAE(doc.paragraphs)
 
 
 '''
@@ -105,21 +111,28 @@ converter
 
 # def file_converter(input_file, output_file, function='pdf_to_word'):
 
-def folder_converter(input_folder_relative, output_folder_relative, function='pdf_to_word'):
+def folder_converter(input_folder_relative, function='get_word', output_folder_relative=''):
     file_list = mp.load_file(input_folder_relative, in_file_type[function])
-    for file_name in file_list:
-        o_f = mp.retrieve_file(output_folder_relative,
-                               file_name, out_file_type[function])
-        if not o_f:
-            logging.info('Conversion cancelled')
-            continue
-        input_file = mp.get_full_path(input_folder_relative, file_name)
-        output_file = mp.get_full_path(output_folder_relative, o_f)
-        eval(function)(input_file, output_file)
+    if function.startswith("get"):
+        document = {}
+        for file_name in file_list:
+            input_file = mp.get_full_path(input_folder_relative, file_name)
+            document[file_name] = eval(function)(input_file)
+        return document
+    else:
+        for file_name in file_list:
+            o_f = mp.retrieve_file(output_folder_relative,
+                                file_name, out_file_type[function])
+            if not o_f:
+                logging.info('Conversion cancelled')
+                continue
+            input_file = mp.get_full_path(input_folder_relative, file_name)
+            output_file = mp.get_full_path(output_folder_relative, o_f)
+            eval(function)(input_file, output_file)
 
 
 if __name__ == '__main__':
-    folder_converter('./articles/word', './articles/txt', 'word_to_txt')
+    print(folder_converter('./articles/word', 'get_word'))
 
 
 # from config import path_config

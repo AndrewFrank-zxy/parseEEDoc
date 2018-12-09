@@ -7,6 +7,7 @@
 from __future__ import (absolute_import, division, print_function,
                         unicode_literals)
 
+# import jieba.posseg as pseg
 import codecs
 import nltk
 import os
@@ -14,6 +15,7 @@ import re
 
 from . import util
 
+match_filter = re.compile(r'^\W+$')
 def get_default_stop_words_file():
     d = os.path.dirname(os.path.realpath(__file__))
     return os.path.join(d, 'stopwords.txt')
@@ -38,7 +40,7 @@ class WordSegmentation(object):
         for word in codecs.open(self.stop_words_file, 'r', 'utf-8', 'ignore'):
             self.stop_words.add(word.strip())
     
-    def segment(self, text, lower = True, use_stop_words = True, use_speech_tags_filter = False):
+    def segment(self, text, lower=True, use_stop_words=False, use_speech_tags_filter=False):
         """对一段文本进行分词，返回list类型的分词结果
 
         Keyword arguments:
@@ -47,16 +49,32 @@ class WordSegmentation(object):
         use_speech_tags_filter -- 是否基于词性进行过滤。若为True，则使用self.default_speech_tag_filter过滤。否则，不过滤。
         """
         text = util.as_text(text)
-        jieba_result = pseg.cut(text)
-        
-        if use_speech_tags_filter == True:
-            jieba_result = [w for w in jieba_result if w.flag in self.default_speech_tag_filter]
-        else:
-            jieba_result = [w for w in jieba_result]
+        # def extract_key_phrases(text, nums=-1, comb=False):
+        # tokenize the text using nltk
+        word_tokens = nltk.word_tokenize(text)
 
+        # assign POS tags to the words in the text
+        tagged = nltk.pos_tag(word_tokens)
+        # textlist = [x[0] for x in tagged]
+        # print(textlist)
+
+        # tagged = filter_for_tags(tagged)
+        # tagged = normalize(tagged)
+
+        # unique_word_set = unique_everseen([x[0] for x in tagged])
+        # word_set_list = list(unique_word_set)
+        # jieba_result = pseg.cut(text)
+
+        if use_speech_tags_filter == True:
+            tagged_result = [w[0] for w in tagged if w[1] in self.default_speech_tag_filter and not re.match(match_filter, w[0])]
+        else:
+            tagged_result = [w[0] for w in tagged if not re.match(match_filter, w[0])]
+
+        # # 去除特殊符号
+        # word_list = [w.word.strip() for w in tagged_result if w.flag!='x']
+        # word_list = [word for word in word_list if len(word)>0]
         # 去除特殊符号
-        word_list = [w.word.strip() for w in jieba_result if w.flag!='x']
-        word_list = [word for word in word_list if len(word)>0]
+        word_list = [word for word in tagged_result if len(word)>0]
         
         if lower:
             word_list = [word.lower() for word in word_list]

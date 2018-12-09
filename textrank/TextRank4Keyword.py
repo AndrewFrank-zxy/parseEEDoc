@@ -124,7 +124,7 @@ class TextRank4Keyword(object):
                     one.append(word)
                 else:
                     if len(one) >  1:
-                        keyphrases.add(''.join(one))
+                        keyphrases.add(' '.join(one))
                     if len(one) == 0:
                         continue
                     else:

@@ -1,6 +1,8 @@
 # -*- coding: utf-8 -*-
+import os
 import json
 import logging
+current_path = os.path.dirname(__file__)
 
 class Config(object):
     def __init__(self, config_file="./config.json"):
@@ -10,7 +12,7 @@ class Config(object):
 class PathConfig(Config):
     """定义"""
 
-    def __init__(self, config_file="./config.json"):
+    def __init__(self, config_file=current_path + "/config.json"):
         Config.__init__(self, config_file)
         self.load_path()
 
@@ -46,7 +48,7 @@ class PathConfig(Config):
 class WordFormat(Config):
     """定义"""
 
-    def __init__(self, config_file="./config.json"):
+    def __init__(self, config_file=current_path + "/config.json"):
         Config.__init__(self, config_file)
         self.load_format()
 
