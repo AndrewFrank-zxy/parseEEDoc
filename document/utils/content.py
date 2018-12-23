@@ -45,13 +45,17 @@ class Content(object):
 
         return paragraph_str
     
-    def tidy_paragraph_ICCAE(self, paragraph_str):
+    def tidy_paragraph(self, article_type, paragraph_str):
         '''
         2010 The 2nd International Conference on Computer and Automation Engineering 
         '''
-        begin_figure = re.compile(r"Figure [\d]+\.")
         paragraph_str = self.tidy_paragraph_common(paragraph_str)
-        return ((False if re.search(begin_figure, paragraph_str) else True) and self.is_paragraph_meaningful(paragraph_str))
+        if article_type == 'ICCAE':
+            begin_figure = re.compile(r"Figure [\d]+\.")
+            return ((False if re.search(begin_figure, paragraph_str) else True) and self.is_paragraph_meaningful(paragraph_str))
+        # if article_type == 'sdfsdf':
+        #     begin_figure = re.compile(r"Figure [\d]+\.")
+        #     return ((False if re.search(begin_figure, paragraph_str) else True) and self.is_paragraph_meaningful(paragraph_str))
 
     def tidy_paragraph_JAR(self, paragraph_str):
         pass

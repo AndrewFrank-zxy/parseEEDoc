@@ -59,17 +59,20 @@ def get_docx_fontsize(run):
     except AttributeError:
         return 'None'
 
-def is_paragraph_ICCAE(*args):
+def is_paragraph(article_type, *args):
     '''
     @args[0]: run
     @args[1]: paragraph
     '''
-    if get_docx_fontsize(args[0]) == 'None':
-        return True
-    else:
-        return False
+    if article_type == 'ICCAE':
+        if get_docx_fontsize(args[0]) == 'None':
+            return True
+        else:
+            return False
+    # if article_type == 'PSR':
+    #     pdfreader()
 
-def get_docx_content_ICCAE(paragraphs):
+def get_docx_content(article_type, paragraphs):
     '''检查处理正文信息
     '''
     content = ""
@@ -77,8 +80,8 @@ def get_docx_content_ICCAE(paragraphs):
         par_str = strQ2B(paragraph.text)
         par_runs = paragraph.runs
         # par_runs == 0 => par_str == 0
-        if len(par_runs) and is_paragraph_ICCAE(par_runs):
-            par_str = ct.tidy_paragraph_ICCAE(par_str)
+        if len(par_runs) and is_paragraph('ICCAE', par_runs):
+            par_str = ct.tidy_paragraph('ICCAE', par_str)
             if not par_str:
                 continue
             if par_str[0].islower():
@@ -90,12 +93,12 @@ def get_docx_content_ICCAE(paragraphs):
 
 def word_to_txt(word_file_path, txt_file_path):
     doc = Document(word_file_path)
-    save_txt(txt_file_path, get_docx_content_ICCAE(doc.paragraphs))
+    save_txt(txt_file_path, get_docx_content('ICCAE', doc.paragraphs))
 
 
 def get_word(word_file_path):
     doc = Document(word_file_path)
-    return get_docx_content_ICCAE(doc.paragraphs)
+    return get_docx_content('ICCAE', doc.paragraphs)
 
 
 '''
