@@ -80,8 +80,8 @@ def get_docx_content(article_type, paragraphs):
         par_str = strQ2B(paragraph.text)
         par_runs = paragraph.runs
         # par_runs == 0 => par_str == 0
-        if len(par_runs) and is_paragraph('ICCAE', par_runs):
-            par_str = ct.tidy_paragraph('ICCAE', par_str)
+        if len(par_runs) and is_paragraph(article_type, par_runs):
+            par_str = ct.tidy_paragraph(article_type, par_str)
             if not par_str:
                 continue
             if par_str[0].islower():
