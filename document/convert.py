@@ -10,7 +10,7 @@ from .config.Config import WordFormat
 logging.getLogger().setLevel(logging.INFO)
 ERRORS_BAD_CONTEXT.append(winerror.E_NOTIMPL)
 mp = ModefyPath()
-ct = Content()
+ct = Content('Introduction')
 wf = WordFormat()
 wdFormatPDF = wf.get_format('PDF')
 
@@ -76,11 +76,14 @@ def get_docx_content(article_type, paragraphs):
     '''检查处理正文信息
     '''
     content = ""
+    is_content = False
     for paragraph in paragraphs:
         par_str = strQ2B(paragraph.text)
         par_runs = paragraph.runs
         # par_runs == 0 => par_str == 0
-        if len(par_runs) and is_paragraph(article_type, par_runs):
+        if ct.is_article_begin(par_str):
+            is_content = True
+        if is_content and len(par_runs) and is_paragraph(article_type, par_runs):
             par_str = ct.tidy_paragraph(article_type, par_str)
             if not par_str:
                 continue
