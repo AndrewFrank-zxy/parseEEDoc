@@ -85,7 +85,7 @@ def extract_key_phrases(paragraph, para_msg, num=5):
 
 
 if __name__ == '__main__':
-    docs = get_document()
+    docs = get_document('byTXT', './document/articles/txt/05451533.txt')
     print(docs)
     # doc_num = 0
     # for doc in docs:
