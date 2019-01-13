@@ -5,7 +5,7 @@ def read_txt(filename):
     with open(filename, 'r', encoding='utf-8') as f:
         return f.read()
 
-def get_document(type='byPDF', filename=''):
+def get_document(type='byPDF'):
     pc = PathConfig()
     if type == 'byPDF':
         pap = pc.get_pap()
