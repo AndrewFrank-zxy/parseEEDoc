@@ -6,14 +6,15 @@ def read_txt(filename):
         return f.read()
 
 def get_document(type='byPDF', filename=''):
+    pc = PathConfig()
     if type == 'byPDF':
-        pc = PathConfig()
         pap = pc.get_pap()
         wap = pc.get_wap()
         folder_converter(pap, 'pdf_to_word', wap)
         return folder_converter(wap, 'get_word')
     elif type == 'byTXT':
-        return read_txt(filename)
+        tap = pc.get_tap()
+        return folder_converter(tap, 'get_txt')
 
 if __name__ == '__main__':
     print(get_document())

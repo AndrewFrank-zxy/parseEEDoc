@@ -22,9 +22,10 @@ class PathConfig(Config):
         self.__pap = setting['pdf_articles_path']
         self.__tap = setting['txt_articles_path']
         self.__wap = setting['word_articles_path']
+        self.__trap = setting['txt_results_all_path']
         self.__trkp = setting['txt_results_keywords_path']
         self.__trsp = setting['txt_results_summaries_path']
-        self.__rgp = setting['results_graphs_path']
+        self.__prgp = setting['png_results_graphs_path']
     
     def get_pap(self):
         return self.__pap
@@ -35,14 +36,17 @@ class PathConfig(Config):
     def get_wap(self):
         return self.__wap
 
+    def get_trap(self):
+        return self.__trap
+
     def get_trkp(self):
         return self.__trkp
 
     def get_trsp(self):
         return self.__trsp
 
-    def get_rgp(self):
-        return self.__rgp
+    def get_prgp(self):
+        return self.__prgp
 
 
 class WordFormat(Config):

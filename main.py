@@ -4,6 +4,7 @@ from textrank.TextRank4Keyword import TextRank4Keyword
 from textrank.TextRank4Sentence import TextRank4Sentence
 from document.document import get_document
 from document.utils.util import ModefyPath
+from document.result import save_result
 from pyecharts import Graph
 current_path = os.path.dirname(__file__)
 mp = ModefyPath()
@@ -53,8 +54,10 @@ def form_graph(para_msg, **args):
 
 
 def extract_key_phrases(paragraph, para_msg, num=5):
-    print(paragraph)
-    print()
+    result = 'paragraph:\n'
+    result = result + paragraph + '\n\n'
+    # print(paragraph)
+    # print()
 
     tr4w = TextRank4Keyword()
 
@@ -62,48 +65,48 @@ def extract_key_phrases(paragraph, para_msg, num=5):
     graph_msg = tr4w.analyze(text=paragraph, lower=False, window=2)
     print(graph_msg)
     form_graph(para_msg, **graph_msg)
-    
-    print('keywords:')
+
+    result = result + 'keywords:\n'
+    # print('keywords:')
     for item in tr4w.get_keywords(num, word_min_len=1):
         # print(item.word, item.weight)
-        print(item.word)
+        result = result + item.word + '\n'
+        # print(item.word)
 
-    print()
-    print('keyphrases:')
-    for phrase in tr4w.get_keyphrases(keywords_num=20, min_occur_num=0):
-        print(phrase)
+    # result = result + '\nkeyphrases:\n' 
+    # print()
+    # print('keyphrases:')
+    # for phrase in tr4w.get_keyphrases(keywords_num=20, min_occur_num=0):
+    #     result = result + phrase + '\n'
+        # print(phrase)
 
     tr4s = TextRank4Sentence()
     tr4s.analyze(text=paragraph, lower=False, source='all_filters')
 
-    print()
-    print('abstract:')
+    result = result + '\nabstract:\n'
+    # print()
+    # print('abstract:')
     for item in tr4s.get_key_sentences(num=1):
-        print(item.sentence)
-    print()
+        result = result + item.sentence + '\n'
+        # print(item.sentence)
+
+    # print()
     # print(item.index, item.weight, item.sentence)
+    return result + '====================================\n'
 
 
 if __name__ == '__main__':
+    # save_result('1', '1')
+    result_all = ''
     docs = get_document('byTXT', './document/articles/txt/00466776.txt')
-    print(docs)
-    # doc_num = 0
-    # for doc in docs:
-    #     paragraphs = docs[doc].split('\n')
-    #     print(paragraphs)
-    #     para_num = 0
-    #     kpa = ''
-    #     for paragraph in paragraphs:
-    #         para_num += 1
-    #         para_msg = str(doc_num) + '_' + str(para_num)
-    #         extract_key_phrases(paragraph, para_msg)
-
+    # print(docs)
     doc_num = 0
-    paragraphs = docs.split('\n')
-    print(paragraphs)
-    para_num = 0
-    kpa = ''
-    for paragraph in paragraphs:
-        para_num += 1
-        para_msg = str(doc_num) + '_' + str(para_num)
-        extract_key_phrases(paragraph, para_msg)
+    for doc in docs:
+        paragraphs = docs[doc].split('\n')
+        # print(paragraphs)
+        para_num = 0
+        for paragraph in paragraphs:
+            para_num += 1
+            para_msg = str(doc_num) + '_' + str(para_num)
+            result_all = result_all + extract_key_phrases(paragraph, para_msg)
+        save_result(doc, result_all)

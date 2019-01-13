@@ -18,7 +18,8 @@ in_file_type = {
     'pdf_to_word': 'pdf',
     'word_to_pdf': 'docx',
     'word_to_txt': 'docx',
-    'get_word': 'docx'
+    'get_word': 'docx',
+    'get_txt': 'txt'
 }
 out_file_type = {
     'pdf_to_word': 'docx',
@@ -97,6 +98,11 @@ def get_docx_content(article_type, paragraphs):
 def word_to_txt(word_file_path, txt_file_path):
     doc = Document(word_file_path)
     save_txt(txt_file_path, get_docx_content('ICCAE', doc.paragraphs))
+
+
+def get_txt(txt_file_path):
+    with open(txt_file_path, 'r', encoding='utf-8') as f:
+        return f.read()
 
 
 def get_word(word_file_path):

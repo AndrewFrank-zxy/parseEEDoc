@@ -2,9 +2,10 @@
     "pdf_articles_path": "./document/articles/pdf",
     "txt_articles_path": "./document/articles/txt",
     "word_articles_path": "./document/articles/word",
-    "txt_results_keywords_path": "./results/keywords-txt",
-    "txt_results_summaries_path": "./results/summaries-txt",
-    "results_graphs_path": "./results/graphs",
+    "txt_results_all_path": "./document/results/all-txt",
+    "txt_results_keywords_path": "./document/results/keywords-txt",
+    "txt_results_summaries_path": "./document/results/summaries-txt",
+    "png_results_graphs_path": "./document/results/png-graphs",
     "format" : {
         "wdFormatDocument" : 0,
         "wdFormatDocument97" : 0,

@@ -1,0 +1,662 @@
+paragraph:
+﻿Introduction
+
+keywords:
+﻿Introduction
+
+abstract:
+﻿Introduction
+====================================
+paragraph:
+Currently, a large number of cultural heritage objects around the world are deteriorating or being destroyed because of natural eathering, disasters and civil wars. Among them, Japanese cultural heritage objects are quite vulnerable to fires and other natural disasters because most of them were constructed of wood and paper.
+
+keywords:
+cultural
+number
+natural
+eathering
+wood
+
+abstract:
+Currently, a large number of cultural heritage objects around the world are deteriorating or being destroyed because of natural eathering, disasters and civil wars
+====================================
+paragraph:
+One of the best ways to prevent them from loss and deteriorWe employ this reflectance image as a vehicle for the alignment of range images with coloration is to digitally preserve them. Digital data of heritage objects can be obtained by using computer vision techniques. Once these data have been acquired, they can be preserved permanently, and then safely passed down to future generations. In addition, such digital data is suitable for many applications, including simulation, restoration, and creating multi-media contents. Such digital contents can be viewed through the internet from anywhere in the world, without moving the objects nor visiting the sites.
+
+keywords:
+data
+digital
+deteriorWe
+alignment
+employ
+
+abstract:
+In addition, such digital data is suitable for many applications, including simulation, restoration, and creating multi-media contents
+====================================
+paragraph:
+We have been working to develop such digital archival methods by using computer vision and computer graphics technologies. Similar projects include: Stanford's Michelangelo Project, IBM's Pieta Project, and Columbia's project, to name a few. Our project has a number of unique features; among them is its ability to digitize relatively large objects outdoor such as the Kamakura great Buddha, and Cambodia's Bayon. This presents several challenges. Also, our project consists not only of geometric modeling but also of photometric and environmental modeling, as shown in Figure 1.
+
+keywords:
+Project
+modeling
+number
+great
+Buddha
+
+abstract:
+Similar projects include: Stanford's Michelangelo Project, IBM's Pieta Project, and Columbia's project, to name a few
+====================================
+paragraph:
+The remainder of this paper is organized as follows. Section 2 briefly describes the outline of the geometric pipeline developed, a parallel simultaneous alignment algorithm and a parallel voxel-based merging algorithm. Section 3 describes a method to align observed textures from a digital camera with a range data for texture mapping. Section 4 reports our efforts to restore the original appearance of these objects using acquired digital data and the literature survey. Section 5 summarizes this paper.
+
+keywords:
+data
+algorithm
+paper
+geometric
+Section
+
+abstract:
+Section 3 describes a method to align observed textures from a digital camera with a range data for texture mapping
+====================================
+paragraph:
+Geometric Modeling
+
+keywords:
+Geometric
+Modeling
+
+abstract:
+Geometric Modeling
+====================================
+paragraph:
+Several computer vision techniques, such as traditional shape-from-X and binocular-stereo, or modern range sensors, provide cloud of point information. The cloud of point information certainly carries three-dimensional information pertaining to observed objects. However, there is no structural information among these points. Namely, there is no information to represent adjacency among the points. The first step of geometric modeling is to convert the cloud of points into a surface representation such as a mesh model.
+
+keywords:
+information
+computer
+geometric
+representation
+mesh
+
+abstract:
+Several computer vision techniques, such as traditional shape-from-X and binocular-stereo, or modern range sensors, provide cloud of point information
+====================================
+paragraph:
+Since each observation provides only partial information, we have to combine these partial mesh representations into a whole geometric mesh representation. Thus, the second step in geometric modeling is to align these meshes so that their corresponding parts overlap one another (alignment).
+
+keywords:
+geometric
+partial
+mesh
+observation
+information
+
+abstract:
+Since each observation provides only partial information, we have to combine these partial mesh representations into a whole geometric mesh representation
+====================================
+paragraph:
+To accomplish this step, we have developed several simultaneous alignment methods. Traditional alignment employs pair-wise alignment. By repeating this pair-wise alignment, all the relation among range images in a data set is determined. When handling a large number of data set, error gradually accumulates along the path, and a large gap exists locally in the final result. For avoiding error accumulation in a certain part, this algorithm employs a simultaneous alignment method, which determines all alignment relations among a data set at once. These simultaneous alignments evenly distribute error among all the relations.
+
+keywords:
+alignment
+large
+part
+relation
+accumulation
+
+abstract:
+For avoiding error accumulation in a certain part, this algorithm employs a simultaneous alignment method, which determines all alignment relations among a data set at once
+====================================
+paragraph:
+Further, we also extended the algorithm into a parallel implementation so as to be able to align a very large data set. The simultaneous algorithm, originally designed, requires all range images to be read into memory; even when the computation is distributed over a PC cluster, the amount of memory used on each PC is not reduced. For the parallel implementation, both time and memory performance have to be considered.
+
+keywords:
+memory
+algorithm
+parallel
+implementation
+time
+
+abstract:
+For the parallel implementation, both time and memory performance have to be considered
+====================================
+paragraph:
+We remove redundant or weak data dependency among a data set for efficient memory usage. A pair of range image images that does not satisfies all these three conditions will be removed as redundant relations.
+
+keywords:
+data
+range
+memory
+weak
+efficient
+
+abstract:
+We remove redundant or weak data dependency among a data set for efficient memory usage
+====================================
+paragraph:
+The bounding-boxes of two range images overlap each other.
+
+keywords:
+range
+
+abstract:
+The bounding-boxes of two range images overlap each other
+====================================
+paragraph:
+The angle,θ , between ray directions of two range images, is less than a threshold value. Here a ray direction is the optical axis of a range sensor for scanning the data.
+
+keywords:
+θ
+range
+ray
+axis
+direction
+
+abstract:
+Here a ray direction is the optical axis of a range sensor for scanning the data
+====================================
+paragraph:
+Two range images are adjacent and overlapping each other.
+
+keywords:
+range
+adjacent
+
+abstract:
+Two range images are adjacent and overlapping each other
+====================================
+paragraph:
+Since these assumptions work, the initial positions of range images are accurately estimated. For this purpose, as the initial step for this parallel alignment algorithm, we execute a pair-wise alignment algorithm for all adjacent overlapping range images.
+
+keywords:
+alignment
+initial
+algorithm
+step
+parallel
+
+abstract:
+For this purpose, as the initial step for this parallel alignment algorithm, we execute a pair-wise alignment algorithm for all adjacent overlapping range images
+====================================
+paragraph:
+We also make even distribution of the computational load over a PC cluster. The computational cost of a PC is estimated to be proportional to the number of vertices on the PC. By using this assumption, we assign range images to each PC. See  in details.
+
+keywords:
+computational
+PC
+proportional
+number
+cost
+
+abstract:
+We also make even distribution of the computational load over a PC cluster
+====================================
+paragraph:
+In Table 1, the computation times with 1 processor and 16 processors are described. The computation time with 16 processors is approximately 8.4 times faster than that with 1 processor for the hand model, and 8.9 times for the Great
+
+keywords:
+hand
+computation
+time
+processor
+model
+
+abstract:
+In Table 1, the computation times with 1 processor and 16 processors are described
+====================================
+paragraph:
+Buddha of Kamakura. As for the memory usage, we can reduce the amount of memory used decreases as the number of processor increases.
+
+keywords:
+memory
+Buddha
+Kamakura
+number
+processor
+
+abstract:
+Buddha of Kamakura
+====================================
+paragraph:
+As shown in Table 2, our method can reduce the amount of memory used in approximately 60% for the hand model
+
+keywords:
+amount
+memory
+hand
+model
+Table
+
+abstract:
+As shown in Table 2, our method can reduce the amount of memory used in approximately 60% for the hand model
+====================================
+paragraph:
+and in approximately 43% for the model of the Great Buddha of Kamakura. See in more details.
+
+keywords:
+Great
+Buddha
+model
+Kamakura
+
+abstract:
+and in approximately 43% for the model of the Great Buddha of Kamakura
+====================================
+paragraph:
+The third geometric modeling step is to integrate the pre-registered multiple range images and to compose one complete geometric model, a step usually called 'merging'. The procedure can be considered as extracting one surface from multiple overlapped surfaces. In the merging procedure, it is important to make the integration framework robust against any noise which may be in the scanned range images and can also be inherited from the registration procedure.
+
+keywords:
+multiple
+procedure
+geometric
+model
+important
+
+abstract:
+In the merging procedure, it is important to make the integration framework robust against any noise which may be in the scanned range images and can also be inherited from the registration procedure
+====================================
+paragraph:
+Our method merges a set of range images into a volumetric implicit-surface representation, which is converted to a surface mesh by using a variant of the marching-cubes algorithm. Unlike previous techniques based on implicit-surface representations, our method estimates the signed distance to the object surface by determining a consensus of locally coherent observations of the surface.
+
+keywords:
+implicit-surface
+distance
+marching-cubes
+variant
+object
+
+abstract:
+Our method merges a set of range images into a volumetric implicit-surface representation, which is converted to a surface mesh by using a variant of the marching-cubes algorithm
+====================================
+paragraph:
+We utilize octrees to represent volumetric implicit surfaces, thereby effectively reducing the computation and memory requirements of the volumetric representation without sacrificing accuracy of the resulting surface. We originally design software that merges a relatively small data set. However, our target requires to merge a huge set, we decide to design our algorithm to run on a PC cluster; the cluster parallel-processes the merging algorithm for saving the computation time and utilizing a large memory space of many PCs. We produced one integrated digital Great Buddha with this software. The whole data set consists of 3.3 M points, and 5 M polygons that can be merged in approximately 20 minutes on the PC cluster.
+
+keywords:
+memory
+volumetric
+set
+data
+Buddha
+
+abstract:
+However, our target requires to merge a huge set, we decide to design our algorithm to run on a PC cluster
+====================================
+paragraph:
+By using this geometric pipeline, we have digitally archived Japanese Buddhas, including Asuka, Kamakura, Nara, and foreign ones, including Thailand's Wat Si Chum and Cambodia's Biyon. We are continuing this effort toward completing the world Buddha library, as shown in Figure 2, which digitally display transitions of Buddha shapes in time and region.
+
+keywords:
+Buddha
+Kamakura
+Nara
+Si
+Chum
+
+abstract:
+By using this geometric pipeline, we have digitally archived Japanese Buddhas, including Asuka, Kamakura, Nara, and foreign ones, including Thailand's Wat Si Chum and Cambodia's Biyon
+====================================
+paragraph:
+Texture Mapping and Rendering
+
+keywords:
+Mapping
+Texture
+Rendering
+
+abstract:
+Texture Mapping and Rendering
+====================================
+paragraph:
+The geometric model is vital information regarding the cultural heritage objects because it enables us to analyze object in details. In addition to the geometric model, surface color distribution (texture) is also very important for some kinds of cultural properties. We have developed a method for mapping texture based on laser reflectance.
+
+keywords:
+model
+texture
+cultural
+geometric
+distribution
+
+abstract:
+In addition to the geometric model, surface color distribution (texture) is also very important for some kinds of cultural properties
+====================================
+paragraph:
+When a short-distance range sensors can be used, the most promising method is to calibrate the geometrical relationship between the image sensor and the range sensor before scanning using a calibration object. However, this method requires that the range and color sensors be fixed on the fixture once the relationship is calibrated. Further, the calibration-based method is accurate only around the position occupied by the calibration fixture. When a target object is very large, this method becomes unreliable due to the lens distortion. Thus, we need a method that does not rely on calibration.
+
+keywords:
+method
+range
+relationship
+object
+lens
+
+abstract:
+When a short-distance range sensors can be used, the most promising method is to calibrate the geometrical relationship between the image sensor and the range sensor before scanning using a calibration object
+====================================
+paragraph:
+Generally speaking, range sensors often provide reflectance images as side products of range images. The returned timing provides a depth measurement, while the returned strength provides a reflectance measurement. A reflectance image is a collection of the strength of returned laser energy at each pixel. This reflectance image is aligned with the range image because both images are obtained through the same optical receiving device. Commonly available range sensors, including ERIM, Preceptron, and our main sensor, CYRAX, provide this reflectance image.
+
+keywords:
+returned
+receiving
+image
+Preceptron
+sensor
+
+abstract:
+Commonly available range sensors, including ERIM, Preceptron, and our main sensor, CYRAX, provide this reflectance image
+====================================
+paragraph:
+We employ this reflectance image as a vehicle for the alignment of range images with color images. Reflectance images share characteristics similar to color images due to the fact that both images are somehow related with surface roughness as shown in Figure 3. Since our CYRAX range scanner uses a green laser diode, reflectance edges can be observed along the boundary between two colors or material boundaries along difference reflectance ratios for this wavelength. Since different materials are of different colors, a discontinuity also appears in the color images. Jump edges along small ranges in a range image also appear as jump edges in a reflectance image as well as in a color image. Occluding boundaries are observed both in reflectance images and in color images.
+
+keywords:
+image
+range
+reflectance
+color
+due
+
+abstract:
+We employ this reflectance image as a vehicle for the alignment of range images with color images
+====================================
+paragraph:
+Prior to the alignments, we paste the necessary reflectance edges onto the 3D geometric model. As mentioned above, since occluding boundaries vary depending on the viewing direction, edges along the occluding boundaries are first removed from the reflectance images. On the other hand, edges along the current occluding boundaries will be estimated from the 3D geometric model and the current viewing direction. Our algorithm extracts them automatically, and uses them for the alignment.
+
+keywords:
+current
+viewing
+model
+geometric
+direction
+
+abstract:
+On the other hand, edges along the current occluding boundaries will be estimated from the 3D geometric model and the current viewing direction
+====================================
+paragraph:
+We align edges extracted from reflectance images with those in color images so that the 3D position error of those edges is minimized by iterative calculation as shown in Figure 4. Extracted edges are represented as a collection of points along them. The alignment is done between 3D reflectance points on 3D geometric model projected on the image plane and 2D color edge points in the 2D image.
+
+keywords:
+color
+position
+error
+iterative
+calculation
+
+abstract:
+The alignment is done between 3D reflectance points on 3D geometric model projected on the image plane and 2D color edge points in the 2D image
+====================================
+paragraph:
+To establish correspondence, the system finds the color image points that are nearest to the projected reflectance points. This operation is similar to the ICP operation.
+
+keywords:
+correspondence
+system
+color
+image
+operation
+
+abstract:
+To establish correspondence, the system finds the color image points that are nearest to the projected reflectance points
+====================================
+paragraph:
+To determine the relative pose that coincides with the position of 2D color edges and projected 3D reflectance edges, we use the M-estimator.
+
+keywords:
+relative
+pose
+position
+color
+reflectance
+
+abstract:
+To determine the relative pose that coincides with the position of 2D color edges and projected 3D reflectance edges, we use the M-estimator
+====================================
+paragraph:
+First the distance between corresponding 2D color edge points and 3D reflectance edge points is evaluated as shown in Figure 4 : where zi is a 3D error vector which is on a perpendicular line from a 3D reflectance edge point to the stretched line between the optical center and a 2D color edge point on the image plane.
+
+keywords:
+edge
+image
+vector
+optical
+point
+
+abstract:
+First the distance between corresponding 2D color edge points and 3D reflectance edge points is evaluated as shown in Figure 4 : where zi is a 3D error vector which is on a perpendicular line from a 3D reflectance edge point to the stretched line between the optical center and a 2D color edge point on the image plane
+====================================
+paragraph:
+By solving this equation using the conjugate gradient method, we can obtain the configuration P that minimizes the error term and gives the relative relationship between the camera and the range sensor. Figure 5 shows the texture mapped Kamakura Buddha. Since this method minimizes a non-linear equation, we need an initial alignment. The initial alignment is given manually using our GUI. For the current implementation, relatively accurate alignment is necessary for rotation, but it is not the case for translation.
+
+keywords:
+equation
+alignment
+term
+sensor
+gradient
+
+abstract:
+Since this method minimizes a non-linear equation, we need an initial alignment
+====================================
+paragraph:
+Restoring Hypothesized Original State
+
+keywords:
+Original
+Hypothesized
+State
+
+abstract:
+Restoring Hypothesized Original State
+====================================
+paragraph:
+After we obtain the precise geometry and photometry information of the cultural assets in the current state, we can restore them to their hypothesized original state. In this section, we describe one of the examples: the restoration of
+
+keywords:
+state
+geometry
+information
+photometry
+current
+
+abstract:
+After we obtain the precise geometry and photometry information of the cultural assets in the current state, we can restore them to their hypothesized original state
+====================================
+paragraph:
+the Nara Great Buddha and its main hall.
+
+keywords:
+Great
+main
+Buddha
+Nara
+hall
+
+abstract:
+the Nara Great Buddha and its main hall
+====================================
+paragraph:
+Restoring Nara Great Buddha
+
+keywords:
+Great
+Nara
+Buddha
+
+abstract:
+Restoring Nara Great Buddha
+====================================
+paragraph:
+Nara Great Buddha is the main statue of Toudaiji Temple. Unfortunately, the current statue is a rebuilt and repaired one because the original statue was burned and melted down due to a couple of civil wars. Accordingly, the shape of the current Great Buddha is different from that of the original one.
+
+keywords:
+statue
+current
+Great
+Buddha
+Toudaiji
+
+abstract:
+Accordingly, the shape of the current Great Buddha is different from that of the original one
+====================================
+paragraph:
+By using the geometrical modeling shown in Section 2, we have acquired the complete 3D geometrical model of Buddha in its current state. From this model, we have attempted to synthesize the original state by morphing the 3D geometry of the model.
+
+keywords:
+model
+state
+geometrical
+current
+Buddha
+
+abstract:
+By using the geometrical modeling shown in Section 2, we have acquired the complete 3D geometrical model of Buddha in its current state
+====================================
+paragraph:
+From some literature inherited at the temple, we know the sizes of various face parts such as the nose and mouth. Using these data, we design a two-step morphing algorithm.
+
+keywords:
+morphing
+nose
+mouth
+two-step
+algorithm
+
+abstract:
+From some literature inherited at the temple, we know the sizes of various face parts such as the nose and mouth
+====================================
+paragraph:
+First, we globally change the scale of the whole portions gradually modified. In the 2nd stage, vertices are moved one by one iteratively, similar to the constraint propagation algorithm, using smoothness and uniform constraints. The 2-stage morphing enables us to obtain the complete model of the original Great Buddha. Figure 6 shows the 3D models of the current and the original Great Buddha. We can easily recognize that the original Buddha is larger and rather skinny.
+
+keywords:
+original
+Buddha
+constraint
+smoothness
+propagation
+
+abstract:
+The 2-stage morphing enables us to obtain the complete model of the original Great Buddha
+====================================
+paragraph:
+The main hall of the Toudaiji Temple was built during the same decades as those of the Great Buddha (8th century). It was also rebuilt twice: in the 12th and 18th centuries. In the 12th century, Tenjiku architecture was imported from China and the main hall was rebuilt in a totally different architecture style. The rebuilding in the 18th century followed the same new style. As a result, the style of the current main hall is entirely different from that of the original building.
+
+keywords:
+century
+hall
+style
+main
+18th
+
+abstract:
+In the 12th century, Tenjiku architecture was imported from China and the main hall was rebuilt in a totally different architecture style
+====================================
+paragraph:
+Fortunately, the Toudaiji temple has been displaying a miniature model of the original hall, constructed for the Paris Expo in 1900, as shown in Figure 7(a). We digitized it using the Pulsteck TDS-1500 and scaled it up to the original size as shown in Figure 7(b).
+
+keywords:
+original
+model
+Toudaiji
+temple
+Paris
+
+abstract:
+Fortunately, the Toudaiji temple has been displaying a miniature model of the original hall, constructed for the Paris Expo in 1900, as shown in Figure 7(a)
+====================================
+paragraph:
+Due to the limitation of resolution, the detail parts cannot be obtained precisely. According to Prof. Keisuke Fujii, an architecture professor at the University of Tokyo, one of the experts on building style in the era, the Toudaiji and Toushou-daiji Temples share a similar format. Here, the main hall of Toshoudaiji Temple were also built during the same period (8th century). After scanning various key parts of the main hall at Toushoudaiji, as shown in Figure 14, we morphed these partial range data by expanding and shrinking the Touhoudaiji parts (Figure 8) to the scaled-up range data of the Toudaiji (Figure 7). The process was conducted by an extended alignment algorithm that allows scale change as well as configuration differences. Figure 9 shows the current Nara Great Buddha main hall and the original one digitally restored by our method.
+
+keywords:
+hall
+Toudaiji
+8th
+range
+limitation
+
+abstract:
+After scanning various key parts of the main hall at Toushoudaiji, as shown in Figure 14, we morphed these partial range data by expanding and shrinking the Touhoudaiji parts (Figure 8) to the scaled-up range data of the Toudaiji (Figure 7)
+====================================
+paragraph:
+Conclusion
+
+keywords:
+Conclusion
+
+abstract:
+Conclusion
+====================================
+paragraph:
+In this paper, we introduced our project to digitally archive and restore cultural heritage objects. Our project's main goal is to develop a method of 'modeling from reality', in which the digital model of cultural properties is created by using various computer vision methods. For the observation of geometrical information, we used laser range finders and post process algorithms, including registrating and merging the range images. For the texture information, we have developed several texture mapping methods. For the short distance range sensors, we calibrated the relationship between the range sensor and the image sensor for complete texture alignment. For the long distance range sensors, we developed a non-calibrated texture alignment method by using laser reflectance features. Digital restoration of lost cultural heritage objects has a big advantage compared with other restoration methods such as physical construction of actual temples,
+
+keywords:
+range
+texture
+laser
+distance
+process
+
+abstract:
+For the long distance range sensors, we developed a non-calibrated texture alignment method by using laser reflectance features
+====================================
+paragraph:
+because we can examine various hypotheses without any physical changes nor long building periods. We demonstrated the effectiveness of this method through the restoration of the Nara Great Buddha and its main hall. We are also conducting a project to create a digital library of the world great Buddhas, including three Japanese Buddhas, Sri Chum Buddha in Thailand, and Biyon's in Cambodia. The models and restoration results constructed so far can be viewed at.
+
+keywords:
+Buddha
+Buddhas
+long
+library
+method
+
+abstract:
+We demonstrated the effectiveness of this method through the restoration of the Nara Great Buddha and its main hall
+====================================
+paragraph:
+Acknowledgment
+
+keywords:
+Acknowledgment
+
+abstract:
+Acknowledgment
+====================================
+paragraph:
+This research is sponsored, in part, by JST under Ikeuchi Crest program. The Bayon in Cambodia was digitized with the cooperation of Japanese Government Team for Safeguarding Ankor (JSA).
+
+keywords:
+Japanese
+Government
+JST
+Crest
+Ikeuchi
+
+abstract:
+This research is sponsored, in part, by JST under Ikeuchi Crest program
+====================================
+paragraph:
+
+
+keywords:
+
+abstract:
+====================================
+paragraph:
+
+
+keywords:
+
+abstract:
+====================================
+paragraph:
+
+
+keywords:
+
+abstract:
+====================================
+paragraph:
+
+
+keywords:
+
+abstract:
+====================================
